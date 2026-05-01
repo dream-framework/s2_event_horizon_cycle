@@ -407,7 +407,10 @@ function renderSelected() {
     els.phaseBadge.textContent = 'No cycles';
     els.metricsStrip.innerHTML = '<div class="empty-state metric-empty">No selected signal yet.</div>';
     els.chartTitle.textContent = state.scope === 'cycles' ? 'Cycle archive initializing' : 'Retention curve';
-    if (state.chart) state.chart.clear();
+    if (state.chart) {
+      state.chart.dispose();
+      state.chart = null;
+    }
     els.chart.innerHTML = '<div class="empty-state">No data for this scope yet.</div>';
     els.chartNote.textContent = state.scope === 'cycles' ? 'Completed formal cycles will appear after a prior formal topic state is archived by the next update run.' : 'Waiting for live feed history.';
     els.chartLegend.innerHTML = '';
@@ -440,7 +443,25 @@ function initChart() {
     els.chart.innerHTML = '<div class="empty-state">Interactive chart library did not load. Check network access to the ECharts CDN.</div>';
     return null;
   }
-  if (!state.chart) state.chart = window.echarts.init(els.chart, null, { renderer: 'canvas' });
+
+  // If an empty-state message was previously written into the chart div,
+  // clear it before ECharts initializes.
+  if (!state.chart && els.chart.querySelector('.empty-state')) {
+    els.chart.innerHTML = '';
+  }
+
+  // If the DOM was cleared after a prior ECharts init, the old instance
+  // points at a dead canvas. Recreate it.
+  if (state.chart && !els.chart.querySelector('canvas')) {
+    state.chart.dispose();
+    state.chart = null;
+    els.chart.innerHTML = '';
+  }
+
+  if (!state.chart) {
+    state.chart = window.echarts.init(els.chart, null, { renderer: 'canvas' });
+  }
+
   return state.chart;
 }
 
@@ -485,13 +506,15 @@ function drawInteractiveChart(topic) {
   if (!chart) return;
   const series = topic.series || [];
   if (!series.length) {
-    chart.clear();
-    els.chart.innerHTML = '<div class="empty-state">No retention series yet. Run the update workflow to fetch live RSS feeds.</div>';
-    els.chartLegend.innerHTML = '';
-    els.chartNote.textContent = 'Waiting for live feed history.';
-    return;
+  if (state.chart) {
+    state.chart.dispose();
+    state.chart = null;
   }
-  els.chart.innerHTML = '';
+  els.chart.innerHTML = '<div class="empty-state">No retention series yet. Run the update workflow to fetch live RSS feeds.</div>';
+  els.chartLegend.innerHTML = '';
+  els.chartNote.textContent = 'Waiting for live feed history.';
+  return;
+}
   const c = chartColors();
   const tau = topic.fit?.tau_hours;
   const beta = topic.fit?.beta;
