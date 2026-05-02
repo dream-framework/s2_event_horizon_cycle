@@ -1,5 +1,112 @@
 [
   {
+    "cycle_id": "b0c604b6086851a07d",
+    "topic": "culture_media",
+    "topic_label": "Culture / Media",
+    "started_at": "2026-05-01T03:05:49.467889+00:00",
+    "peaked_at": "2026-05-01T03:05:49.467889+00:00",
+    "ended_at": "2026-05-01T21:05:49.467889+00:00",
+    "archived_at": "2026-05-02T00:05:49.467889+00:00",
+    "article_count": 14,
+    "phase": "Cooling",
+    "verdict": "tied / mixed",
+    "residual_dust": 0.12343873463888878,
+    "circadian_bias": 0.061891,
+    "peak_bin_index": 49,
+    "tail_bins": 7,
+    "fit": {
+      "tau_hours": 30,
+      "beta": 0.35,
+      "half_life_hours": 10.527781377703255,
+      "log_r2": 0.5468554463044892,
+      "delta_aic_vs_exp": 0.9857967184080358,
+      "coherence_left_hours": 12,
+      "residual_dust": 0.12343873463888878
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.564326,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.625622,
+        "fit": 0.639746,
+        "residual": -0.639746
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.380459,
+        "observed_corrected": 0.380459,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.741638,
+        "fit": 0.565907,
+        "residual": -0.185448
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.726539,
+        "observed_corrected": 0.726539,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.776741,
+        "fit": 0.518853,
+        "residual": 0.207686
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.380277,
+        "observed_corrected": 0.380277,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.741993,
+        "fit": 0.484015,
+        "residual": -0.103738
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.400976,
+        "observed_corrected": 0.400976,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.703691,
+        "fit": 0.456309,
+        "residual": -0.055334
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.496498,
+        "observed_corrected": 0.496498,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.568307,
+        "fit": 0.433318,
+        "residual": 0.063179
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "38fbd408d8258d3c92",
+        "title": "Eric Swalwell Was Proficient in Social Media. So Were His Accusers.",
+        "url": "https://www.nytimes.com/2026/05/01/us/eric-swalwell-social-media.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-05-01T23:01:41+00:00",
+        "stickiness_score": 11,
+        "residual_contribution": 0.06318,
+        "expected_s2": 0.433318,
+        "observed_corrected": 0.496498,
+        "age_after_peak_hours": 19.931,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      }
+    ],
+    "max_stickiness": 11
+  },
+  {
     "cycle_id": "fd09c59f04764944ec",
     "topic": "culture_media",
     "topic_label": "Culture / Media",
