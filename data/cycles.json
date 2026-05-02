@@ -1,5 +1,405 @@
 [
   {
+    "cycle_id": "fd09c59f04764944ec",
+    "topic": "culture_media",
+    "topic_label": "Culture / Media",
+    "started_at": "2026-05-01T02:08:03.073293+00:00",
+    "peaked_at": "2026-05-01T02:08:03.073293+00:00",
+    "ended_at": "2026-05-01T20:08:03.073293+00:00",
+    "archived_at": "2026-05-01T23:08:03.073293+00:00",
+    "article_count": 13,
+    "phase": "Residual dust tail",
+    "verdict": "tied / mixed",
+    "residual_dust": 0.3366638614549385,
+    "circadian_bias": 0.061782,
+    "peak_bin_index": 49,
+    "tail_bins": 7,
+    "fit": {
+      "tau_hours": 108,
+      "beta": 0.35,
+      "half_life_hours": 37.90001295973172,
+      "log_r2": 0.3278383750124526,
+      "delta_aic_vs_exp": -1.5231227725307885,
+      "coherence_left_hours": 90,
+      "residual_dust": 0.3366638614549385
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.564326,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.601108,
+        "fit": 0.751792,
+        "residual": -0.751792
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.688169,
+        "fit": 0.695151,
+        "residual": -0.695151
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.74504,
+        "observed_corrected": 0.74504,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.757788,
+        "fit": 0.657658,
+        "residual": 0.087382
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.361958,
+        "observed_corrected": 0.361958,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.779545,
+        "fit": 0.629101,
+        "residual": -0.267143
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.781253,
+        "observed_corrected": 0.781253,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.722842,
+        "fit": 0.605857,
+        "residual": 0.175395
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.600403,
+        "fit": 0.586179,
+        "residual": -0.586179
+      }
+    ],
+    "sticky_stories": [],
+    "max_stickiness": 0
+  },
+  {
+    "cycle_id": "da3902f445a3128c9a",
+    "topic": "quantum",
+    "topic_label": "Quantum tech",
+    "started_at": "2026-04-28T02:08:03.073293+00:00",
+    "peaked_at": "2026-04-28T02:08:03.073293+00:00",
+    "ended_at": "2026-05-01T20:08:03.073293+00:00",
+    "archived_at": "2026-05-01T23:08:03.073293+00:00",
+    "article_count": 5,
+    "phase": "Residual dust tail",
+    "verdict": "tied / mixed",
+    "residual_dust": 0.7734109712441052,
+    "circadian_bias": 0.071654,
+    "peak_bin_index": 25,
+    "tail_bins": 31,
+    "fit": {
+      "tau_hours": 156,
+      "beta": 2.0,
+      "half_life_hours": 129.87851934060083,
+      "log_r2": -0.3135029216597507,
+      "delta_aic_vs_exp": -0.2677848386400097,
+      "coherence_left_hours": 66,
+      "residual_dust": 0.7734109712441052
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.558003,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.601108,
+        "fit": 0.99963,
+        "residual": -0.99963
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.688169,
+        "fit": 0.998522,
+        "residual": -0.998522
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.717989,
+        "observed_corrected": 0.717989,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.777174,
+        "fit": 0.996677,
+        "residual": -0.278688
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.77453,
+        "fit": 0.9941,
+        "residual": -0.9941
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.700228,
+        "fit": 0.990797,
+        "residual": -0.990797
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.600403,
+        "fit": 0.986775,
+        "residual": -0.986775
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.543547,
+        "fit": 0.982042,
+        "residual": -0.982042
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.541194,
+        "fit": 0.976609,
+        "residual": -0.976609
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.601108,
+        "fit": 0.970489,
+        "residual": -0.970489
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.688169,
+        "fit": 0.963693,
+        "residual": -0.963693
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.765361,
+        "fit": 0.956238,
+        "residual": -0.956238
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.77453,
+        "fit": 0.948139,
+        "residual": -0.948139
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.700228,
+        "fit": 0.939413,
+        "residual": -0.939413
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.600403,
+        "fit": 0.93008,
+        "residual": -0.93008
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.543547,
+        "fit": 0.920158,
+        "residual": -0.920158
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.541194,
+        "fit": 0.909669,
+        "residual": -0.909669
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.947467,
+        "observed_corrected": 0.947467,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.588941,
+        "fit": 0.898635,
+        "residual": 0.048832
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.688169,
+        "fit": 0.887078,
+        "residual": -0.887078
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.765361,
+        "fit": 0.875022,
+        "residual": -0.875022
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.77453,
+        "fit": 0.862492,
+        "residual": -0.862492
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.700228,
+        "fit": 0.849513,
+        "residual": -0.849513
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.600403,
+        "fit": 0.836111,
+        "residual": -0.836111
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.543547,
+        "fit": 0.822311,
+        "residual": -0.822311
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.541194,
+        "fit": 0.808142,
+        "residual": -0.808142
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.601108,
+        "fit": 0.793629,
+        "residual": -0.793629
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.688169,
+        "fit": 0.778801,
+        "residual": -0.778801
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.742743,
+        "observed_corrected": 0.742743,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.751273,
+        "fit": 0.763684,
+        "residual": -0.020942
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.77453,
+        "fit": 0.748308,
+        "residual": -0.748308
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.700228,
+        "fit": 0.732699,
+        "residual": -0.732699
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.600403,
+        "fit": 0.716885,
+        "residual": -0.716885
+      }
+    ],
+    "sticky_stories": [],
+    "max_stickiness": 0
+  },
+  {
     "cycle_id": "41e477f32b8dc2c1de",
     "topic": "space_science",
     "topic_label": "Space / Science",
