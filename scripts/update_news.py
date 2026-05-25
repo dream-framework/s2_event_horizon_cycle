@@ -447,7 +447,14 @@ def fit_decay(counts: List[float], raw_counts: Optional[List[int]] = None, bin_f
         return provisional_fit(counts, peak_idx, reason, raw_counts, bin_factors)
 
     tau_values = [4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 60, 72, 90, 108, 132, 156]
-    beta_values = [0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 1.0, 1.15, 1.3, 1.5, 1.75, 2.0, 2.25]
+    beta_values = [
+    0.10, 0.12, 0.15, 0.18,
+    0.20, 0.22, 0.25, 0.28,
+    0.30, 0.32, 0.35, 0.38,
+    0.40, 0.45, 0.55, 0.65,
+    0.75, 0.85, 1.00, 1.15,
+    1.30, 1.50, 1.75, 2.00, 2.25
+]
     best = (float("inf"), 24.0, 1.0)
     for tau in tau_values:
         for beta in beta_values:
@@ -507,6 +514,9 @@ def fit_decay(counts: List[float], raw_counts: Optional[List[int]] = None, bin_f
         "clock": "published_at",
         "peak_bin_index": peak_idx,
         "tail_bins": len(tail_counts),
+        "beta_grid_min": min(beta_values),
+        "beta_at_grid_floor": abs(beta - min(beta_values)) < 1e-12,
+        "beta_grid_version": "expanded_beta_v1"
     }
 
 
@@ -678,6 +688,9 @@ def cycle_from_topic(topic: Dict[str, Any], output: Dict[str, Any]) -> Optional[
             "delta_aic_vs_exp": fit.get("delta_aic_vs_exp"),
             "coherence_left_hours": fit.get("coherence_left_hours"),
             "residual_dust": topic.get("residual_dust"),
+            "beta_grid_min": fit.get("beta_grid_min"),
+            "beta_at_grid_floor": fit.get("beta_at_grid_floor"),
+            "beta_grid_version": fit.get("beta_grid_version")
         },
         "series": series,
         "sticky_stories": sticky,
@@ -754,7 +767,12 @@ def build_output(history: List[Dict[str, Any]], sources: List[Dict[str, str]], e
             "peak_at": None,
             "cycle_started_at": None,
             "cycle_ended_at": current_time.isoformat(),
-            "fit": {k: fit.get(k) for k in ["tau_hours", "beta", "half_life_hours", "log_r2", "delta_aic_vs_exp", "coherence_left_hours", "fit_status", "fit_reason"]},
+            "fit": {k: fit.get(k) for k in [
+                "tau_hours", "beta", "half_life_hours", "log_r2",
+                "delta_aic_vs_exp", "coherence_left_hours",
+                "fit_status", "fit_reason",
+                "beta_grid_min", "beta_at_grid_floor", "beta_grid_version"
+            ]},
             "series": []
         }]
     articles = sorted(recent, key=lambda r: r.get("published_at", ""), reverse=True)[:180]
