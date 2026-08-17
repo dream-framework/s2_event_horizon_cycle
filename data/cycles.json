@@ -1,5 +1,2238 @@
 [
   {
+    "cycle_id": "81687b52fe09aa428b",
+    "topic": "ai",
+    "topic_label": "AI / Tech",
+    "started_at": "2026-08-12T11:59:51.827765+00:00",
+    "peaked_at": "2026-08-12T11:59:51.827765+00:00",
+    "ended_at": "2026-08-17T05:59:51.827765+00:00",
+    "archived_at": "2026-08-17T08:59:51.827765+00:00",
+    "article_count": 1704,
+    "phase": "Cooling",
+    "verdict": "S2 likely",
+    "residual_dust": 0.10167166080403132,
+    "circadian_bias": 0.058173,
+    "peak_bin_index": 17,
+    "tail_bins": 39,
+    "fit": {
+      "tau_hours": 60,
+      "beta": 0.4,
+      "half_life_hours": 24.000202330932726,
+      "log_r2": 0.378167671653837,
+      "delta_aic_vs_exp": 13.466009645610626,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.10167166080403132,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.775804,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.510259,
+        "observed_corrected": 0.510259,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.760417,
+        "fit": 0.739553,
+        "residual": -0.229294
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.850145,
+        "observed_corrected": 0.850145,
+        "observed_raw": 0.723684,
+        "circadian_factor": 0.661286,
+        "fit": 0.67159,
+        "residual": 0.178554
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.614534,
+        "observed_corrected": 0.614534,
+        "observed_raw": 0.460526,
+        "circadian_factor": 0.582006,
+        "fit": 0.626125,
+        "residual": -0.011591
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.303785,
+        "observed_corrected": 0.303785,
+        "observed_raw": 0.210526,
+        "circadian_factor": 0.537642,
+        "fit": 0.591375,
+        "residual": -0.28759
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.29569,
+        "observed_corrected": 0.29569,
+        "observed_raw": 0.210526,
+        "circadian_factor": 0.552721,
+        "fit": 0.563071,
+        "residual": -0.267381
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.408346,
+        "observed_corrected": 0.408346,
+        "observed_raw": 0.328947,
+        "circadian_factor": 0.625968,
+        "fit": 0.539129,
+        "residual": -0.130783
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.676126,
+        "observed_corrected": 0.676126,
+        "observed_raw": 0.618421,
+        "circadian_factor": 0.710823,
+        "fit": 0.518356,
+        "residual": 0.157771
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.768354,
+        "observed_corrected": 0.768354,
+        "observed_raw": 0.763158,
+        "circadian_factor": 0.770604,
+        "fit": 0.500001,
+        "residual": 0.268353
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.852476,
+        "observed_corrected": 0.852476,
+        "observed_raw": 0.842105,
+        "circadian_factor": 0.766551,
+        "fit": 0.483559,
+        "residual": 0.368917
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.807239,
+        "observed_corrected": 0.807239,
+        "observed_raw": 0.697368,
+        "circadian_factor": 0.671396,
+        "fit": 0.468669,
+        "residual": 0.33857
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.538793,
+        "observed_corrected": 0.538793,
+        "observed_raw": 0.407895,
+        "circadian_factor": 0.587836,
+        "fit": 0.455068,
+        "residual": 0.083725
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.301599,
+        "observed_corrected": 0.301599,
+        "observed_raw": 0.210526,
+        "circadian_factor": 0.541575,
+        "fit": 0.442554,
+        "residual": -0.140954
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.241082,
+        "observed_corrected": 0.241082,
+        "observed_raw": 0.171053,
+        "circadian_factor": 0.550762,
+        "fit": 0.430971,
+        "residual": -0.189889
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.370222,
+        "observed_corrected": 0.370222,
+        "observed_raw": 0.302632,
+        "circadian_factor": 0.634492,
+        "fit": 0.420193,
+        "residual": -0.049971
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.559737,
+        "observed_corrected": 0.559737,
+        "observed_raw": 0.513158,
+        "circadian_factor": 0.712044,
+        "fit": 0.410122,
+        "residual": 0.149615
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.529776,
+        "observed_corrected": 0.529776,
+        "observed_raw": 0.526316,
+        "circadian_factor": 0.770793,
+        "fit": 0.400673,
+        "residual": 0.129104
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.471922,
+        "observed_corrected": 0.471922,
+        "observed_raw": 0.460526,
+        "circadian_factor": 0.75736,
+        "fit": 0.391778,
+        "residual": 0.080144
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.404175,
+        "observed_corrected": 0.404175,
+        "observed_raw": 0.342105,
+        "circadian_factor": 0.657678,
+        "fit": 0.383379,
+        "residual": 0.020796
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.469377,
+        "observed_corrected": 0.469377,
+        "observed_raw": 0.355263,
+        "circadian_factor": 0.587904,
+        "fit": 0.375427,
+        "residual": 0.09395
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.350808,
+        "observed_corrected": 0.350808,
+        "observed_raw": 0.210526,
+        "circadian_factor": 0.465584,
+        "fit": 0.367879,
+        "residual": -0.017071
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.171161,
+        "observed_corrected": 0.171161,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.477584,
+        "fit": 0.3607,
+        "residual": -0.189539
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.153768,
+        "observed_corrected": 0.153768,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.531728,
+        "fit": 0.353858,
+        "residual": -0.20009
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.370106,
+        "observed_corrected": 0.370106,
+        "observed_raw": 0.289474,
+        "circadian_factor": 0.607249,
+        "fit": 0.347324,
+        "residual": 0.022782
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.308295,
+        "observed_corrected": 0.308295,
+        "observed_raw": 0.263158,
+        "circadian_factor": 0.662301,
+        "fit": 0.341075,
+        "residual": -0.032779
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.186478,
+        "observed_corrected": 0.186478,
+        "observed_raw": 0.157895,
+        "circadian_factor": 0.65699,
+        "fit": 0.335088,
+        "residual": -0.14861
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.260796,
+        "observed_corrected": 0.260796,
+        "observed_raw": 0.197368,
+        "circadian_factor": 0.587884,
+        "fit": 0.329345,
+        "residual": -0.068549
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.301603,
+        "observed_corrected": 0.301603,
+        "observed_raw": 0.197368,
+        "circadian_factor": 0.507852,
+        "fit": 0.323828,
+        "residual": -0.022224
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.174285,
+        "observed_corrected": 0.174285,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.468608,
+        "fit": 0.318521,
+        "residual": -0.144236
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.300545,
+        "observed_corrected": 0.300545,
+        "observed_raw": 0.184211,
+        "circadian_factor": 0.475735,
+        "fit": 0.313411,
+        "residual": -0.012866
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.172426,
+        "observed_corrected": 0.172426,
+        "observed_raw": 0.118421,
+        "circadian_factor": 0.53376,
+        "fit": 0.308486,
+        "residual": -0.13606
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.287814,
+        "observed_corrected": 0.287814,
+        "observed_raw": 0.223684,
+        "circadian_factor": 0.603494,
+        "fit": 0.303733,
+        "residual": -0.015919
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.353606,
+        "observed_corrected": 0.353606,
+        "observed_raw": 0.302632,
+        "circadian_factor": 0.663979,
+        "fit": 0.299142,
+        "residual": 0.054464
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.094216,
+        "observed_corrected": 0.094216,
+        "observed_raw": 0.078947,
+        "circadian_factor": 0.650222,
+        "fit": 0.294705,
+        "residual": -0.200488
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.270643,
+        "observed_corrected": 0.270643,
+        "observed_raw": 0.197368,
+        "circadian_factor": 0.566829,
+        "fit": 0.290411,
+        "residual": -0.019768
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.383597,
+        "observed_corrected": 0.383597,
+        "observed_raw": 0.25,
+        "circadian_factor": 0.506313,
+        "fit": 0.286253,
+        "residual": 0.097344
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.284488,
+        "observed_corrected": 0.284488,
+        "observed_raw": 0.197368,
+        "circadian_factor": 0.538234,
+        "fit": 0.282224,
+        "residual": 0.002264
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.274573,
+        "observed_corrected": 0.274573,
+        "observed_raw": 0.197368,
+        "circadian_factor": 0.55782,
+        "fit": 0.278317,
+        "residual": -0.003744
+      },
+      {
+        "x_hours": 114.0,
+        "observed": 0.277583,
+        "observed_corrected": 0.277583,
+        "observed_raw": 0.223684,
+        "circadian_factor": 0.625907,
+        "fit": 0.274526,
+        "residual": 0.003058
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "b2e57a790804dc00d4",
+        "title": "Invisible AI Prompts Trigger Court Sanctions - Security Affairs",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaWFVVnlTa2JHM2w2NTAzNWdGVnZoQVZLd2UzMWs0bGlXNF9qTHdqRy1KVFN3ZWJjaUxXNk5ITFlaYWlLYW11TXVVTmJSSzVrQlc1M0xSVmkwdjlvRE4tWXVMTF9qNmtIM2hsMFpodXlfb0hqLU5JZ2R2Nnhyc0lTUmNFZFVvbzhBbktpbEZfYVbSAZYBQVVfeXFMT05TSmV3TWZrWlM5LTRfRmp5c3lGX1pLbjBDTDJLbHVkWFEtUjg0TXAyUzFwZEZUVTM5VFBYMVRGUXE3Z2xIVDh4WGR1cndwcHM3N2ZvdktkSzJmMnZOWEhoRlJFX21YRmNMWTNvTU5uQW1LMGlaZHZTVmdRZTNvVG9zSzVlc3l5WTBWeUJPRjhtQVlYajdB?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T08:52:44+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.881,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "470cfb064879b6d5a9",
+        "title": "Elon Musk and Sam Altman claim we've reached the AI singularity. But how would we even know that happened? - Live Science",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOamF5MHZZX2VFZ01Ja3dJQVQ2UzJyMlNmWXFEQ3lVMFlCeDJZcjNiTHhGTHZ5REFSSzBYclhxT0JSNjRLTGliZWRibDBCMW9LTDhLUzJiTkFBcGpFUkNtbmRMVTlKS3NDU080a2twWUg1bnFTUkJwODhkczVyQzRVNldkTExXWW04NHFFTzRJRjBBVWdKNTczZmFwcmdsd3pOaEZHR05rNTNrZm9DUHVBVHhXOEUwcFBXUHZQdTRuUzNNelNtNExFSmlnOXNCUF92ZGo0SngtMEZoanNoZ3lGaGpJeWJtZF9icnB2eDAzVXpXdVdSaldfbGZ3?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T08:45:03+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.753,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "67a695b0382781d5de",
+        "title": "AI and the New Fog of War - Comment is Freed | Sam Freedman",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10ZXVlYy1QMzdVZHJCYnA3Z3BLY1hJc2gtYlJKcWZ5VFdySXdxZ3dISlFTckllN3hmSnBRbU0yQ1V4RFVyM051eElIdTVuNUZtSTAyVEhZb2tyaUJSTmdHeWlERQ?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-17T08:38:26+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.643,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "543f3f837d19054a58",
+        "title": "A Look Back at Design Software Stocks’ Q2 Earnings: Dolby Laboratories (NYSE:DLB) Vs The Rest Of The Pack - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjNjdmFWV01qTzRHWW5VY1RhRUthdlE4WGRxeDdOeXJHVDlXeVNVSW5fcVB2b3dRdm0zbm96RnczTXhiUlZRT3lIb2hUejdxNDRrcFhkUkJrWGJYeklWc1BWN0xTZVlzOVZaZ1NxemllYTdza05kbFZyNGNXVWJ4c2RmUi1tME02Z1ZwUXRFaVg1YndYaXV0R3pwNEwzdw?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T08:30:20+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.508,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "546013407aa4f314f9",
+        "title": "Q2 Rundown: AppLovin (NASDAQ:APP) Vs Other Advertising Software Stocks - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORklPNWNXc0puNmd5RkFGTk5OR1dxcjI3WU9jbm5TUWQ0SWh6WnhISHRxLWtkVVpMSlUtTlVvZF8tZFA5VG5xU1dTbzA5Vk9QWUNzN1lfdXVfNWhzaDJkeUQ0VWNlSzV1MGxBTU84MTJVWS1PT0lLbkdaLXVMeHhuQ1NwbXNRYURMdzN0OWxNYVVKUTFpWUVIdDgyQnZNMzZja2p2SlprTjRTckpPNWNuRnB2U285YjIyN08tTnlUbmY5UQ?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T08:26:37+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.446,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "3da6e3c2475f01c211",
+        "title": "\"The Odyssey of Regulating and Developing AI\" - BBVA",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcGZLWDBMZTFiQl9RcVJVVlpxSzNIZDFvcE5RbE5nd0ZYb2stSmJlZDZVODJmY0FlQjNHNmtpRGJTUG56LTdnSkJFdDI2Um9nc3dVTVB2NEVvZnJBV09ydXNpVVIxeTRneWxGN3NSV0otZXZPWHRFcVdJSlRPUFNUczZRWVR1M0ZUNVhXVUVlOEI5dw?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T08:12:02+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 116.203,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "0ec9b0f08f362d121c",
+        "title": "Alibaba to sell gaming unit for $1.5 billion in strategic shift to artificial intelligence - Proactive financial news",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdXd0U0Q1SlhHMUdRTXpjZFRqSUR0ZnhwVDh2UVpJR1NaY1FpQmY0Rjl4WXhDTUotRlR5NS1Fd3FlVWFfRE9VcUZjaFY5WmF1SEJkRFRiUGtrUDlYaHJiSlZNOUFxSmtBYVJJV2dkVzB2bXk1b2N4TFUwUVRjYUlLSS04ZS1TRU1QUkNHSlVLYTB2RXpTQ3JKdVVhZnpHTGR5QVhvd0pGeEV5OFFqbnhqLTNkQkYzM19JSkFra2VkSnF4eTFTRG5MaE5XWXY5UzZoRFhEMXptQkUxMVMzRXVtUkw1RkF0QW85V0EwREZKSjE4Zw?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T07:30:35+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.512,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "d54b1030eb24d49aac",
+        "title": "How artificial intelligence improves customer satisfaction in Key Accounts: from active listening to action - telefonica.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSnM5c3dkVEJRZ294R0x4UVFUZTM1b1VTY2Jiczl2d1J3bTd0cHM3YU1sdjl0eGJsWmtGc2NSRFJGby1QbEhfZU83OVlBNFA4S1d3ZkdMTW9jZVpaQ3BYdEpSVXJfS2RZS1VtRDczaHNtRHpneDdIX3JzdzdZaGlIU3hvTmhQX1ViTWppUlNSYUx2NkJkb1ZoOEYyTjVsSTRNa3gzZy0zN3dZT2NmYXNpcjJrUQ?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T07:30:00+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.502,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "0c8cdf770affa5cfa2",
+        "title": "SAI Awarded U.S. Patent for Its Visual Language Model, Which Helps Retailers Unlock Store Intelligence and Visibility to Run Their Estates Profitably and Safely - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNamtZQm9PRl81RmJHVXZsOGdaaXU2ZHRPV0JBdUxUb3htZWd0aHRPNkY1NWtLNEdXZkh3LWF2TzQ1WTV5OU9WTG5DX3lGSHR1cnlsWk5iVDhTQjZFUTlScW16SWt1MzRkbTNaemZ4WnkyS0gxVjNCQV9VSHhuWmpJWEluWkRKamFmcFpDNVZiekJueS1qeG1NMGE1TjBlT2NjczBudU5WMzFJR09kRGZrTEhuY05DeE1qUEdWZTRsRUhpWjJUMmJ2TXEtYU9uSmlSeWxqdkhveWJIWFc5amJDcWxvZDdaZjhtYmJNQ2NZN3NmUl9CVXFDcjlkSUtCRE1vTG1ENVRTM3d2X1N2MWh5Q3F4MHZwaGRESGZkWGNpTzh6cUpHVVZHcVQ2VUF6YS00QUc0a3ZiN01qSTZv?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T07:29:00+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.486,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "3c656039a125d9a4b4",
+        "title": "HackEurope 2026: A short rant on AI and hackathons",
+        "url": "https://duti.dev/blog/2026/spr/",
+        "source": "Hacker News Front Page",
+        "published_at": "2026-08-17T07:28:43+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.481,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "0932773fb3343ac63b",
+        "title": "AI Fabric – Connecting Every Business Function Through Seamless Enterprise Intelligence - AiThority",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXBMV2FYcXdFSDlGWDl1VER3T2NmMFJ1d01PZndLVlpuMldPZkxER0poak0xdGtsSUhmQU51eVJmaDlNaTh3SnhWanZIVTJJdm5pMnVQTmpNNXlWREc1Rm42N3dtcGNsMXRoTS1YN2wzbWhLVmt0OHJvaEIwYmJ2ajVLdTFZbGMwUDZ5ZVlyX1dzeHpYbzBNN0lqSW5iUFB6M1pJMENIZldfVVZOTnNMc3FWd1psb3VnRVc3N0hqS0tlSkxmWmc?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T07:14:06+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.237,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "18c83787a962b6bfff",
+        "title": "‘Not here to protect lawyers’: How AI could be used for good in court - AFR",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1dLc3JXX2ZlRnZsQXl4eFBqNTZIX0JkdlBUZl9pZEtsQ0F2cmlILVVYSnRsQmcxWDcteXhLbTdQMWZMaTZzc0NXT2ZUTXlPRVUxaU1qcWYwVUdCRFBodS1JRjcxUWI1QkgtVXJTbGVLeVVtZjgzUnpmc0xEWExlRDRMQXZ1bHZDR2VSenA4dTEwVXZXTlZpVExadHNkeWJfWjNoVlUzdXNoOXktaHI2aHg0amFaVVRZMl9yYzBfNEc2eG1YSUI0aQ?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T07:14:00+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.236,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "fe121d2026da1c09d2",
+        "title": "A Look Back at Design Software Stocks’ Q2 Earnings: Dolby Laboratories (NYSE:DLB) Vs The Rest Of The Pack - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTkNWcUUxSG4zTXRuRVBrdi1WTlBYdDhhZ0Y4d0JkZTB5TUpBcWRKbE5RZERyUjdDSTBQVW5udXU3Znc5VjBsd005Rl9PUlBBcWY2UEc0WTctT1BSQXFsczU0cjNUcHNyV2NMd01pbEtScXlaR2wtOU9HYUFTaWp3ZVprM2szeHNnYkRlNkFMMGxBbjJfTkNUcEVvTHpKVmFNQmNsa0lyV25iaUlQaHYtTFU4RHNtV0ZDNzBfcERPekZpWnhTZ21XU1prUTVjVUxqcVBoY1k1NktNV2ZZd21SSGsxNkhra2hvdXdTSg?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T07:06:19+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 115.108,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "235cd82832eab095f4",
+        "title": "China's Sichuan police target data theft, AI abuse in nationwide crackdown - MLex",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTjVjZTltN1N1MjB1QUlQNFI1ZXZfTW94V3lPdDBob3Azc05iMW1MVTQzVzYxSnZOYlNZVVkzMEJrWTEtUVV3dUpYMVlBWTBYY3M3OW9pVnE2cXRPZnMzc2g0MmlIYUNkTmcyVDl4dDA5dnBWTWxwRTFsejUyXzQ4UkpxYTBQRmFKWjA5VmR5Tnk0a2NCbXlKSEhNNU1JdEJBeURRTU53cTI1MzZKR240dzFJOXFUM1k4SmpzMEJxSE05bGFiV0trYjIzZUw4Vi1kUjlzRDZTONIBWkFVX3lxTE91ZE1oRmtRdU5xbUU1VkFPTXYtbjdET0VpRGtlQkJCOW83VUJhaWNXV3FpRlJxOUpZOGFXSUtfcUxrUGgwQllFd0NQZHdtVFYzMUxGRDhyVlFIQQ?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T06:52:00+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 114.869,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "a56f59ed1a85ac5211",
+        "title": "The decades-old ‘AI alignment problem’ has finally become a reality. Solving it won’t be easy - The Conversation",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaXphbmFIYUdBX0xsYk1BaXZkRUZYcHFBb01lRE9aZmhOM3NGcmZVNUkzRHFrczR6bktDOFhYb1hDSVJ4UVFyNUpySDdsc0pIaXQ3bE91VUpPWVA4V3JjV3ZuVE1DclZQWk1nWXlFNFc5ZFRQVnY0Q1o1QXZKQXNYa0hva1lGM3p2MlRpMURjZkpzZEhtNWoweGhweHIwZEc0N1FYWHlsaVBUQU9xRWxFZGVKeEgya0Y5b0xUZ29lTlJQdw?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T06:37:29+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 114.627,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "c039b5864f27eceacd",
+        "title": "Top AI Music Video Generators to Watch: How Artificial Intelligence Is Building the Next Generation of Digital Creativity - The Good Men Project",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYUdzY3pScjZLVTBrVDgtTGNsMUZfUGpxemdFR0pUNk43VlNBZFhNLUxuOC05dklhZ0lENkE3YU1aTkgwSV9reFRiNHAyc0hHWXNQR2tKbXJyMGZRYmo2VWVsWGJoRGZTYjNjZTBFcE55blcxS3J4X005dS1ORW02cmtNenhKZ2NzYVd1dDAzNFFJdVVfZHA1NkR0d0pxS1lwQWZ1NElBTGs5dkF6UUpUbnhuY1NBRkR2Rm9iaUloR2Z1dVZuZjhXU0hsUExLVHdJZ2JxYlR3eVlEeGxUc1VmRXZ6TkZZUTA3aUFwX25RY1U?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T06:10:35+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 114.179,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "5caaeee471656dcad3",
+        "title": "Top AI Music Video Generators to Watch: How Artificial Intelligence Is Building the Next Generation of Digital Creativity - goodmenproject.com",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYUdzY3pScjZLVTBrVDgtTGNsMUZfUGpxemdFR0pUNk43VlNBZFhNLUxuOC05dklhZ0lENkE3YU1aTkgwSV9reFRiNHAyc0hHWXNQR2tKbXJyMGZRYmo2VWVsWGJoRGZTYjNjZTBFcE55blcxS3J4X005dS1ORW02cmtNenhKZ2NzYVd1dDAzNFFJdVVfZHA1NkR0d0pxS1lwQWZ1NElBTGs5dkF6UUpUbnhuY1NBRkR2Rm9iaUloR2Z1dVZuZjhXU0hsUExLVHdJZ2JxYlR3eVlEeGxUc1VmRXZ6TkZZUTA3aUFwX25RY1U?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T06:10:35+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 114.179,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "3477464e3982856627",
+        "title": "Claude AI Watermark Removal Loophole Discovered - StartupHub.ai",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkRVdWh3X3RydFE1Wlo2T3dmYWRPQ0RWa1h3SWxHUl9qUlNVV3VyWll0MlNfcEhsMlltVUlHZzRHRmE3WHVjQ0RPVlk1cktnajZfdjBtMmZkRHh6OUhhb1hhaGIxVDlTXzVLeEVLdGYyNHROazB4Z3hPMDB5ZXJnRHF2RWp5WVdEczZXRGM2bE9CWXk4WDE5LWFxQXFibmNxaWdDZ09CcGRJa3R2VFdN?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-08-17T05:32:10+00:00",
+        "stickiness_score": 19,
+        "residual_contribution": 0.003057,
+        "expected_s2": 0.274526,
+        "observed_corrected": 0.277583,
+        "age_after_peak_hours": 113.538,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      }
+    ],
+    "max_stickiness": 19
+  },
+  {
+    "cycle_id": "7f9cc213aab4f1cd87",
+    "topic": "public_health",
+    "topic_label": "Public Health",
+    "started_at": "2026-08-13T17:59:51.827765+00:00",
+    "peaked_at": "2026-08-13T17:59:51.827765+00:00",
+    "ended_at": "2026-08-17T05:59:51.827765+00:00",
+    "archived_at": "2026-08-17T08:59:51.827765+00:00",
+    "article_count": 1443,
+    "phase": "Residual dust tail",
+    "verdict": "S2 likely",
+    "residual_dust": 0.08438164369814088,
+    "circadian_bias": 0.057022,
+    "peak_bin_index": 27,
+    "tail_bins": 29,
+    "fit": {
+      "tau_hours": 24,
+      "beta": 0.4,
+      "half_life_hours": 9.600080932373091,
+      "log_r2": 0.33151263396465613,
+      "delta_aic_vs_exp": 13.314858241279637,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.08438164369814088,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.662175,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.704453,
+        "observed_corrected": 0.704453,
+        "observed_raw": 0.612903,
+        "circadian_factor": 0.575293,
+        "fit": 0.647087,
+        "residual": 0.057366
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.47461,
+        "observed_corrected": 0.47461,
+        "observed_raw": 0.387097,
+        "circadian_factor": 0.539153,
+        "fit": 0.563071,
+        "residual": -0.088461
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.266566,
+        "observed_corrected": 0.266566,
+        "observed_raw": 0.225806,
+        "circadian_factor": 0.560384,
+        "fit": 0.508912,
+        "residual": -0.242346
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.205694,
+        "observed_corrected": 0.205694,
+        "observed_raw": 0.193548,
+        "circadian_factor": 0.622894,
+        "fit": 0.468669,
+        "residual": -0.262976
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.571412,
+        "observed_corrected": 0.571412,
+        "observed_raw": 0.612903,
+        "circadian_factor": 0.709826,
+        "fit": 0.436654,
+        "residual": 0.134758
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.539058,
+        "observed_corrected": 0.539058,
+        "observed_raw": 0.629032,
+        "circadian_factor": 0.771369,
+        "fit": 0.410122,
+        "residual": 0.128936
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.801973,
+        "observed_corrected": 0.801973,
+        "observed_raw": 0.919355,
+        "circadian_factor": 0.758013,
+        "fit": 0.38752,
+        "residual": 0.414453
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.582468,
+        "observed_corrected": 0.582468,
+        "observed_raw": 0.580645,
+        "circadian_factor": 0.659599,
+        "fit": 0.367879,
+        "residual": 0.214588
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.506342,
+        "observed_corrected": 0.506342,
+        "observed_raw": 0.451613,
+        "circadian_factor": 0.590097,
+        "fit": 0.350554,
+        "residual": 0.155788
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.184375,
+        "observed_corrected": 0.184375,
+        "observed_raw": 0.129032,
+        "circadian_factor": 0.46263,
+        "fit": 0.335088,
+        "residual": -0.150713
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.089197,
+        "observed_corrected": 0.089197,
+        "observed_raw": 0.064516,
+        "circadian_factor": 0.478166,
+        "fit": 0.321149,
+        "residual": -0.231952
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.122049,
+        "observed_corrected": 0.122049,
+        "observed_raw": 0.096774,
+        "circadian_factor": 0.524295,
+        "fit": 0.308486,
+        "residual": -0.186437
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.504276,
+        "observed_corrected": 0.504276,
+        "observed_raw": 0.451613,
+        "circadian_factor": 0.59242,
+        "fit": 0.296905,
+        "residual": 0.207371
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.143217,
+        "observed_corrected": 0.143217,
+        "observed_raw": 0.145161,
+        "circadian_factor": 0.669912,
+        "fit": 0.286253,
+        "residual": -0.143036
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.279642,
+        "observed_corrected": 0.279642,
+        "observed_raw": 0.274194,
+        "circadian_factor": 0.648648,
+        "fit": 0.276407,
+        "residual": 0.003235
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.147603,
+        "observed_corrected": 0.147603,
+        "observed_raw": 0.129032,
+        "circadian_factor": 0.57874,
+        "fit": 0.267267,
+        "residual": -0.119664
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.170665,
+        "observed_corrected": 0.170665,
+        "observed_raw": 0.129032,
+        "circadian_factor": 0.500085,
+        "fit": 0.258749,
+        "residual": -0.088084
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.092949,
+        "observed_corrected": 0.092949,
+        "observed_raw": 0.064516,
+        "circadian_factor": 0.458755,
+        "fit": 0.250784,
+        "residual": -0.157835
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.340156,
+        "observed_corrected": 0.340156,
+        "observed_raw": 0.241935,
+        "circadian_factor": 0.470282,
+        "fit": 0.243314,
+        "residual": 0.096842
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.221254,
+        "observed_corrected": 0.221254,
+        "observed_raw": 0.177419,
+        "circadian_factor": 0.530976,
+        "fit": 0.236289,
+        "residual": -0.015035
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.353341,
+        "observed_corrected": 0.353341,
+        "observed_raw": 0.322581,
+        "circadian_factor": 0.60435,
+        "fit": 0.229665,
+        "residual": 0.123676
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.240572,
+        "observed_corrected": 0.240572,
+        "observed_raw": 0.241935,
+        "circadian_factor": 0.664764,
+        "fit": 0.223406,
+        "residual": 0.017166
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.24347,
+        "observed_corrected": 0.24347,
+        "observed_raw": 0.241935,
+        "circadian_factor": 0.657039,
+        "fit": 0.217479,
+        "residual": 0.025991
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.25878,
+        "observed_corrected": 0.25878,
+        "observed_raw": 0.225806,
+        "circadian_factor": 0.577649,
+        "fit": 0.211857,
+        "residual": 0.046923
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.253329,
+        "observed_corrected": 0.253329,
+        "observed_raw": 0.193548,
+        "circadian_factor": 0.505367,
+        "fit": 0.206513,
+        "residual": 0.046816
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.217603,
+        "observed_corrected": 0.217603,
+        "observed_raw": 0.177419,
+        "circadian_factor": 0.538956,
+        "fit": 0.201426,
+        "residual": 0.016177
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.172698,
+        "observed_corrected": 0.172698,
+        "observed_raw": 0.145161,
+        "circadian_factor": 0.555896,
+        "fit": 0.196576,
+        "residual": -0.023878
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.101125,
+        "observed_corrected": 0.101125,
+        "observed_raw": 0.096774,
+        "circadian_factor": 0.633751,
+        "fit": 0.191945,
+        "residual": -0.09082
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "4d6522afab78b61354",
+        "title": "Boone County health assessment sets priorities for families - Columbia Daily Tribune",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWdjUURhMjBnUkNfdl9jLXFrX0I1YnFUZWxxdVBiX0JJZ19UT2lXcUQ0VHJWeE5rZThyMVVRSHNMSDZ4eVZZZWt6Nmdyc0pORlQxSWxCY25TVWNIN3RFZ3E3eGdnenRtWEluOVRmVTE5OThLYVpaOTZyUzRBTExvLVZYTXcwdm9mRzBZTkxPeHkyYllPeWZfTHFFLVM5aFQtQU5UZWZ3cGFkVm9sY1E4UnRWcDdsZ2tMNE1jUlo4Sk1HSml5VE9v?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-17T08:47:00+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 86.786,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "6f75be2259311f7dbb",
+        "title": "Milken to waive application fee for first 1,000 public health master’s program applicants - The GW Hatchet",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQnVXZGhLb0dxR2dObEowLUVyd3F4UG0xdjZYcWNmNVFVSzZ0NjNOU1hreV9Jc0htSk55V0dVR3VVXzNLZ3BNaFdXTWI2SEx3RV9xaUNjVVBuMXNZdlg1NEI3QjBaNkRXcDNIVExtLXhkcmZwZ0JvVkJWMjhRbWRjYl84SERDLWJURmJ0MlRUQXpHRmJzbWxiaTkwVWxCMHJ5SERTN0M1UU9nTUtFYUppbEh1M3d2bUQ2VVJqRWNB?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-17T08:45:32+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 86.761,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "cfc150135059c66d3b",
+        "title": "Ebola outbreak in DR Congo now deadliest ever - france24.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlVuRUZtSm1hVDRIaWRqRjNZRWdGT0ppVzZFX2tPeVRRdV9zSl92UC1FeEdaU0tMRWoyZ25Ib1hzS1lxOGRoSHRnV1gxenVGZ3N4X3ZkNHhnUllDbXpRX3pZOGNFbjJ4cHZvaGVFRW9hbXlDMXM0QkFXR1NjbHpqbjdMUEhLZF91N2YxUlR5MEpjMk0?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-17T08:38:23+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 86.642,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "2f42dab4295499bc56",
+        "title": "What is Medetomidine? The latest threat in the street drug supply - North Carolina Health News",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVVJSUh1VG5MRHlpUXozX0p6ZVZPWXNsd3IwWUw3VUhBa0I1VFMycEdSbF91SFhMX2NVclJXRlRUV1R4ZkNZOVpsa0Z6Wkd6U3R5UERGdmNrZnlmOHdNUVprdk9JVnU2eHYzaXBqVklkekl1Q1pnTkEtQ18xdVBGbzVHNWFXWXo2YWFBS0FrcTFZQkJ5ZDlwSTNBcTNIX2xYeWc?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-17T08:03:00+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 86.052,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "0f29be7ec62870afa9",
+        "title": "Scientists tracked kids for 8 years — the screen time result was unexpected",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
+        "source": "ScienceDaily Top Science",
+        "published_at": "2026-08-17T06:41:08+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 84.688,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "471923a59c31b84cf3",
+        "title": "Can you solve it? A new goat for puzzledom’s GOAT",
+        "url": "https://www.theguardian.com/science/2026/aug/17/can-you-solve-it-a-new-goat-for-puzzledoms-goat",
+        "source": "The Guardian Science",
+        "published_at": "2026-08-17T06:10:46+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 84.182,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "222d613e9f71ac55d8",
+        "title": "Measles outbreak grows in southwest Wisconsin - - Iron Mountain Daily News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU3hqZjBvc0I0S2V0bGxrV3FDdk5aVk9DYndTU1ZTVVROSUpOUWZLQTJvRkotM1pEOFRjUEMtdklKSjEzT2lCMVh0UG1PbzNBc3ZaSUlKdkJjQzh6N0hpXzN4Tjc2Wnd6dG1iMWs5dXUtX1ByQ0JfYloweDQzZ1Q4c1hwZzVlLS1hN1dpMmY2VUtNdFF6dmttVUhDVno1UTRSM0pUdXZOMHZ6c3dy?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-17T05:57:55+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.191945,
+        "observed_corrected": 0.101125,
+        "age_after_peak_hours": 83.968,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
+    "cycle_id": "ab37ac7da7d0cfe0c8",
+    "topic": "politics",
+    "topic_label": "Politics / Elections",
+    "started_at": "2026-08-14T14:59:51.827765+00:00",
+    "peaked_at": "2026-08-14T14:59:51.827765+00:00",
+    "ended_at": "2026-08-17T05:59:51.827765+00:00",
+    "archived_at": "2026-08-17T08:59:51.827765+00:00",
+    "article_count": 654,
+    "phase": "Cooling",
+    "verdict": "S2 likely",
+    "residual_dust": 0.086860476861668,
+    "circadian_bias": 0.061971,
+    "peak_bin_index": 34,
+    "tail_bins": 22,
+    "fit": {
+      "tau_hours": 8,
+      "beta": 0.28,
+      "half_life_hours": 2.160774722721543,
+      "log_r2": 0.42074967887755965,
+      "delta_aic_vs_exp": 21.082869799648336,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.086860476861668,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.759121,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.683396,
+        "observed_corrected": 0.683396,
+        "observed_raw": 0.611111,
+        "circadian_factor": 0.679452,
+        "fit": 0.467736,
+        "residual": 0.21566
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.352705,
+        "observed_corrected": 0.352705,
+        "observed_raw": 0.277778,
+        "circadian_factor": 0.598314,
+        "fit": 0.397481,
+        "residual": -0.044777
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.455098,
+        "observed_corrected": 0.455098,
+        "observed_raw": 0.277778,
+        "circadian_factor": 0.463179,
+        "fit": 0.355749,
+        "residual": 0.099349
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.132989,
+        "observed_corrected": 0.132989,
+        "observed_raw": 0.083333,
+        "circadian_factor": 0.475718,
+        "fit": 0.326206,
+        "residual": -0.193217
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.115937,
+        "observed_corrected": 0.115937,
+        "observed_raw": 0.083333,
+        "circadian_factor": 0.545772,
+        "fit": 0.303477,
+        "residual": -0.18754
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.211666,
+        "observed_corrected": 0.211666,
+        "observed_raw": 0.166667,
+        "circadian_factor": 0.597656,
+        "fit": 0.285103,
+        "residual": -0.073437
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.349964,
+        "observed_corrected": 0.349964,
+        "observed_raw": 0.305556,
+        "circadian_factor": 0.662632,
+        "fit": 0.269751,
+        "residual": 0.080213
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.127763,
+        "observed_corrected": 0.127763,
+        "observed_raw": 0.111111,
+        "circadian_factor": 0.659953,
+        "fit": 0.256617,
+        "residual": -0.128853
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.281494,
+        "observed_corrected": 0.281494,
+        "observed_raw": 0.222222,
+        "circadian_factor": 0.599917,
+        "fit": 0.245176,
+        "residual": 0.036318
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.387622,
+        "observed_corrected": 0.387622,
+        "observed_raw": 0.25,
+        "circadian_factor": 0.489748,
+        "fit": 0.235071,
+        "residual": 0.152551
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.135279,
+        "observed_corrected": 0.135279,
+        "observed_raw": 0.083333,
+        "circadian_factor": 0.46752,
+        "fit": 0.226044,
+        "residual": -0.090765
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.314051,
+        "observed_corrected": 0.314051,
+        "observed_raw": 0.194444,
+        "circadian_factor": 0.469906,
+        "fit": 0.217904,
+        "residual": 0.096147
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.535771,
+        "fit": 0.210507,
+        "residual": -0.210507
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.170951,
+        "observed_corrected": 0.170951,
+        "observed_raw": 0.138889,
+        "circadian_factor": 0.616856,
+        "fit": 0.203741,
+        "residual": -0.03279
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.159335,
+        "observed_corrected": 0.159335,
+        "observed_raw": 0.138889,
+        "circadian_factor": 0.661527,
+        "fit": 0.197515,
+        "residual": -0.03818
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.192478,
+        "observed_corrected": 0.192478,
+        "observed_raw": 0.166667,
+        "circadian_factor": 0.657207,
+        "fit": 0.191759,
+        "residual": 0.000719
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.222138,
+        "observed_corrected": 0.222138,
+        "observed_raw": 0.166667,
+        "circadian_factor": 0.569854,
+        "fit": 0.186414,
+        "residual": 0.035725
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.121339,
+        "observed_corrected": 0.121339,
+        "observed_raw": 0.083333,
+        "circadian_factor": 0.521129,
+        "fit": 0.18143,
+        "residual": -0.06009
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.196785,
+        "observed_corrected": 0.196785,
+        "observed_raw": 0.138889,
+        "circadian_factor": 0.535561,
+        "fit": 0.176767,
+        "residual": 0.020019
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.268647,
+        "observed_corrected": 0.268647,
+        "observed_raw": 0.194444,
+        "circadian_factor": 0.549435,
+        "fit": 0.17239,
+        "residual": 0.096256
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.232381,
+        "observed_corrected": 0.232381,
+        "observed_raw": 0.194444,
+        "circadian_factor": 0.635317,
+        "fit": 0.168272,
+        "residual": 0.064109
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "7a212c063ecce35378",
+        "title": "Trump envoy Kushner arrives in Israel after rare Hamas talks on Gaza peace plan",
+        "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-17T08:43:12+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 65.722,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "db7319ebe1babcc2f8",
+        "title": "Housebuilding near train stations to get ‘default yes’ under new planning changes – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/aug/17/housing-planning-changes-andy-burnham-angela-raynor-labour-conservatives-reform-latest-news-updates",
+        "source": "The Guardian World",
+        "published_at": "2026-08-17T08:27:30+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 65.461,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "2416b8dfa73a38994f",
+        "title": "Outrage as Colombia’s president hands out footballs as residents await aid",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/outrage-as-colombias-president-hands-out-footballs-as-residents-await-aid?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-17T08:18:05+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 65.304,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "74b4c91edf5c8fde45",
+        "title": "Labor pledges opt-out register for online gambling ads as Pocock calls out shortfalls in government’s bill",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/17/labor-pledges-opt-out-register-for-online-gambling-ads-australia",
+        "source": "The Guardian World",
+        "published_at": "2026-08-17T08:14:20+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 65.241,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "864c9339be1d85a359",
+        "title": "Top Zambian opposition figures arrested days after presidential vote",
+        "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-17T07:31:36+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 64.529,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "6f0d4f22cdf87d0963",
+        "title": "Ralph Carr in ‘living hell’ after being convicted of rape, Victorian court hears",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/17/ralph-carr-in-living-hell-after-being-convicted-of-victorian-court-hears-ntwnfb",
+        "source": "The Guardian World",
+        "published_at": "2026-08-17T07:12:59+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 64.219,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "c6a9ead9a9a929f4ab",
+        "title": "Victorian teachers are to be the best paid in Australia. A union rebellion helped seal the deal",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/17/australia-victoria-teachers-union-vote-pay-deal",
+        "source": "The Guardian World",
+        "published_at": "2026-08-17T07:10:55+00:00",
+        "stickiness_score": 32,
+        "residual_contribution": 0.064109,
+        "expected_s2": 0.168272,
+        "observed_corrected": 0.232381,
+        "age_after_peak_hours": 64.184,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      }
+    ],
+    "max_stickiness": 32
+  },
+  {
+    "cycle_id": "0386fd962c338cbc16",
+    "topic": "space_science",
+    "topic_label": "Space / Science",
+    "started_at": "2026-08-12T14:59:51.827765+00:00",
+    "peaked_at": "2026-08-12T14:59:51.827765+00:00",
+    "ended_at": "2026-08-17T05:59:51.827765+00:00",
+    "archived_at": "2026-08-17T08:59:51.827765+00:00",
+    "article_count": 486,
+    "phase": "Residual dust tail",
+    "verdict": "S2 likely",
+    "residual_dust": 0.1235246299782483,
+    "circadian_bias": 0.060972,
+    "peak_bin_index": 18,
+    "tail_bins": 38,
+    "fit": {
+      "tau_hours": 10,
+      "beta": 0.25,
+      "half_life_hours": 2.308350985830834,
+      "log_r2": 0.25676752222843324,
+      "delta_aic_vs_exp": 29.53317555681312,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.1235246299782483,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.768805,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.50719,
+        "observed_corrected": 0.50719,
+        "observed_raw": 0.441176,
+        "circadian_factor": 0.670113,
+        "fit": 0.477074,
+        "residual": 0.030115
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.605408,
+        "observed_corrected": 0.605408,
+        "observed_raw": 0.470588,
+        "circadian_factor": 0.597924,
+        "fit": 0.414737,
+        "residual": 0.190671
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.207937,
+        "observed_corrected": 0.207937,
+        "observed_raw": 0.147059,
+        "circadian_factor": 0.54363,
+        "fit": 0.377568,
+        "residual": -0.169631
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.162926,
+        "observed_corrected": 0.162926,
+        "observed_raw": 0.117647,
+        "circadian_factor": 0.555108,
+        "fit": 0.351117,
+        "residual": -0.188191
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.186862,
+        "observed_corrected": 0.186862,
+        "observed_raw": 0.147059,
+        "circadian_factor": 0.604947,
+        "fit": 0.330654,
+        "residual": -0.143792
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.162534,
+        "observed_corrected": 0.162534,
+        "observed_raw": 0.147059,
+        "circadian_factor": 0.695772,
+        "fit": 0.314022,
+        "residual": -0.151488
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.554831,
+        "observed_corrected": 0.554831,
+        "observed_raw": 0.558824,
+        "circadian_factor": 0.774219,
+        "fit": 0.300051,
+        "residual": 0.25478
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.14901,
+        "observed_corrected": 0.14901,
+        "observed_raw": 0.147059,
+        "circadian_factor": 0.759113,
+        "fit": 0.288037,
+        "residual": -0.139028
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.372261,
+        "observed_corrected": 0.372261,
+        "observed_raw": 0.323529,
+        "circadian_factor": 0.6695,
+        "fit": 0.27752,
+        "residual": 0.094741
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.226469,
+        "observed_corrected": 0.226469,
+        "observed_raw": 0.176471,
+        "circadian_factor": 0.599046,
+        "fit": 0.268186,
+        "residual": -0.041718
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.536199,
+        "fit": 0.259809,
+        "residual": -0.259809
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.451113,
+        "observed_corrected": 0.451113,
+        "observed_raw": 0.323529,
+        "circadian_factor": 0.551273,
+        "fit": 0.252221,
+        "residual": 0.198892
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.149022,
+        "observed_corrected": 0.149022,
+        "observed_raw": 0.117647,
+        "circadian_factor": 0.606861,
+        "fit": 0.245296,
+        "residual": -0.096274
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.355457,
+        "observed_corrected": 0.355457,
+        "observed_raw": 0.323529,
+        "circadian_factor": 0.700388,
+        "fit": 0.238934,
+        "residual": 0.116524
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.325117,
+        "observed_corrected": 0.325117,
+        "observed_raw": 0.323529,
+        "circadian_factor": 0.764989,
+        "fit": 0.233056,
+        "residual": 0.092061
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.624825,
+        "observed_corrected": 0.624825,
+        "observed_raw": 0.617647,
+        "circadian_factor": 0.760152,
+        "fit": 0.2276,
+        "residual": 0.397225
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.297281,
+        "observed_corrected": 0.297281,
+        "observed_raw": 0.264706,
+        "circadian_factor": 0.685469,
+        "fit": 0.222513,
+        "residual": 0.074768
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.112985,
+        "observed_corrected": 0.112985,
+        "observed_raw": 0.088235,
+        "circadian_factor": 0.601368,
+        "fit": 0.217752,
+        "residual": -0.104767
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.049236,
+        "observed_corrected": 0.049236,
+        "observed_raw": 0.029412,
+        "circadian_factor": 0.459137,
+        "fit": 0.213281,
+        "residual": -0.164046
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.286937,
+        "observed_corrected": 0.286937,
+        "observed_raw": 0.176471,
+        "circadian_factor": 0.472725,
+        "fit": 0.20907,
+        "residual": 0.077867
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.535771,
+        "fit": 0.205093,
+        "residual": -0.205093
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.154068,
+        "observed_corrected": 0.154068,
+        "observed_raw": 0.117647,
+        "circadian_factor": 0.587751,
+        "fit": 0.201327,
+        "residual": -0.047259
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.204635,
+        "observed_corrected": 0.204635,
+        "observed_raw": 0.176471,
+        "circadian_factor": 0.662992,
+        "fit": 0.197753,
+        "residual": 0.006881
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.103683,
+        "observed_corrected": 0.103683,
+        "observed_raw": 0.088235,
+        "circadian_factor": 0.654374,
+        "fit": 0.194354,
+        "residual": -0.090671
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.040298,
+        "observed_corrected": 0.040298,
+        "observed_raw": 0.029412,
+        "circadian_factor": 0.560966,
+        "fit": 0.191116,
+        "residual": -0.150818
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.498457,
+        "fit": 0.188025,
+        "residual": -0.188025
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.098373,
+        "observed_corrected": 0.098373,
+        "observed_raw": 0.058824,
+        "circadian_factor": 0.4596,
+        "fit": 0.185069,
+        "residual": -0.086696
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.430781,
+        "observed_corrected": 0.430781,
+        "observed_raw": 0.264706,
+        "circadian_factor": 0.472417,
+        "fit": 0.18224,
+        "residual": 0.248542
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.042462,
+        "observed_corrected": 0.042462,
+        "observed_raw": 0.029412,
+        "circadian_factor": 0.532387,
+        "fit": 0.179526,
+        "residual": -0.137065
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.265094,
+        "observed_corrected": 0.265094,
+        "observed_raw": 0.205882,
+        "circadian_factor": 0.597428,
+        "fit": 0.176921,
+        "residual": 0.088172
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.136048,
+        "observed_corrected": 0.136048,
+        "observed_raw": 0.117647,
+        "circadian_factor": 0.664719,
+        "fit": 0.174417,
+        "residual": -0.038369
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.104976,
+        "observed_corrected": 0.104976,
+        "observed_raw": 0.088235,
+        "circadian_factor": 0.646518,
+        "fit": 0.172006,
+        "residual": -0.067031
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.575782,
+        "fit": 0.169684,
+        "residual": -0.169684
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.090544,
+        "observed_corrected": 0.090544,
+        "observed_raw": 0.058824,
+        "circadian_factor": 0.499374,
+        "fit": 0.167444,
+        "residual": -0.0769
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.166411,
+        "observed_corrected": 0.166411,
+        "observed_raw": 0.117647,
+        "circadian_factor": 0.543407,
+        "fit": 0.165282,
+        "residual": 0.001129
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.246476,
+        "observed_corrected": 0.246476,
+        "observed_raw": 0.176471,
+        "circadian_factor": 0.550369,
+        "fit": 0.163192,
+        "residual": 0.083284
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.108164,
+        "observed_corrected": 0.108164,
+        "observed_raw": 0.088235,
+        "circadian_factor": 0.62783,
+        "fit": 0.161172,
+        "residual": -0.053008
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "5443c37212effbaed6",
+        "title": "2 Russell 2000 Stocks to Research Further and 1 We Avoid - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSXlJQ3NsYm93cWxjNzRROGRYLS0zSnlzblE1YkZNQnlENnFKd25XdVZ5NktOMl9iUktIZW5jTFQ0XzVlVGZjSVRlb1d0NWNubkVIYmsxcFBKMHBvQXIyeTQ1OERvX0VlUEdsZEZPbEJfbFRRYmNwbWxnS0lTeUtjSU8zZXlUVXdLVzhYb1NQOHFnRFhmZzhXbUpxaUxMNGFzWXZkOEU4LVA5N2NCZVZZUGNLcFBGRm0xYUE?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T08:38:37+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.161172,
+        "observed_corrected": 0.108164,
+        "age_after_peak_hours": 113.646,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "fa057c540f02e8eef8",
+        "title": "Who is Hasan Piker – and why are some Australian conservatives outraged about his return to the ABC?",
+        "url": "https://www.theguardian.com/media/2026/aug/17/who-is-hasan-piker-and-why-are-some-conservatives-outraged-about-his-return-to-the-abc",
+        "source": "The Guardian World",
+        "published_at": "2026-08-17T07:46:28+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.161172,
+        "observed_corrected": 0.108164,
+        "age_after_peak_hours": 112.777,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "e1c4c520291b997398",
+        "title": "CONFIRMED!!! NASA’s Nancy Grace Roman Space Telescope is scheduled to launch on August 30, aboard a... - Moneycontrol.com",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSU5UWWhqdmUwWmJVb1FuUGJJVVRWNXN0ZVFFSkl6ZVh6SHhKdzJsdGhhaDREMHVONHhsMjlBRldFaWNJeC1KN1BiQ2R1bVktTmYwSFMwZm5Sd3ljS3lXcHRuTHExclpyakNIcmh4bU42SUhOdk5TWkZwbmV2UHI0eHBNdjJHRTBXMzM2Sm5EU09QbDY2dFdiRnRlbjlkUTNnRDJqTkxCRTBKeTdFMEdnU0NCLVdwYnRuU3NEcUFTMVo2YzhuSTdsYmJwam5kOHVralBjcl96RnpaS2VyXzRDa0tJR3hyZWFNeERYSTF1YnlhU1hWeHl3aWY3azFFXzVoeHlFMkRGZG1XRVc2eXfSAZMCQVVfeXFMTU53d3lGLXZaeTAxUTlzUDhGaWItRlNGMTE1TlVPZXNtdmZXdUdScEQ3eU1zbmFEMmR6TW54ZVpIaXNzV1BwT0c5Z0l4cVVjeExUVl9OUl9JQUNVbmlObTN1dlBDVGVnajNjSGh6cldwT2taLXAwUGFXMVlHUjBkT3FQbE1oYU5JNlBRYk84VE9TNkVZeEFCY2ZwYUUtV1hwMUE4dU5lLVR6bTdDZWNhbU52Uy1LTWhzOERkR0xpMzNvdHZmVDdNUk1EelhzbWppYjhYWGZjaU9zenFLVzZQeUs5TDRDNTBkbnFMd1NMY3ZESE9FVVJEU3Q3NEFfQTdEUGJJZDJzM1JMcTI5ZENwTjU3Y00?oc=5",
+        "source": "Google News Space Science",
+        "published_at": "2026-08-17T06:32:53+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.161172,
+        "observed_corrected": 0.108164,
+        "age_after_peak_hours": 111.55,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
+    "cycle_id": "d278948ec2d31e3125",
+    "topic": "energy",
+    "topic_label": "Energy",
+    "started_at": "2026-08-12T14:59:51.827765+00:00",
+    "peaked_at": "2026-08-12T14:59:51.827765+00:00",
+    "ended_at": "2026-08-17T05:59:51.827765+00:00",
+    "archived_at": "2026-08-17T08:59:51.827765+00:00",
+    "article_count": 328,
+    "phase": "Cooling",
+    "verdict": "S2 weak",
+    "residual_dust": 0.16101821971082064,
+    "circadian_bias": 0.061398,
+    "peak_bin_index": 18,
+    "tail_bins": 38,
+    "fit": {
+      "tau_hours": 36,
+      "beta": 0.65,
+      "half_life_hours": 20.484180530214452,
+      "log_r2": 0.39504664488167374,
+      "delta_aic_vs_exp": 2.846911380289157,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.16101821971082064,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.766598,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.922912,
+        "observed_corrected": 0.922912,
+        "observed_raw": 0.789474,
+        "circadian_factor": 0.656143,
+        "fit": 0.81967,
+        "residual": 0.103242
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.954653,
+        "observed_corrected": 0.954653,
+        "observed_raw": 0.736842,
+        "circadian_factor": 0.592114,
+        "fit": 0.731957,
+        "residual": 0.222696
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.752474,
+        "observed_corrected": 0.752474,
+        "observed_raw": 0.526316,
+        "circadian_factor": 0.53604,
+        "fit": 0.666226,
+        "residual": 0.086248
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.508207,
+        "observed_corrected": 0.508207,
+        "observed_raw": 0.368421,
+        "circadian_factor": 0.555791,
+        "fit": 0.612851,
+        "residual": -0.104644
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.462888,
+        "observed_corrected": 0.462888,
+        "observed_raw": 0.368421,
+        "circadian_factor": 0.610789,
+        "fit": 0.567758,
+        "residual": -0.10487
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.498919,
+        "observed_corrected": 0.498919,
+        "observed_raw": 0.473684,
+        "circadian_factor": 0.728184,
+        "fit": 0.528728,
+        "residual": -0.02981
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.726011,
+        "observed_corrected": 0.726011,
+        "observed_raw": 0.736842,
+        "circadian_factor": 0.777763,
+        "fit": 0.494384,
+        "residual": 0.231627
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.536753,
+        "observed_corrected": 0.536753,
+        "observed_raw": 0.526316,
+        "circadian_factor": 0.751825,
+        "fit": 0.463793,
+        "residual": 0.07296
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.121453,
+        "observed_corrected": 0.121453,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.665712,
+        "fit": 0.43629,
+        "residual": -0.314837
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.349963,
+        "observed_corrected": 0.349963,
+        "observed_raw": 0.263158,
+        "circadian_factor": 0.576707,
+        "fit": 0.411378,
+        "residual": -0.061414
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.376974,
+        "observed_corrected": 0.376974,
+        "observed_raw": 0.263158,
+        "circadian_factor": 0.534949,
+        "fit": 0.388675,
+        "residual": -0.011701
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.648727,
+        "observed_corrected": 0.648727,
+        "observed_raw": 0.473684,
+        "circadian_factor": 0.559641,
+        "fit": 0.367879,
+        "residual": 0.280848
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.622989,
+        "fit": 0.348748,
+        "residual": -0.348748
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.060464,
+        "observed_corrected": 0.060464,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.667043,
+        "fit": 0.331082,
+        "residual": -0.270618
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.466605,
+        "observed_corrected": 0.466605,
+        "observed_raw": 0.473684,
+        "circadian_factor": 0.777943,
+        "fit": 0.314714,
+        "residual": 0.15189
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.269034,
+        "observed_corrected": 0.269034,
+        "observed_raw": 0.263158,
+        "circadian_factor": 0.749714,
+        "fit": 0.299506,
+        "residual": -0.030473
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.172778,
+        "observed_corrected": 0.172778,
+        "observed_raw": 0.157895,
+        "circadian_factor": 0.700599,
+        "fit": 0.285339,
+        "residual": -0.112562
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.070465,
+        "observed_corrected": 0.070465,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.572368,
+        "fit": 0.272111,
+        "residual": -0.201646
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.461131,
+        "fit": 0.259733,
+        "residual": -0.259733
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.254593,
+        "observed_corrected": 0.254593,
+        "observed_raw": 0.157895,
+        "circadian_factor": 0.475354,
+        "fit": 0.24813,
+        "residual": 0.006463
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.07963,
+        "observed_corrected": 0.07963,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.50649,
+        "fit": 0.237232,
+        "residual": -0.157602
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.256907,
+        "observed_corrected": 0.256907,
+        "observed_raw": 0.210526,
+        "circadian_factor": 0.627963,
+        "fit": 0.226982,
+        "residual": 0.029924
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.060641,
+        "observed_corrected": 0.060641,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.665093,
+        "fit": 0.217327,
+        "residual": -0.156686
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.368311,
+        "observed_corrected": 0.368311,
+        "observed_raw": 0.315789,
+        "circadian_factor": 0.65724,
+        "fit": 0.208218,
+        "residual": 0.160093
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.131299,
+        "observed_corrected": 0.131299,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.614352,
+        "fit": 0.199615,
+        "residual": -0.068317
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.082231,
+        "observed_corrected": 0.082231,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.490467,
+        "fit": 0.19148,
+        "residual": -0.109249
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.087689,
+        "observed_corrected": 0.087689,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.45994,
+        "fit": 0.183779,
+        "residual": -0.09609
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.172693,
+        "observed_corrected": 0.172693,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.467092,
+        "fit": 0.176481,
+        "residual": -0.003788
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.071538,
+        "observed_corrected": 0.071538,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.563785,
+        "fit": 0.169558,
+        "residual": -0.09802
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.662459,
+        "observed_corrected": 0.662459,
+        "observed_raw": 0.526316,
+        "circadian_factor": 0.609996,
+        "fit": 0.162985,
+        "residual": 0.499475
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.062246,
+        "observed_corrected": 0.062246,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.64794,
+        "fit": 0.156738,
+        "residual": -0.094492
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.182894,
+        "observed_corrected": 0.182894,
+        "observed_raw": 0.157895,
+        "circadian_factor": 0.661602,
+        "fit": 0.150797,
+        "residual": 0.032097
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.144619,
+        "observed_corrected": 0.144619,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.558153,
+        "fit": 0.145142,
+        "residual": -0.000523
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.166098,
+        "observed_corrected": 0.166098,
+        "observed_raw": 0.105263,
+        "circadian_factor": 0.485697,
+        "fit": 0.139756,
+        "residual": 0.026342
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.226123,
+        "observed_corrected": 0.226123,
+        "observed_raw": 0.157895,
+        "circadian_factor": 0.535096,
+        "fit": 0.134622,
+        "residual": 0.091501
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.069345,
+        "observed_corrected": 0.069345,
+        "observed_raw": 0.052632,
+        "circadian_factor": 0.581612,
+        "fit": 0.129724,
+        "residual": -0.06038
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.328982,
+        "observed_corrected": 0.328982,
+        "observed_raw": 0.263158,
+        "circadian_factor": 0.612997,
+        "fit": 0.12505,
+        "residual": 0.203933
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "08fc27c66ec85a8a0a",
+        "title": "Reflecting On Renewable Energy Stocks’ Q2 Earnings: Blink Charging (NASDAQ:BLNK) - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT2tZZG9Md3BSaFprSGlDOUJuUVVTZ2oyWFNGM2huLVA3TWxGUE9oRTdQbzFaMmotNXBFNjlKLVV3Wk53ZVliM1VLNjY2TkE4cnFiUzVjMWRPSFhNN1pVSkhkZUpsQXJfekxRaVhpTm1nUjZBSFVRVG0yeWxfbG5fTWE3ME5aeDVuUVc4QXBIZmw3VjAtOUdtY3FiVU1jM1hzU081OW16NUJFcnZUY0ozUEMwZFlsM3Q4Qldfbmk1RlpZNF9FZXJTZ0RsbEdHb1E?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T07:14:19+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 112.241,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "766809adae8d15df37",
+        "title": "Newly found black hole star is the size of our solar system - Mashable",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzb1JWc3VLU3BmT0xSV0sySmpVbTVMXzhsZW9iQWJYYWxoQjQ2QmE5NDZSWnZZa2pSS3RpajhoNG9KX09xRTRMTTVGQjV3TWU2UjBzdzBWMWd5WnZFQ0x5YTVkY25jNmw1MHVyOFZzMkRVdUxS?oc=5",
+        "source": "Google News Space Science",
+        "published_at": "2026-08-17T07:13:26+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 112.226,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "eca6998ee279cec3b6",
+        "title": "Q2 Rundown: EQT (NYSE:EQT) Vs Other Upstream Natural Gas E&P Stocks - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNDQ4X0RlWlZ1VmF1TE5JQ1RpT3Q3N2NfVnlHNzFTZmthS2ZBWkN1NGRKdnFRbjdURm0wTjU1X2xnT2pTc2hNUW5HNnZsdFA3d0U3ZzFnWjNla3k3eG9wWlp5cmUtb1NQUzI5NlQyNnBsUi1SOUdqc0w2Z0pleHAxUVNRMDBzdXVPbVVuTjU3QkJIamVpc0hCZ0JHZ2t3dWQ1UmtwVUVwb2FqQzNoMWw3ZmNpNDZNZDNLS1hNd3VR?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T07:06:19+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 112.108,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "5553161d615df062de",
+        "title": "3 Nuclear Stocks With Real Revenue vs. 3 That Are Still Pre-Revenue. Here's Where the Money Actually Is. - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGotbFBkZDlWVFFkT2duMldjVXlmX0kzTGN5VDVJa3lzUU0tbXR6bkhVUUpfRkhueElYbExaVXhBUE1ady0wMFpEZWREVGZkTTBpOFdfekJicERDbS1CRlhDNy1SWHFUUmtPRm1pNk51ZDhxM25OQTZWb1ZNNU9PVFUyVk45RVd3dzN2SE9NWm1laTJBZTMzelJ3?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-17T07:05:00+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 112.086,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "dbb63653d12457565d",
+        "title": "Ferrari Luce: Polarizing EV becomes a $40 million collector’s item",
+        "url": "https://www.cnbc.com/2026/08/17/ferrari-luce-electric-car-autos.html",
+        "source": "CNBC Top News",
+        "published_at": "2026-08-17T06:52:23+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 111.875,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "0b7fa946c78d53f456",
+        "title": "What you need to know about Lala on the Big Island: road closures, power outages and more - Big Island Now",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR1RlQjdyck5NNUxvRmdOa2UtNEJNSmRjbThTMFZyRS05OHVKNXNKVXBRc0xfajBCS0hWcFVyV0xvNVE2bFFDUFpLR1U3RHJSZ2ZvLW1vaVMybUI4ZlhDcUt2ZEM1b2ZUQVVObW5EYkJpbzdaSzFIYlBzb0J1ZTFxTGJuTXNMNkZlMlBNMU9jQWprQ01FcVJod1Ric0F1Wlp6VGMyZA?oc=5",
+        "source": "Google News Climate",
+        "published_at": "2026-08-17T05:49:00+00:00",
+        "stickiness_score": 63,
+        "residual_contribution": 0.203932,
+        "expected_s2": 0.12505,
+        "observed_corrected": 0.328982,
+        "age_after_peak_hours": 110.819,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      }
+    ],
+    "max_stickiness": 63
+  },
+  {
     "cycle_id": "c54d5687cab6d04ffb",
     "topic": "climate",
     "topic_label": "Climate / Weather",
@@ -198120,1804 +200353,5 @@
       }
     ],
     "max_stickiness": 15
-  },
-  {
-    "cycle_id": "4ac8cfda9ee209231e",
-    "topic": "space_science",
-    "topic_label": "Space / Science",
-    "started_at": "2026-08-10T13:01:19.516305+00:00",
-    "peaked_at": "2026-08-10T13:01:19.516305+00:00",
-    "ended_at": "2026-08-12T19:01:19.516305+00:00",
-    "archived_at": "2026-08-12T22:01:19.516305+00:00",
-    "article_count": 512,
-    "phase": "Cooling",
-    "verdict": "S2 likely",
-    "residual_dust": 0.22961784943444621,
-    "circadian_bias": 0.062068,
-    "peak_bin_index": 37,
-    "tail_bins": 19,
-    "fit": {
-      "tau_hours": 12,
-      "beta": 0.1,
-      "half_life_hours": 0.3072103594747573,
-      "log_r2": 0.02595614652095124,
-      "delta_aic_vs_exp": 17.051502344430382,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.22961784943444621,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.775721,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.346952,
-        "observed_corrected": 0.346952,
-        "observed_raw": 0.324324,
-        "circadian_factor": 0.725692,
-        "fit": 0.418721,
-        "residual": -0.071769
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.265476,
-        "observed_corrected": 0.265476,
-        "observed_raw": 0.216216,
-        "circadian_factor": 0.632231,
-        "fit": 0.393359,
-        "residual": -0.127883
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.109817,
-        "observed_corrected": 0.109817,
-        "observed_raw": 0.081081,
-        "circadian_factor": 0.572884,
-        "fit": 0.378461,
-        "residual": -0.268644
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.192442,
-        "observed_corrected": 0.192442,
-        "observed_raw": 0.135135,
-        "circadian_factor": 0.544739,
-        "fit": 0.367879,
-        "residual": -0.175437
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.580586,
-        "observed_corrected": 0.580586,
-        "observed_raw": 0.432432,
-        "circadian_factor": 0.578935,
-        "fit": 0.359671,
-        "residual": 0.220915
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.060301,
-        "observed_corrected": 0.060301,
-        "observed_raw": 0.054054,
-        "circadian_factor": 0.695372,
-        "fit": 0.352967,
-        "residual": -0.292666
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.256059,
-        "observed_corrected": 0.256059,
-        "observed_raw": 0.243243,
-        "circadian_factor": 0.737222,
-        "fit": 0.347303,
-        "residual": -0.091245
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.511416,
-        "observed_corrected": 0.511416,
-        "observed_raw": 0.513514,
-        "circadian_factor": 0.778888,
-        "fit": 0.342401,
-        "residual": 0.169015
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.250678,
-        "observed_corrected": 0.250678,
-        "observed_raw": 0.243243,
-        "circadian_factor": 0.752914,
-        "fit": 0.33808,
-        "residual": -0.087402
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.798157,
-        "observed_corrected": 0.798157,
-        "observed_raw": 0.648649,
-        "circadian_factor": 0.631342,
-        "fit": 0.334219,
-        "residual": 0.463937
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.150861,
-        "observed_corrected": 0.150861,
-        "observed_raw": 0.108108,
-        "circadian_factor": 0.555997,
-        "fit": 0.33073,
-        "residual": -0.179868
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.191655,
-        "observed_corrected": 0.191655,
-        "observed_raw": 0.135135,
-        "circadian_factor": 0.546943,
-        "fit": 0.327547,
-        "residual": -0.135892
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.10788,
-        "observed_corrected": 0.10788,
-        "observed_raw": 0.081081,
-        "circadian_factor": 0.583014,
-        "fit": 0.324622,
-        "residual": -0.216743
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.422244,
-        "observed_corrected": 0.422244,
-        "observed_raw": 0.351351,
-        "circadian_factor": 0.645964,
-        "fit": 0.321917,
-        "residual": 0.100327
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.514132,
-        "observed_corrected": 0.514132,
-        "observed_raw": 0.486486,
-        "circadian_factor": 0.734446,
-        "fit": 0.319401,
-        "residual": 0.194731
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.67462,
-        "observed_corrected": 0.67462,
-        "observed_raw": 0.675676,
-        "circadian_factor": 0.776931,
-        "fit": 0.317049,
-        "residual": 0.357571
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.48044,
-        "observed_corrected": 0.48044,
-        "observed_raw": 0.459459,
-        "circadian_factor": 0.742988,
-        "fit": 0.314842,
-        "residual": 0.165598
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.370251,
-        "observed_corrected": 0.370251,
-        "observed_raw": 0.297297,
-        "circadian_factor": 0.623415,
-        "fit": 0.312763,
-        "residual": 0.057488
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "65f0df277efc3b21d6",
-        "title": "First Total Eclipse in Europe in Decades Turns Day to Night",
-        "url": "https://www.nytimes.com/live/2026/08/12/world/solar-eclipse-2026-updates",
-        "source": "NYTimes World",
-        "published_at": "2026-08-12T21:57:06+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 56.93,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "f183654571140617a9",
-        "title": "Millions in UK and Europe left wowed by once-in-a-generation solar eclipse",
-        "url": "https://www.bbc.co.uk/news/articles/ckgdp4923rdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Science",
-        "published_at": "2026-08-12T21:53:45+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 56.874,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "ce006614611d6ba756",
-        "title": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
-        "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html",
-        "source": "NYTimes World",
-        "published_at": "2026-08-12T21:04:36+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 56.055,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "cfa32aa23427846cdf",
-        "title": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
-        "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-12T21:04:36+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 56.055,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "fe6f84d556d1924ba9",
-        "title": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
-        "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html",
-        "source": "NYTimes Science",
-        "published_at": "2026-08-12T21:04:36+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 56.055,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "7445b711467ca5b816",
-        "title": "Forbes Fired Top Editor After Discovering He Received Secret $6 Million Payment",
-        "url": "https://www.nytimes.com/2026/08/12/business/forbes-editor-fired.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-12T20:53:09+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 55.864,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "04add4d2fa67ba5e17",
-        "title": "In pictures: Sky watchers gather for solar eclipse",
-        "url": "https://www.bbc.co.uk/news/articles/cdewplxy3g1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Science",
-        "published_at": "2026-08-12T20:46:43+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 55.757,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "0447c4fb1a076a9037",
-        "title": "NASA Data Helps Commercial Space Plan Living Off Our Moon",
-        "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/",
-        "source": "NASA Breaking News",
-        "published_at": "2026-08-12T20:40:27+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 55.652,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "a35bbb9f424b22f290",
-        "title": "'Seeing eclipse is once-in-a-lifetime opportunity'",
-        "url": "https://www.bbc.co.uk/news/articles/cg7mpjkjn53o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Science",
-        "published_at": "2026-08-12T20:30:08+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 55.48,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "dae8a6023bb6511733",
-        "title": "Live Updates: First Total Eclipse in Europe in Decades Turns Day to Night",
-        "url": "https://www.nytimes.com/live/2026/08/12/world/solar-eclipse-2026-updates",
-        "source": "NYTimes World",
-        "published_at": "2026-08-12T20:13:10+00:00",
-        "stickiness_score": 31,
-        "residual_contribution": 0.057488,
-        "expected_s2": 0.312763,
-        "observed_corrected": 0.370251,
-        "age_after_peak_hours": 55.197,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      }
-    ],
-    "max_stickiness": 31
-  },
-  {
-    "cycle_id": "baf49a652a4bb75aea",
-    "topic": "cybersecurity",
-    "topic_label": "Cybersecurity",
-    "started_at": "2026-08-08T10:01:19.516305+00:00",
-    "peaked_at": "2026-08-08T10:01:19.516305+00:00",
-    "ended_at": "2026-08-12T19:01:19.516305+00:00",
-    "archived_at": "2026-08-12T22:01:19.516305+00:00",
-    "article_count": 135,
-    "phase": "Cooling",
-    "verdict": "S2 likely",
-    "residual_dust": 0.23806984730174838,
-    "circadian_bias": 0.059325,
-    "peak_bin_index": 20,
-    "tail_bins": 36,
-    "fit": {
-      "tau_hours": 90,
-      "beta": 0.1,
-      "half_life_hours": 2.3040776960606797,
-      "log_r2": 0.0034122726017132843,
-      "delta_aic_vs_exp": 11.458351302819786,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.23806984730174838,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.621285,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.232923,
-        "observed_corrected": 0.232923,
-        "observed_raw": 0.25,
-        "circadian_factor": 0.666593,
-        "fit": 0.490816,
-        "residual": -0.257894
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.632938,
-        "fit": 0.466375,
-        "residual": -0.466375
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.546243,
-        "fit": 0.451885,
-        "residual": -0.451885
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.480827,
-        "fit": 0.441529,
-        "residual": -0.441529
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.457572,
-        "fit": 0.433459,
-        "residual": -0.433459
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.307286,
-        "observed_corrected": 0.307286,
-        "observed_raw": 0.25,
-        "circadian_factor": 0.505987,
-        "fit": 0.426843,
-        "residual": -0.119557
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559289,
-        "fit": 0.421235,
-        "residual": -0.421235
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.359188,
-        "observed_corrected": 0.359188,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.648842,
-        "fit": 0.416367,
-        "residual": -0.05718
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.929916,
-        "observed_corrected": 0.929916,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.667885,
-        "fit": 0.412067,
-        "residual": 0.517848
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.37541,
-        "observed_corrected": 0.37541,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.620379,
-        "fit": 0.408216,
-        "residual": -0.032806
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.133722,
-        "observed_corrected": 0.133722,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.58055,
-        "fit": 0.404729,
-        "residual": -0.271007
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.480827,
-        "fit": 0.401542,
-        "residual": -0.401542
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.145484,
-        "observed_corrected": 0.145484,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.533613,
-        "fit": 0.398608,
-        "residual": -0.253124
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.412698,
-        "observed_corrected": 0.412698,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.564326,
-        "fit": 0.39589,
-        "residual": 0.016808
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.121522,
-        "observed_corrected": 0.121522,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.638831,
-        "fit": 0.393359,
-        "residual": -0.271837
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.851048,
-        "observed_corrected": 0.851048,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.730608,
-        "fit": 0.39099,
-        "residual": 0.460058
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.800228,
-        "observed_corrected": 0.800228,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.776108,
-        "fit": 0.388763,
-        "residual": 0.411465
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.657521,
-        "observed_corrected": 0.657521,
-        "observed_raw": 0.75,
-        "circadian_factor": 0.708827,
-        "fit": 0.386664,
-        "residual": 0.270857
-      },
-      {
-        "x_hours": 57.0,
-        "observed": 0.255364,
-        "observed_corrected": 0.255364,
-        "observed_raw": 0.25,
-        "circadian_factor": 0.608011,
-        "fit": 0.384677,
-        "residual": -0.129313
-      },
-      {
-        "x_hours": 60.0,
-        "observed": 0.542424,
-        "observed_corrected": 0.542424,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.572683,
-        "fit": 0.382792,
-        "residual": 0.159633
-      },
-      {
-        "x_hours": 63.0,
-        "observed": 0.289281,
-        "observed_corrected": 0.289281,
-        "observed_raw": 0.25,
-        "circadian_factor": 0.536737,
-        "fit": 0.380998,
-        "residual": -0.091717
-      },
-      {
-        "x_hours": 66.0,
-        "observed": 0.141733,
-        "observed_corrected": 0.141733,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.547734,
-        "fit": 0.379288,
-        "residual": -0.237555
-      },
-      {
-        "x_hours": 69.0,
-        "observed": 0.121272,
-        "observed_corrected": 0.121272,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.640149,
-        "fit": 0.377653,
-        "residual": -0.256381
-      },
-      {
-        "x_hours": 72.0,
-        "observed": 0.309838,
-        "observed_corrected": 0.309838,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.751746,
-        "fit": 0.376088,
-        "residual": -0.06625
-      },
-      {
-        "x_hours": 75.0,
-        "observed": 0.299473,
-        "observed_corrected": 0.299473,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.777706,
-        "fit": 0.374586,
-        "residual": -0.075113
-      },
-      {
-        "x_hours": 78.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.373144,
-        "residual": -0.373144
-      },
-      {
-        "x_hours": 81.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.635167,
-        "fit": 0.371755,
-        "residual": -0.371755
-      },
-      {
-        "x_hours": 84.0,
-        "observed": 0.138278,
-        "observed_corrected": 0.138278,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.561421,
-        "fit": 0.370418,
-        "residual": -0.23214
-      },
-      {
-        "x_hours": 87.0,
-        "observed": 0.716862,
-        "observed_corrected": 0.716862,
-        "observed_raw": 0.625,
-        "circadian_factor": 0.541492,
-        "fit": 0.369127,
-        "residual": 0.347735
-      },
-      {
-        "x_hours": 90.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.574978,
-        "fit": 0.367879,
-        "residual": -0.367879
-      },
-      {
-        "x_hours": 93.0,
-        "observed": 0.112633,
-        "observed_corrected": 0.112633,
-        "observed_raw": 0.125,
-        "circadian_factor": 0.689251,
-        "fit": 0.366673,
-        "residual": -0.254041
-      },
-      {
-        "x_hours": 96.0,
-        "observed": 0.526716,
-        "observed_corrected": 0.526716,
-        "observed_raw": 0.625,
-        "circadian_factor": 0.737287,
-        "fit": 0.365505,
-        "residual": 0.161211
-      },
-      {
-        "x_hours": 99.0,
-        "observed": 0.29982,
-        "observed_corrected": 0.29982,
-        "observed_raw": 0.375,
-        "circadian_factor": 0.77682,
-        "fit": 0.364373,
-        "residual": -0.064553
-      },
-      {
-        "x_hours": 102.0,
-        "observed": 0.624247,
-        "observed_corrected": 0.624247,
-        "observed_raw": 0.75,
-        "circadian_factor": 0.746597,
-        "fit": 0.363275,
-        "residual": 0.260972
-      },
-      {
-        "x_hours": 105.0,
-        "observed": 0.478977,
-        "observed_corrected": 0.478977,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.648999,
-        "fit": 0.362209,
-        "residual": 0.116768
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "991b80700e2eafd75e",
-        "title": "Morocco says working to prevent potential new Ceuta crossings surge",
-        "url": "https://www.aljazeera.com/news/2026/8/12/morocco-says-working-to-prevent-potential-new-ceuta-crossings-surge?traffic_source=rss",
-        "source": "Al Jazeera",
-        "published_at": "2026-08-12T21:07:12+00:00",
-        "stickiness_score": 44,
-        "residual_contribution": 0.116768,
-        "expected_s2": 0.362209,
-        "observed_corrected": 0.478977,
-        "age_after_peak_hours": 107.098,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      }
-    ],
-    "max_stickiness": 44
-  },
-  {
-    "cycle_id": "04e979a9281e951262",
-    "topic": "culture_media",
-    "topic_label": "Culture / Media",
-    "started_at": "2026-08-11T16:01:19.516305+00:00",
-    "peaked_at": "2026-08-11T16:01:19.516305+00:00",
-    "ended_at": "2026-08-12T19:01:19.516305+00:00",
-    "archived_at": "2026-08-12T22:01:19.516305+00:00",
-    "article_count": 127,
-    "phase": "Active plateau",
-    "verdict": "S2 weak",
-    "residual_dust": 0.26460347590044997,
-    "circadian_bias": 0.062289,
-    "peak_bin_index": 46,
-    "tail_bins": 10,
-    "fit": {
-      "tau_hours": 4,
-      "beta": 0.1,
-      "half_life_hours": 0.10240345315825243,
-      "log_r2": 0.25461409191393714,
-      "delta_aic_vs_exp": 3.686913903246154,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.26460347590044997,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.72752,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.303502,
-        "observed_corrected": 0.303502,
-        "observed_raw": 0.272727,
-        "circadian_factor": 0.653628,
-        "fit": 0.378461,
-        "residual": -0.074959
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559101,
-        "fit": 0.352967,
-        "residual": -0.352967
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532061,
-        "fit": 0.33808,
-        "residual": -0.33808
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.117054,
-        "observed_corrected": 0.117054,
-        "observed_raw": 0.090909,
-        "circadian_factor": 0.564326,
-        "fit": 0.327547,
-        "residual": -0.210494
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.094881,
-        "observed_corrected": 0.094881,
-        "observed_raw": 0.090909,
-        "circadian_factor": 0.696199,
-        "fit": 0.319401,
-        "residual": -0.224519
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.742448,
-        "fit": 0.312763,
-        "residual": -0.312763
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.339518,
-        "observed_corrected": 0.339518,
-        "observed_raw": 0.363636,
-        "circadian_factor": 0.778253,
-        "fit": 0.307167,
-        "residual": 0.032351
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.302331,
-        "residual": -0.302331
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.628825,
-        "observed_corrected": 0.628825,
-        "observed_raw": 0.545455,
-        "circadian_factor": 0.631541,
-        "fit": 0.298077,
-        "residual": 0.330749
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "935fd11cefe0a3f362",
-        "title": "Pixel 11 event live blog: Let’s watch Trevor Noah introduce Google’s new phones",
-        "url": "https://www.theverge.com/tech/979241/made-by-google-2026-live-blog-pixel-11-trevor-noah",
-        "source": "The Verge",
-        "published_at": "2026-08-12T22:00:42+00:00",
-        "stickiness_score": 91,
-        "residual_contribution": 0.330748,
-        "expected_s2": 0.298077,
-        "observed_corrected": 0.628825,
-        "age_after_peak_hours": 29.99,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "b4b3bbffa31ad5fe1a",
-        "title": "The Surprising Truth About Instagram’s VHS Dates Videos",
-        "url": "https://www.nytimes.com/2026/08/10/arts/vhs-dates-instagram-tapes.html",
-        "source": "NYTimes Technology",
-        "published_at": "2026-08-12T21:37:35+00:00",
-        "stickiness_score": 91,
-        "residual_contribution": 0.330748,
-        "expected_s2": 0.298077,
-        "observed_corrected": 0.628825,
-        "age_after_peak_hours": 29.604,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "b96c699d5a05ae7374",
-        "title": "Trump sued over service selling faster access to Truth Social posts",
-        "url": "https://www.npr.org/2026/08/12/nx-s1-5929391/trump-truth-social-api-lawsuit",
-        "source": "NPR News",
-        "published_at": "2026-08-12T20:33:10+00:00",
-        "stickiness_score": 91,
-        "residual_contribution": 0.330748,
-        "expected_s2": 0.298077,
-        "observed_corrected": 0.628825,
-        "age_after_peak_hours": 28.531,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      },
-      {
-        "id": "41a52ca57322f215fa",
-        "title": "Triple-double king Russell Westbrook calls time on 18-year NBA career",
-        "url": "https://www.theguardian.com/sport/2026/aug/12/russell-westbrook-retires-nba-triple-doubles-record-mvp",
-        "source": "The Guardian US",
-        "published_at": "2026-08-12T20:25:56+00:00",
-        "stickiness_score": 91,
-        "residual_contribution": 0.330748,
-        "expected_s2": 0.298077,
-        "observed_corrected": 0.628825,
-        "age_after_peak_hours": 28.41,
-        "post_lambda_q": true,
-        "role": "post-lambda_q survivor"
-      }
-    ],
-    "max_stickiness": 91
-  },
-  {
-    "cycle_id": "c0ab9d43e19efb9ac3",
-    "topic": "quantum",
-    "topic_label": "Quantum tech",
-    "started_at": "2026-08-06T10:01:19.516305+00:00",
-    "peaked_at": "2026-08-06T10:01:19.516305+00:00",
-    "ended_at": "2026-08-12T19:01:19.516305+00:00",
-    "archived_at": "2026-08-12T22:01:19.516305+00:00",
-    "article_count": 9,
-    "phase": "Residual dust tail",
-    "verdict": "tied / mixed",
-    "residual_dust": 0.4063695616302216,
-    "circadian_bias": 0.063025,
-    "peak_bin_index": 4,
-    "tail_bins": 52,
-    "fit": {
-      "tau_hours": 156,
-      "beta": 0.45,
-      "half_life_hours": 69.08812408692631,
-      "log_r2": -1.0651625145007904,
-      "delta_aic_vs_exp": 1.8450365088056806,
-      "coherence_left_hours": 3,
-      "residual_dust": 0.4063695616302216,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.73837,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780464,
-        "fit": 0.844538,
-        "residual": -0.844538
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.793887,
-        "residual": -0.793887
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.635167,
-        "fit": 0.758043,
-        "residual": -0.758043
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.645304,
-        "observed_corrected": 0.645304,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.572022,
-        "fit": 0.729569,
-        "residual": -0.084265
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532061,
-        "fit": 0.705671,
-        "residual": -0.705671
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.574978,
-        "fit": 0.684947,
-        "residual": -0.684947
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.650336,
-        "fit": 0.66658,
-        "residual": -0.66658
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.505284,
-        "observed_corrected": 0.505284,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.730536,
-        "fit": 0.650045,
-        "residual": -0.144761
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780464,
-        "fit": 0.634982,
-        "residual": -0.634982
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.621133,
-        "residual": -0.621133
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.635167,
-        "fit": 0.608305,
-        "residual": -0.608305
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559101,
-        "fit": 0.59635,
-        "residual": -0.59635
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.789188,
-        "observed_corrected": 0.789188,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.467731,
-        "fit": 0.58515,
-        "residual": 0.204038
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.494481,
-        "fit": 0.574613,
-        "residual": -0.574613
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559289,
-        "fit": 0.56466,
-        "residual": -0.56466
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.638506,
-        "fit": 0.55523,
-        "residual": -0.55523
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.554326,
-        "observed_corrected": 0.554326,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.665904,
-        "fit": 0.546268,
-        "residual": 0.008058
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.632938,
-        "fit": 0.53773,
-        "residual": -0.53773
-      },
-      {
-        "x_hours": 57.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.546243,
-        "fit": 0.529576,
-        "residual": -0.529576
-      },
-      {
-        "x_hours": 60.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.480827,
-        "fit": 0.521773,
-        "residual": -0.521773
-      },
-      {
-        "x_hours": 63.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.457572,
-        "fit": 0.514293,
-        "residual": -0.514293
-      },
-      {
-        "x_hours": 66.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.494481,
-        "fit": 0.507109,
-        "residual": -0.507109
-      },
-      {
-        "x_hours": 69.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559289,
-        "fit": 0.500199,
-        "residual": -0.500199
-      },
-      {
-        "x_hours": 72.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.638506,
-        "fit": 0.493543,
-        "residual": -0.493543
-      },
-      {
-        "x_hours": 75.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.671199,
-        "fit": 0.487124,
-        "residual": -0.487124
-      },
-      {
-        "x_hours": 78.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.632938,
-        "fit": 0.480926,
-        "residual": -0.480926
-      },
-      {
-        "x_hours": 81.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.546243,
-        "fit": 0.474933,
-        "residual": -0.474933
-      },
-      {
-        "x_hours": 84.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.480827,
-        "fit": 0.469134,
-        "residual": -0.469134
-      },
-      {
-        "x_hours": 87.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532061,
-        "fit": 0.463516,
-        "residual": -0.463516
-      },
-      {
-        "x_hours": 90.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.574978,
-        "fit": 0.45807,
-        "residual": -0.45807
-      },
-      {
-        "x_hours": 93.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.650336,
-        "fit": 0.452784,
-        "residual": -0.452784
-      },
-      {
-        "x_hours": 96.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.742448,
-        "fit": 0.447651,
-        "residual": -0.447651
-      },
-      {
-        "x_hours": 99.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780464,
-        "fit": 0.442662,
-        "residual": -0.442662
-      },
-      {
-        "x_hours": 102.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.43781,
-        "residual": -0.43781
-      },
-      {
-        "x_hours": 105.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.635167,
-        "fit": 0.433088,
-        "residual": -0.433088
-      },
-      {
-        "x_hours": 108.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.559101,
-        "fit": 0.428489,
-        "residual": -0.428489
-      },
-      {
-        "x_hours": 111.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532061,
-        "fit": 0.424008,
-        "residual": -0.424008
-      },
-      {
-        "x_hours": 114.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.574978,
-        "fit": 0.419638,
-        "residual": -0.419638
-      },
-      {
-        "x_hours": 117.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.650336,
-        "fit": 0.415375,
-        "residual": -0.415375
-      },
-      {
-        "x_hours": 120.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.742448,
-        "fit": 0.411215,
-        "residual": -0.411215
-      },
-      {
-        "x_hours": 123.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780464,
-        "fit": 0.407152,
-        "residual": -0.407152
-      },
-      {
-        "x_hours": 126.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.403183,
-        "residual": -0.403183
-      },
-      {
-        "x_hours": 129.0,
-        "observed": 0.624532,
-        "observed_corrected": 0.624532,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.591048,
-        "fit": 0.399303,
-        "residual": 0.225229
-      },
-      {
-        "x_hours": 132.0,
-        "observed": 0.628431,
-        "observed_corrected": 0.628431,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.587381,
-        "fit": 0.395509,
-        "residual": 0.232922
-      },
-      {
-        "x_hours": 135.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532061,
-        "fit": 0.391798,
-        "residual": -0.391798
-      },
-      {
-        "x_hours": 138.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.574978,
-        "fit": 0.388166,
-        "residual": -0.388166
-      },
-      {
-        "x_hours": 141.0,
-        "observed": 0.548728,
-        "observed_corrected": 0.548728,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.672698,
-        "fit": 0.38461,
-        "residual": 0.164118
-      },
-      {
-        "x_hours": 144.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.742448,
-        "fit": 0.381127,
-        "residual": -0.381127
-      },
-      {
-        "x_hours": 147.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780464,
-        "fit": 0.377716,
-        "residual": -0.377716
-      },
-      {
-        "x_hours": 150.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.735974,
-        "fit": 0.374372,
-        "residual": -0.374372
-      },
-      {
-        "x_hours": 153.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.635167,
-        "fit": 0.371094,
-        "residual": -0.371094
-      }
-    ],
-    "sticky_stories": [],
-    "max_stickiness": 0
-  },
-  {
-    "cycle_id": "163e789eb986787dcf",
-    "topic": "climate",
-    "topic_label": "Climate / Weather",
-    "started_at": "2026-08-12T09:02:24.080428+00:00",
-    "peaked_at": "2026-08-12T09:02:24.080428+00:00",
-    "ended_at": "2026-08-12T18:02:24.080428+00:00",
-    "archived_at": "2026-08-12T21:02:24.080428+00:00",
-    "article_count": 2990,
-    "phase": "Cooling",
-    "verdict": "tied / mixed",
-    "residual_dust": 0.04149994704815899,
-    "circadian_bias": 0.065652,
-    "peak_bin_index": 52,
-    "tail_bins": 4,
-    "fit": {
-      "tau_hours": 12,
-      "beta": 0.75,
-      "half_life_hours": 7.36119847439302,
-      "log_r2": 0.9628327123351439,
-      "delta_aic_vs_exp": -1.392053779023808,
-      "coherence_left_hours": 3,
-      "residual_dust": 0.04149994704815899,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.714011,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.69084,
-        "observed_corrected": 0.69084,
-        "observed_raw": 0.75,
-        "circadian_factor": 0.77442,
-        "fit": 0.702189,
-        "residual": -0.011348
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.589265,
-        "observed_corrected": 0.589265,
-        "observed_raw": 0.629032,
-        "circadian_factor": 0.761733,
-        "fit": 0.551781,
-        "residual": 0.037483
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.401513,
-        "observed_corrected": 0.401513,
-        "observed_raw": 0.379032,
-        "circadian_factor": 0.674768,
-        "fit": 0.446673,
-        "residual": -0.045161
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "64d7470d8e5be0cd41",
-        "title": "Tropical Storm Cristobal forms; two other areas of interest in the Atlantic remain - Gulf Coast News and Weather",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWXU2WFdOR2p0X0VEMjFESHN6bUx5RFROcFFCRHY1aUE5ejF0NTBPY3JfT3BhckVNZHliUDVTczcwOG42NzUxZ3hZQ0xiRWVQNHVFMnlvVjJSVE5SWEltQXAxX1ppd09WQzJDOVNnRUtEUEdRcVpLNWdJQ18welQ4Mkw4a2tTQTItNjI5RlhJdUtlS2FhbjlDSG5WMzlGS2xaREl4cnJxOURQajlURnNsLW9KVXM5Tm5SRzlVVG5QTDBOZw?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:47:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.743,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "5607a67593cd69f130",
-        "title": "Arkansas Storm Team Forecast: The Worst Is Yet To Come. - KARK",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSVhjWEVTU2lMOUpQcjl5dTFrSWduNWxGeXRmVW91Q1ZnUmM0OURUWUZuZWZRb3RVRm5VRGdUTktaS2tfMlFfSzVqSFBCdVBRVjJ6ak5jWGJ4R1p1aERDZWk4b0JiNXNSRmxUYWVEU3hldjhuaE1LM2cwRWFmb3o4Zk9kcVhnRmZXLXBN?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:44:44+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.706,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "3ce30af603cd70408b",
-        "title": "Severe weather now a key predictor of where bird species occur in North America - Phys.org",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyX0RReGpLM0c4ZXNsMVZqM0FBRXVEbEhfQmdSdzBnaUdkSExVVmVpN0E0VkhTRXZvTFNOb3VReGh3N2tvYV91RTZSaHpmaEhUazBjMmQzRjhPRHo1QjVDaDhVaEtMb2FQbW43RUlNZmk0LTNXUGdn?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:40:06+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.628,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "808c8ccdc0014c4291",
-        "title": "Attorney General Andy Wilson’s Statement on Storm-Related Scams - Ohio Attorney General (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcUNfTUNlX2pPUVlLaWVFRzNJcWE3RC1rQ2dHYW53S25PMTI1akNPZmZONFN0YWZzZ0JlODBoVjhWOXFyaVYyVnk2OG9hZ21ycnJpTXZoWnYwVUtMd21YWmI3SmZiTU9Yd0E5NHV3ZE9YaTV6YlA5QkpjY0wwOWRvLWdNcWpXQ19qdVAwUWlyWDNsUFNOMWJYcEQ3d2ljSUQ4Z1BjbUd6aUtaU3R3RVc4dzc1S2dqYS1G?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:39:13+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.614,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "7f271319a9a9f7b729",
-        "title": "Emergency cash aid available for wildfire victims in Washington - KXLY.com",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEY4QlBJZTFpdkd3YTVpeGJKcDViRF9QZVI5RlgtaURuYzVwQ3REdGd6RlpwNi1UdXRNLVBEY3FlbXlkUDdEVzhiY0dxc0xsSzl6Wk5NNWVkZTNhSUZKWDY5ZkFVcUdac2pSa1Bicm9uQ0RGdkE1eWZ4MnFyUlhXYmx1Z0NpUDNsV1J6bExIbmltYXh2dHBsSTBUZE9xNVRuTE5hTy1pTTRHR2w3aWFTMDFDcHJPZm04Z3BUVFVGVzJ2WXQ2eVo3ZU9GcDFHWDFPX1NLalJ3?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:35:39+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.554,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "57147963681b449129",
-        "title": "NE North Carolina Weather Forecast | Aug. 12, 2026 - WAVY.com",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMzNZWG1SUXFkZ2x2SE1jX0tyRWpqZHpXODVmWVFLa0VMWUxHZnpmbzg1WS0xSC0xS1pXTjUwa2lTUXJjZGRNTENramdlU1VrTVZDN0Y3U195d2R5UHJ4eWxRRFBvLWxENG9SSjdVOTNhRlVydVNVcTVZVnkzQjZwVHpwSW9PZ1hkUlo0?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:19:36+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.287,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "aaa60e469ea98b7cdc",
-        "title": "A.C. Vests and UV Parasols: East Asia Deploys Heat-Fighting Gadgets",
-        "url": "https://www.nytimes.com/2026/08/11/world/asia/extreme-heat-wave-korea-japan-china-cooling.html",
-        "source": "NYTimes World",
-        "published_at": "2026-08-12T20:15:04+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.211,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "f8b7a350e740ada31c",
-        "title": "Ancient warming event hints at potential climate tipping point - uc.edu",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4cmdMZjRkeF96dmJKMnBWQWt2ZHMzTUxaMjhPTTkwSk5uOU1UMWdtZzZQTlhuTjdwZXQtRVJITm96OXZrdUI1UmhoMkFpajlxVF95SmN4ZlNScnRnZUVjZHphUHJXQQ?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:10:25+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.134,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "5f8ef9ba023d5b9ed5",
-        "title": "Southside Weather Forecast | Aug. 12, 2026 - WAVY.com",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVFRXNG1vSVZ5TnFYUnh5WkJseDlIVHFrVmU4OGxFVDVFRmhaMnBIc2RtcHZxeFBDMENkMVdDVUZvTGtGQmhHUVY0Y0FHWFY0cmFreS10aVZQQzVyalJaYXRnaFhET201VVFuWFBPOGlYM3pXSFpCT3d6OVI0SjA3Mg?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:09:59+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.126,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "d19e69e7090719e885",
-        "title": "Hawaii Braces for a Potential Storm Named Lala - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON1JKWWtEZUw0YzBFblFBZ3A4M2tKSG1GY05iUTV6Rlg4QnM5SzVlRzQ3Q01BOTJ1Qko1cmpRcllTMTJCZDlGX1liNGVyTDR2TWZaQzE0M0FUTHZRT05tN3BjX1FISHRQWXNoZ0txR0MzWVBienJhTDBEWVVfMkVTVDNVOHhvaFdidTF2U0Fsb20xdjdmLUlGSndlSnlGZw?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:07:20+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.082,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "52699753be01299c90",
-        "title": "As Europe Faces Heat Waves and Wildfires, Travelers Are Forced to Adapt",
-        "url": "https://www.nytimes.com/2026/08/12/travel/europe-travel-tourism-wildfires-heat-waves.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-12T20:06:39+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.071,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "bd9500b429f8f1c436",
-        "title": "As Europe Faces Heat Waves and Wildfires, Travelers Are Forced to Adapt",
-        "url": "https://www.nytimes.com/2026/08/12/travel/europe-travel-tourism-wildfires-heat-waves.html",
-        "source": "NYTimes World",
-        "published_at": "2026-08-12T20:06:39+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.071,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "d40d703080843debd8",
-        "title": "As Europe Faces Heat Waves and Wildfires, Travelers Are Forced to Adapt",
-        "url": "https://www.nytimes.com/2026/08/12/travel/europe-travel-tourism-wildfires-heat-waves.html",
-        "source": "NYTimes Science",
-        "published_at": "2026-08-12T20:06:39+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.071,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "0b074e4251afe91912",
-        "title": "Just 20 of 6,600 Defra staff working on climate adaptation amid drought and wildfires - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSTFyTG1hZlhMTndyd3pEUENHcTBFaTR2bFJYbFE0aWlrendGRzFlZGdQS0NCQVJLb3BvaF96R0w5NElxdGtzWVZMTERSXzBpTzZVNmR0U2M1aF81d3F6aENpZ1QtUkhuSEFsMHFRTG9aY1k5UXhteHUwaHRnNUV2UHRHYkNNdmV6U21EdkVBM2lURy1ZSlZtcjQ4Y1RldzZXVXdiWlkyR0xMUWRodFExXzhCU3ZycF9ES3h5dWVvNFJveVZRNlJCUkMxbjFsWThXSEE?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:06:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.06,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "4d45aece3b97c6cd60",
-        "title": "As Wildfires Spread, Pulitzer Center Reporting Answers Burning Questions About Climate Crisis - Pulitzer Center",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNl94b0lvaVhWMkZjQkVlUWV0UjIzR0NZd0dIeFFQeGkwMXRETk5ua1E5TllVTEtpZUtoSHJjM0E4Y0kxcVNuOG45N21WTDJkVC1DM1UxdlF5THExSVBKNVRJR3dNR0Y1Qng0d0RBaU5ERU5ZaGo0V2tpOERkdlVXTk5wX2kwc0tXNUZMd0tZZHB2bEZmQWw3bi0zQlV6ZUh2cjA0d2pGcE1Ud0Y2Q0FHLU1uRlMtbkNORWFiRndB?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:05:25+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.05,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "99087735120150f8c1",
-        "title": "Peninsula Weather Forecast | Aug. 12, 2026 - WAVY.com",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa1RFOE5tWWwwdUxhRDF3ZlVieW1LcXF2T1V3TzNhRXl2R0hmMWc2cWJqRm9uS2o2UTJ3bjVNTHpDcG5lN1BxRVVXdFlJU19iaGhoSnlGaldESjNLZGFpXzE0aXNXZ3ZfWWc4LURZSnVlU0FVbjBwZkNHalZQN2VVQQ?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T20:04:17+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 11.031,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "aef51aba2b9944dd79",
-        "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
-        "url": "https://www.theguardian.com/books/2026/aug/12/ej-swift-wins-the-2026-arthur-c-clarke-award-for-science-fiction",
-        "source": "The Guardian Environment",
-        "published_at": "2026-08-12T20:00:38+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.971,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "78bd25e75aacb08e0a",
-        "title": "4th tornado confirmed from Tuesday severe weather outbreak in Oswego, Illinois - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQUxiVkVJNTJzX2x6blk1QWR5RUdRNnN5YUpObTBPelozSzQ4bkhuUENYR2FjaldBQUY4NFM3SEN5VmtJRjZZZ01RUlRMUXA3OHgtVWw0VmpFYXNDbjRCdDI1S051MXhuQVBPQVhPWlFrNHd5aU1pUjRjRkp1S1R0ZDdQYlZNOHEydUhnZlEtZnUyRDYyNHVzUkVWV3ZubGs?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T19:57:29+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.918,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "2e6868bb01e6e18ef0",
-        "title": "Fire weather watch for Central Cascades for Thursday - increased fire danger - Tri-City Herald",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDcnYtYzg0UG0tQ0ltTF8xdmd1WUljSEpMX1hqMkNrNmgteHZJSGVwRU0yT0tQZVBfNDNpMFRBNEsxUjlHMnpWMmRFVE1oRXU1QTgyeUt0VzRSRGtRTThjNExnbDB3VE94S2VZZmJWOGVtQ053ZWpoV3pB?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T19:53:06+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.845,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "c5c6ec91a41f94e358",
-        "title": "Dan Dickau, former Gonzaga players hosting basketball clinic to benefit Spokane wildfire victims - SWX Local Sports",
-        "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxORVVyR1paR09IbERaZDJfM0lOSDZ5M3M3Zm1nTnI1RS1pc05CX3dxMW5fNElvc1JSODlTRFRER1MxcXE1OVJyX0cxWGtRWl83Tjc1SW5BdWl2VHQ1bi1KR2wtakNsdFRfZ3A3YnVibWxveUd4akxwbGlZSGZEUDhQUmx5RXdoN1d5U2JYMzRmNV94d2V1Q3gyWHZSVGs0WFVUTHdoM1Y2UjdmSW9SaEExVG5BbEMxdFEzVXR0MzZPU05FRHgyOTg3MG5MUUpUNDBMWm0wSUtQeFdGeTlqRXJTSUI2cFFQNm9jTlVGMEdMQVNVVFQtYjI5eklEd0FYNmpud0hTMWhkOWxIRDBrZ2g1SjN3NHBTVDlrbGtyWXRJeDk5YVI1S1FCa3hfZ1Z5NHhEdGc?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T19:51:57+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.826,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "6929492878b8c91a3d",
-        "title": "Fire weather watch in place for the Olympic Mountains and North Cascades for Thursday - Tri-City Herald",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GaTIzUjM2c2VLQ0ZnUFNJVHVXNjdGc3hwbEwwTTdTNEN0WnQ5Y1NuSlg4ZjZOTUphem1HTFZfQ0NCNmxnODhldDlON3lYLXhUUVBTbTBoeW5RM2I2NUlmVXl5eXBWN1FaOE9xQ2VXWEgzb2I5SFB6LTlR?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T19:50:07+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.795,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "0aec36cc8281c113be",
-        "title": "Severe Weather in Central Florida - Spectrum News 13",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTVYSWd1czIzMTF0NnVxUXRTSmdEa1dwSjlhQ0Z6WFNMSGdUcjBpUUxmNXdvLWtGUnJfaU5GckJPTldYX1ViRFZSREpWd1hIXzBvNFZfeDFOazdrS0dEZ3ktVlc1X05WMC1lN0xnbDFOQjloTDFlU3l0aE5MYnlIR0FMZ3dkWUlzMDUtQ1RndWZlb2JEUkE?oc=5",
-        "source": "Google News Climate",
-        "published_at": "2026-08-12T19:49:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.777,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "dcfce48a7702433e75",
-        "title": "Alabama health officials warn public of dangerous heat conditions - WSFA",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVzlXWm1rTXNmMENHdm1Rc2xPNDVLSFg2LVBCWjFVcFkxRGdFOWhUbEFDcS1vR0UzWXpha0k2Zi1vT2t6aWpOMllPWVpmMEtnWVI5TE1OTUxNdU5BYWNyLWRINjRTZUlOS3JHbnNTV3Z2dkpKeEo0NWFZSFk4N1BtMlpDd09CemhxU0Y0S0o5OEtYQTNCb1FqaTFxNA?oc=5",
-        "source": "Google News Public Health",
-        "published_at": "2026-08-12T19:49:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.777,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "8b65b63ea5a5a95066",
-        "title": "Palestinian students, staff allege discrimination at Columbia",
-        "url": "https://thehill.com/regulation/court-battles/6025585-columbia-university-discrimination-lawsuit-palestinian-students/",
-        "source": "The Hill",
-        "published_at": "2026-08-12T19:45:10+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.446673,
-        "observed_corrected": 0.401513,
-        "age_after_peak_hours": 10.713,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      }
-    ],
-    "max_stickiness": 0
   }
 ]
