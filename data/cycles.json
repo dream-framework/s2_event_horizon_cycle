@@ -1,5 +1,663 @@
 [
   {
+    "cycle_id": "11fa4126fb39d25555",
+    "topic": "politics",
+    "topic_label": "Politics / Elections",
+    "started_at": "2026-08-18T17:41:29.731022+00:00",
+    "peaked_at": "2026-08-18T17:41:29.731022+00:00",
+    "ended_at": "2026-08-21T08:41:29.731022+00:00",
+    "archived_at": "2026-08-21T11:41:29.731022+00:00",
+    "article_count": 813,
+    "phase": "Cooling",
+    "verdict": "S2 likely",
+    "residual_dust": 0.13201437980662287,
+    "circadian_bias": 0.059998,
+    "peak_bin_index": 34,
+    "tail_bins": 22,
+    "fit": {
+      "tau_hours": 30,
+      "beta": 0.32,
+      "half_life_hours": 9.543349312728287,
+      "log_r2": 0.24241659536621718,
+      "delta_aic_vs_exp": 12.328211179173906,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.13201437980662287,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.677241,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.899332,
+        "observed_corrected": 0.899332,
+        "observed_raw": 0.784314,
+        "circadian_factor": 0.590203,
+        "fit": 0.619632,
+        "residual": 0.279701
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.196402,
+        "observed_corrected": 0.196402,
+        "observed_raw": 0.156863,
+        "circadian_factor": 0.539837,
+        "fit": 0.550192,
+        "residual": -0.353789
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.554277,
+        "observed_corrected": 0.554277,
+        "observed_raw": 0.45098,
+        "circadian_factor": 0.550359,
+        "fit": 0.506482,
+        "residual": 0.047795
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.276519,
+        "observed_corrected": 0.276519,
+        "observed_raw": 0.254902,
+        "circadian_factor": 0.623405,
+        "fit": 0.474325,
+        "residual": -0.197806
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.415141,
+        "observed_corrected": 0.415141,
+        "observed_raw": 0.431373,
+        "circadian_factor": 0.702978,
+        "fit": 0.448848,
+        "residual": -0.033707
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.566858,
+        "observed_corrected": 0.566858,
+        "observed_raw": 0.647059,
+        "circadian_factor": 0.771568,
+        "fit": 0.427758,
+        "residual": 0.1391
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.468747,
+        "observed_corrected": 0.468747,
+        "observed_raw": 0.529412,
+        "circadian_factor": 0.763664,
+        "fit": 0.409779,
+        "residual": 0.058968
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.430328,
+        "observed_corrected": 0.430328,
+        "observed_raw": 0.431373,
+        "circadian_factor": 0.678735,
+        "fit": 0.394126,
+        "residual": 0.036201
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.598084,
+        "observed_corrected": 0.598084,
+        "observed_raw": 0.529412,
+        "circadian_factor": 0.598789,
+        "fit": 0.38028,
+        "residual": 0.217804
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.27037,
+        "observed_corrected": 0.27037,
+        "observed_raw": 0.215686,
+        "circadian_factor": 0.539208,
+        "fit": 0.367879,
+        "residual": -0.09751
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.095425,
+        "observed_corrected": 0.095425,
+        "observed_raw": 0.078431,
+        "circadian_factor": 0.555467,
+        "fit": 0.356661,
+        "residual": -0.261236
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.236312,
+        "observed_corrected": 0.236312,
+        "observed_raw": 0.215686,
+        "circadian_factor": 0.617426,
+        "fit": 0.346429,
+        "residual": -0.110116
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.204866,
+        "observed_corrected": 0.204866,
+        "observed_raw": 0.215686,
+        "circadian_factor": 0.712101,
+        "fit": 0.337031,
+        "residual": -0.132165
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.39488,
+        "observed_corrected": 0.39488,
+        "observed_raw": 0.45098,
+        "circadian_factor": 0.771899,
+        "fit": 0.328348,
+        "residual": 0.066532
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.365122,
+        "observed_corrected": 0.365122,
+        "observed_raw": 0.411765,
+        "circadian_factor": 0.762425,
+        "fit": 0.320286,
+        "residual": 0.044837
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.509609,
+        "observed_corrected": 0.509609,
+        "observed_raw": 0.509804,
+        "circadian_factor": 0.677344,
+        "fit": 0.312766,
+        "residual": 0.196843
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.403877,
+        "observed_corrected": 0.403877,
+        "observed_raw": 0.352941,
+        "circadian_factor": 0.591079,
+        "fit": 0.305725,
+        "residual": 0.098152
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.366865,
+        "observed_corrected": 0.366865,
+        "observed_raw": 0.294118,
+        "circadian_factor": 0.541903,
+        "fit": 0.29911,
+        "residual": 0.067755
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.238829,
+        "observed_corrected": 0.238829,
+        "observed_raw": 0.196078,
+        "circadian_factor": 0.55528,
+        "fit": 0.292875,
+        "residual": -0.054046
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.110972,
+        "observed_corrected": 0.110972,
+        "observed_raw": 0.098039,
+        "circadian_factor": 0.597288,
+        "fit": 0.286984,
+        "residual": -0.176012
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.305037,
+        "observed_corrected": 0.305037,
+        "observed_raw": 0.313725,
+        "circadian_factor": 0.696238,
+        "fit": 0.281401,
+        "residual": 0.023635
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "1397fd85df105d7f04",
+        "title": "Ban on goods from occupied West Bank would help protect two-state solution, says Emily Thornberry – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "source": "The Guardian World",
+        "published_at": "2026-08-21T11:24:45+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 65.721,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "5f072f6018f6d8e402",
+        "title": "Democrats rally behind progressive Aisha Wahab after win in California special election – US politics live",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/21/democrats-progressive-election-politics-live",
+        "source": "The Guardian World",
+        "published_at": "2026-08-21T11:18:11+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 65.611,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "b6a1d972a7c6fa377b",
+        "title": "Democrats rally behind progressive Aisha Wahab after win in California special election – US politics live",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/21/democrats-progressive-election-politics-live",
+        "source": "The Guardian US",
+        "published_at": "2026-08-21T11:18:11+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 65.611,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "1a7078c30ef2bf8948",
+        "title": "Denmark says it 'fully supports' International Criminal Court after new US sanctions - Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTI0ZXZMb1RPSkdJM25KRFVsdGllcjJsS0FCVGtVUmxtQWtiWEQ5NDJSMFpmNWV0cDhNcDB3NEc2THJMU3NVUWVlc2J4ZmVXajljWHFqd0ZnV0VkMlVicFZzRWtzelh0WkNtallod196ODRSdFR0dkprT0UtajBsellpMVZOUFpwdW5FV1hSS3V5dnpOTFNoWUVBeUN1WnpNTklCMmpvX1JiMEszdjdBMkc5cjB3WndrQkx5bzQ2OA?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-21T11:16:20+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 65.581,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "a9c582936aa738e6fb",
+        "title": "Imran Khan Is Granted Brief Hospital Visit Before Returning to Prison",
+        "url": "https://www.nytimes.com/2026/08/20/world/asia/imran-khan-hospital-pakistan.html",
+        "source": "NYTimes World",
+        "published_at": "2026-08-21T10:44:06+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 65.043,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "e6c7e881fa97c617a9",
+        "title": "Voting rights experts skeptical over Trump pledge of 1,000 election monitors",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/midterms-trump-election-monitors",
+        "source": "The Guardian US",
+        "published_at": "2026-08-21T10:00:32+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 64.317,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "4a67d8a5c15acdad9c",
+        "title": "Trump seeks to rekindle bromance with Kim Jong Un",
+        "url": "https://thehill.com/homenews/administration/6042660-trump-kim-jong-un-relations-north-korea/",
+        "source": "The Hill",
+        "published_at": "2026-08-21T10:00:00+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 64.308,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "89fbbb0c551fdcdc2f",
+        "title": "Trump seeks to boost Darline Graham in South Carolina homestretch",
+        "url": "https://thehill.com/homenews/campaign/6042457-sc-senate-primary-runoff/",
+        "source": "The Hill",
+        "published_at": "2026-08-21T10:00:00+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 64.308,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "4ca0552ce2e0648289",
+        "title": "Burnham to chair growth meeting call at No 10 North – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "source": "The Guardian World",
+        "published_at": "2026-08-21T09:46:17+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.023636,
+        "expected_s2": 0.281401,
+        "observed_corrected": 0.305037,
+        "age_after_peak_hours": 64.08,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      }
+    ],
+    "max_stickiness": 23
+  },
+  {
+    "cycle_id": "59dd478043482a2b64",
+    "topic": "cybersecurity",
+    "topic_label": "Cybersecurity",
+    "started_at": "2026-08-18T17:41:29.731022+00:00",
+    "peaked_at": "2026-08-18T17:41:29.731022+00:00",
+    "ended_at": "2026-08-21T08:41:29.731022+00:00",
+    "archived_at": "2026-08-21T11:41:29.731022+00:00",
+    "article_count": 132,
+    "phase": "Active plateau",
+    "verdict": "S2 likely",
+    "residual_dust": 0.24580279592240753,
+    "circadian_bias": 0.060078,
+    "peak_bin_index": 34,
+    "tail_bins": 22,
+    "fit": {
+      "tau_hours": 12,
+      "beta": 0.1,
+      "half_life_hours": 0.3072103594747573,
+      "log_r2": 0.01047131357460751,
+      "delta_aic_vs_exp": 22.106177134244874,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.24580279592240753,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.667363,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.331511,
+        "observed_corrected": 0.331511,
+        "observed_raw": 0.3,
+        "circadian_factor": 0.602167,
+        "fit": 0.418721,
+        "residual": -0.08721
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.247487,
+        "observed_corrected": 0.247487,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.537712,
+        "fit": 0.393359,
+        "residual": -0.145871
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.116719,
+        "observed_corrected": 0.116719,
+        "observed_raw": 0.1,
+        "circadian_factor": 0.570043,
+        "fit": 0.378461,
+        "residual": -0.261743
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.11084,
+        "observed_corrected": 0.11084,
+        "observed_raw": 0.1,
+        "circadian_factor": 0.600277,
+        "fit": 0.367879,
+        "residual": -0.25704
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.189302,
+        "observed_corrected": 0.189302,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.703075,
+        "fit": 0.359671,
+        "residual": -0.170369
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.345722,
+        "observed_corrected": 0.345722,
+        "observed_raw": 0.4,
+        "circadian_factor": 0.770002,
+        "fit": 0.352967,
+        "residual": -0.007245
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.351448,
+        "observed_corrected": 0.351448,
+        "observed_raw": 0.4,
+        "circadian_factor": 0.757269,
+        "fit": 0.347303,
+        "residual": 0.004145
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.680562,
+        "fit": 0.342401,
+        "residual": -0.342401
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.223647,
+        "observed_corrected": 0.223647,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.595335,
+        "fit": 0.33808,
+        "residual": -0.114433
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.121897,
+        "observed_corrected": 0.121897,
+        "observed_raw": 0.1,
+        "circadian_factor": 0.545828,
+        "fit": 0.334219,
+        "residual": -0.212323
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.549619,
+        "fit": 0.33073,
+        "residual": -0.33073
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.615143,
+        "fit": 0.327547,
+        "residual": -0.327547
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.188672,
+        "observed_corrected": 0.188672,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.705297,
+        "fit": 0.324622,
+        "residual": -0.13595
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.602553,
+        "observed_corrected": 0.602553,
+        "observed_raw": 0.7,
+        "circadian_factor": 0.773056,
+        "fit": 0.321917,
+        "residual": 0.280636
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.607612,
+        "observed_corrected": 0.607612,
+        "observed_raw": 0.7,
+        "circadian_factor": 0.766743,
+        "fit": 0.319401,
+        "residual": 0.288211
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.598765,
+        "observed_corrected": 0.598765,
+        "observed_raw": 0.6,
+        "circadian_factor": 0.669245,
+        "fit": 0.317049,
+        "residual": 0.281716
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.451155,
+        "observed_corrected": 0.451155,
+        "observed_raw": 0.4,
+        "circadian_factor": 0.590305,
+        "fit": 0.314842,
+        "residual": 0.136312
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.621127,
+        "observed_corrected": 0.621127,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.535618,
+        "fit": 0.312763,
+        "residual": 0.308364
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.245715,
+        "observed_corrected": 0.245715,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.541571,
+        "fit": 0.310799,
+        "residual": -0.065084
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.22263,
+        "observed_corrected": 0.22263,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.598218,
+        "fit": 0.308937,
+        "residual": -0.086307
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.558,
+        "observed_corrected": 0.558,
+        "observed_raw": 0.6,
+        "circadian_factor": 0.716247,
+        "fit": 0.307167,
+        "residual": 0.250833
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "83293ece4b0b714272",
+        "title": "Return of Harry and Meghan to U.K. Renews Questions About Their Security Fears",
+        "url": "https://www.nytimes.com/2026/08/21/world/europe/harry-meghan-uk-security.html",
+        "source": "NYTimes World",
+        "published_at": "2026-08-21T11:10:47+00:00",
+        "stickiness_score": 73,
+        "residual_contribution": 0.250833,
+        "expected_s2": 0.307167,
+        "observed_corrected": 0.558,
+        "age_after_peak_hours": 65.488,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "5b63e9ae8ac7d595a1",
+        "title": "Return of Harry and Meghan to U.K. Renews Questions About Their Security Fears",
+        "url": "https://www.nytimes.com/2026/08/21/world/europe/harry-meghan-uk-security.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-08-21T11:10:47+00:00",
+        "stickiness_score": 73,
+        "residual_contribution": 0.250833,
+        "expected_s2": 0.307167,
+        "observed_corrected": 0.558,
+        "age_after_peak_hours": 65.488,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "c5d8b8a1e166ddc617",
+        "title": "Patreon is changing its algorithm to help smaller creators get discovered",
+        "url": "https://www.theverge.com/tech/983156/patreon-update-roadmap-algorithm-changes",
+        "source": "The Verge",
+        "published_at": "2026-08-21T11:08:09+00:00",
+        "stickiness_score": 73,
+        "residual_contribution": 0.250833,
+        "expected_s2": 0.307167,
+        "observed_corrected": 0.558,
+        "age_after_peak_hours": 65.444,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "340d4d24f9c64a14ac",
+        "title": "Tiananmen Square vigil organisers in Hong Kong found guilty of ‘inciting subversion’",
+        "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
+        "source": "The Guardian World",
+        "published_at": "2026-08-21T10:43:59+00:00",
+        "stickiness_score": 73,
+        "residual_contribution": 0.250833,
+        "expected_s2": 0.307167,
+        "observed_corrected": 0.558,
+        "age_after_peak_hours": 65.041,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      },
+      {
+        "id": "3c037e2b9c51befc0d",
+        "title": "Anxiety over war, wildfires and cyber-attacks leads to growth in cash stocks in EU - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb0k0MDA4RklWeXBwUVZPcFpMWEFIUlJIQnczd1o1RWx2Q1FsSzVNNnc0bGNlanhaeG91UWV6OXlFX2VqbFFQTE9UZ1FSUU82eWNvcm85bGdfQ0VVR0tvR0FVbERDU0dWZW5rWFE3alFZQTVIOXdCbWZma2lCWjJLNjdIcWxjZE16M2pXY0UzcWRNVjNEOExQSkRROWJuN0NXWkRWUzVwNXBrTXJqbWRxOHVvZmR0SUliUVNOdjFOX1JveE5ueVE?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-21T10:18:00+00:00",
+        "stickiness_score": 73,
+        "residual_contribution": 0.250833,
+        "expected_s2": 0.307167,
+        "observed_corrected": 0.558,
+        "age_after_peak_hours": 64.608,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor"
+      }
+    ],
+    "max_stickiness": 73
+  },
+  {
     "cycle_id": "1bd3e0433c049ecbd6",
     "topic": "public_health",
     "topic_label": "Public Health",
@@ -220171,603 +220829,5 @@
       }
     ],
     "max_stickiness": 48
-  },
-  {
-    "cycle_id": "c7dec1f6520eadf427",
-    "topic": "cybersecurity",
-    "topic_label": "Cybersecurity",
-    "started_at": "2026-08-15T18:57:14.624216+00:00",
-    "peaked_at": "2026-08-15T18:57:14.624216+00:00",
-    "ended_at": "2026-08-18T00:57:14.624216+00:00",
-    "archived_at": "2026-08-18T03:57:14.624216+00:00",
-    "article_count": 114,
-    "phase": "Residual dust tail",
-    "verdict": "S2 likely",
-    "residual_dust": 0.2059312497949255,
-    "circadian_bias": 0.059958,
-    "peak_bin_index": 37,
-    "tail_bins": 19,
-    "fit": {
-      "tau_hours": 4,
-      "beta": 0.1,
-      "half_life_hours": 0.10240345315825243,
-      "log_r2": 0.25249835314698166,
-      "delta_aic_vs_exp": 10.52757608891499,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.2059312497949255,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.558605,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.481814,
-        "fit": 0.378461,
-        "residual": -0.378461
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.457583,
-        "fit": 0.352967,
-        "residual": -0.352967
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.377332,
-        "observed_corrected": 0.377332,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.494168,
-        "fit": 0.33808,
-        "residual": 0.039251
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.158467,
-        "observed_corrected": 0.158467,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.587131,
-        "fit": 0.327547,
-        "residual": -0.169081
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.637107,
-        "fit": 0.319401,
-        "residual": -0.319401
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.139333,
-        "observed_corrected": 0.139333,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.667758,
-        "fit": 0.312763,
-        "residual": -0.173431
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.284002,
-        "observed_corrected": 0.284002,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.655211,
-        "fit": 0.307167,
-        "residual": -0.023165
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.54813,
-        "fit": 0.302331,
-        "residual": -0.302331
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.193105,
-        "observed_corrected": 0.193105,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.481814,
-        "fit": 0.298077,
-        "residual": -0.104972
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532074,
-        "fit": 0.29428,
-        "residual": -0.29428
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.152853,
-        "observed_corrected": 0.152853,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.608695,
-        "fit": 0.290853,
-        "residual": -0.138
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.711271,
-        "observed_corrected": 0.711271,
-        "observed_raw": 0.833333,
-        "circadian_factor": 0.655251,
-        "fit": 0.287731,
-        "residual": 0.42354
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.377123,
-        "observed_corrected": 0.377123,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.740265,
-        "fit": 0.284864,
-        "residual": 0.092258
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.238838,
-        "observed_corrected": 0.238838,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.779111,
-        "fit": 0.282216,
-        "residual": -0.043378
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.390286,
-        "observed_corrected": 0.390286,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.715389,
-        "fit": 0.279755,
-        "residual": 0.110531
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.564461,
-        "observed_corrected": 0.564461,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.661315,
-        "fit": 0.277457,
-        "residual": 0.287004
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.159897,
-        "observed_corrected": 0.159897,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.581879,
-        "fit": 0.275302,
-        "residual": -0.115406
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.17465,
-        "observed_corrected": 0.17465,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.532726,
-        "fit": 0.273274,
-        "residual": -0.098624
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "e2c6f6644907e378d3",
-        "title": "Family Presses for Information About Fatal ICE Shooting in Maine",
-        "url": "https://www.nytimes.com/2026/08/17/us/biddeford-maine-ice-shooting-hearing.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-18T02:38:44+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.273274,
-        "observed_corrected": 0.17465,
-        "age_after_peak_hours": 55.691,
-        "post_lambda_q": true,
-        "role": "decays with baseline"
-      }
-    ],
-    "max_stickiness": 0
-  },
-  {
-    "cycle_id": "6a5fc7a1ad12f096ca",
-    "topic": "quantum",
-    "topic_label": "Quantum tech",
-    "started_at": "2026-08-13T12:57:14.624216+00:00",
-    "peaked_at": "2026-08-13T12:57:14.624216+00:00",
-    "ended_at": "2026-08-18T00:57:14.624216+00:00",
-    "archived_at": "2026-08-18T03:57:14.624216+00:00",
-    "article_count": 12,
-    "phase": "Cooling",
-    "verdict": "S2 weak",
-    "residual_dust": 0.39598491789394413,
-    "circadian_bias": 0.046802,
-    "peak_bin_index": 19,
-    "tail_bins": 37,
-    "fit": {
-      "tau_hours": 156,
-      "beta": 0.15,
-      "half_life_hours": 13.55067737302143,
-      "log_r2": 0.3990544762620669,
-      "delta_aic_vs_exp": 3.7369608104384646,
-      "coherence_left_hours": 48,
-      "residual_dust": 0.39598491789394413,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.77744,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.3622,
-        "observed_corrected": 0.3622,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.715457,
-        "fit": 0.575314,
-        "residual": -0.213114
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.754167,
-        "observed_corrected": 0.754167,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.687218,
-        "fit": 0.541499,
-        "residual": 0.212668
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.560249,
-        "fit": 0.521065,
-        "residual": -0.521065
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532074,
-        "fit": 0.5063,
-        "residual": -0.5063
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.573548,
-        "fit": 0.494705,
-        "residual": -0.494705
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.648452,
-        "fit": 0.485146,
-        "residual": -0.485146
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.740822,
-        "fit": 0.477006,
-        "residual": -0.477006
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780497,
-        "fit": 0.469916,
-        "residual": -0.469916
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.737863,
-        "fit": 0.463633,
-        "residual": -0.463633
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.63736,
-        "fit": 0.45799,
-        "residual": -0.45799
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.560249,
-        "fit": 0.452869,
-        "residual": -0.452869
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.457583,
-        "fit": 0.448181,
-        "residual": -0.448181
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.493251,
-        "fit": 0.443857,
-        "residual": -0.443857
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.557669,
-        "fit": 0.439845,
-        "residual": -0.439845
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.637107,
-        "fit": 0.436103,
-        "residual": -0.436103
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.671227,
-        "fit": 0.432597,
-        "residual": -0.432597
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.634562,
-        "fit": 0.429298,
-        "residual": -0.429298
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.54813,
-        "fit": 0.426184,
-        "residual": -0.426184
-      },
-      {
-        "x_hours": 57.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.481814,
-        "fit": 0.423234,
-        "residual": -0.423234
-      },
-      {
-        "x_hours": 60.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.457583,
-        "fit": 0.420433,
-        "residual": -0.420433
-      },
-      {
-        "x_hours": 63.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.493251,
-        "fit": 0.417765,
-        "residual": -0.417765
-      },
-      {
-        "x_hours": 66.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.557669,
-        "fit": 0.41522,
-        "residual": -0.41522
-      },
-      {
-        "x_hours": 69.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.637107,
-        "fit": 0.412785,
-        "residual": -0.412785
-      },
-      {
-        "x_hours": 72.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.671227,
-        "fit": 0.410453,
-        "residual": -0.410453
-      },
-      {
-        "x_hours": 75.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.634562,
-        "fit": 0.408214,
-        "residual": -0.408214
-      },
-      {
-        "x_hours": 78.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.54813,
-        "fit": 0.406062,
-        "residual": -0.406062
-      },
-      {
-        "x_hours": 81.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.481814,
-        "fit": 0.403989,
-        "residual": -0.403989
-      },
-      {
-        "x_hours": 84.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.532074,
-        "fit": 0.401991,
-        "residual": -0.401991
-      },
-      {
-        "x_hours": 87.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.573548,
-        "fit": 0.400063,
-        "residual": -0.400063
-      },
-      {
-        "x_hours": 90.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.648452,
-        "fit": 0.398198,
-        "residual": -0.398198
-      },
-      {
-        "x_hours": 93.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.740822,
-        "fit": 0.396395,
-        "residual": -0.396395
-      },
-      {
-        "x_hours": 96.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.780497,
-        "fit": 0.394647,
-        "residual": -0.394647
-      },
-      {
-        "x_hours": 99.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.737863,
-        "fit": 0.392954,
-        "residual": -0.392954
-      },
-      {
-        "x_hours": 102.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.63736,
-        "fit": 0.39131,
-        "residual": -0.39131
-      },
-      {
-        "x_hours": 105.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.560249,
-        "fit": 0.389713,
-        "residual": -0.389713
-      },
-      {
-        "x_hours": 108.0,
-        "observed": 0.481575,
-        "observed_corrected": 0.481575,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.538107,
-        "fit": 0.388161,
-        "residual": 0.093414
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "ee143cfc404f19b918",
-        "title": "Three Sensors, One Witness: The Corroboration Trap In Allied Intelligence – Analysis - Eurasia Review",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenVsdnV5Sm1SLURzOE9tMjJlRkNkUjA3NDUyV0pCVG5NZUk0Yjl1QTZJM19XV3Nsa0F6aElPeEpBdldVNXhmQmphWGJKSjVULXJwcy1RaUY2VVU4b3lBTThPZDctVmNPS2h3TXQ1UVlmXzRxbnY4RnV3bDl1SUNfUkwyUzJ6NEFVZkxPelU1eHB1czM1dUdZYTJDbDVMVXBENEc1b1BUZTRIZlh5QTZEajBfaVpNSm15X2hMag?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-18T01:13:16+00:00",
-        "stickiness_score": 17,
-        "residual_contribution": 0.093414,
-        "expected_s2": 0.388161,
-        "observed_corrected": 0.481575,
-        "age_after_peak_hours": 108.267,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      }
-    ],
-    "max_stickiness": 17
   }
 ]
