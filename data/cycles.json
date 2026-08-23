@@ -1,5 +1,223 @@
 [
   {
+    "cycle_id": "c0e28db63b0ef5c7ad",
+    "topic": "culture_media",
+    "topic_label": "Culture / Media",
+    "started_at": "2026-08-21T11:38:15.055110+00:00",
+    "peaked_at": "2026-08-21T11:38:15.055110+00:00",
+    "ended_at": "2026-08-23T17:38:15.055110+00:00",
+    "archived_at": "2026-08-23T20:38:15.055110+00:00",
+    "article_count": 139,
+    "phase": "Residual dust tail",
+    "verdict": "S2 likely",
+    "residual_dust": 0.24133145421328733,
+    "circadian_bias": 0.059773,
+    "peak_bin_index": 37,
+    "tail_bins": 19,
+    "fit": {
+      "tau_hours": 10,
+      "beta": 0.1,
+      "half_life_hours": 0.2560086328956311,
+      "log_r2": 0.1761411538478025,
+      "delta_aic_vs_exp": 12.95896543399519,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.24133145421328733,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.76338,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.285763,
+        "observed_corrected": 0.285763,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.763144,
+        "fit": 0.412067,
+        "residual": -0.126305
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.157706,
+        "observed_corrected": 0.157706,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.691406,
+        "fit": 0.386664,
+        "residual": -0.228957
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.388643,
+        "observed_corrected": 0.388643,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.561126,
+        "fit": 0.371755,
+        "residual": 0.016888
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.234223,
+        "observed_corrected": 0.234223,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.465534,
+        "fit": 0.361173,
+        "residual": -0.126949
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.448715,
+        "observed_corrected": 0.448715,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.486071,
+        "fit": 0.352967,
+        "residual": 0.095748
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.527908,
+        "fit": 0.346269,
+        "residual": -0.346269
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.756161,
+        "observed_corrected": 0.756161,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.577088,
+        "fit": 0.340611,
+        "residual": 0.41555
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.168285,
+        "observed_corrected": 0.168285,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.64794,
+        "fit": 0.335715,
+        "residual": -0.167429
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.337505,
+        "observed_corrected": 0.337505,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.646484,
+        "fit": 0.331401,
+        "residual": 0.006104
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.17342,
+        "observed_corrected": 0.17342,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.628757,
+        "fit": 0.327547,
+        "residual": -0.154127
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.623465,
+        "observed_corrected": 0.623465,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.525614,
+        "fit": 0.324065,
+        "residual": 0.2994
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.463347,
+        "fit": 0.320889,
+        "residual": -0.320889
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.236639,
+        "observed_corrected": 0.236639,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.460782,
+        "fit": 0.317971,
+        "residual": -0.081333
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.527908,
+        "fit": 0.315273,
+        "residual": -0.315273
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.605459,
+        "fit": 0.312763,
+        "residual": -0.312763
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.662279,
+        "observed_corrected": 0.662279,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.658577,
+        "fit": 0.310419,
+        "residual": 0.35186
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.163173,
+        "observed_corrected": 0.163173,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.66824,
+        "fit": 0.308218,
+        "residual": -0.145045
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.174503,
+        "observed_corrected": 0.174503,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.624856,
+        "fit": 0.306146,
+        "residual": -0.131643
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "dc7c5cba557e660fdf",
+        "title": "How to watch Storm vs. Wings: TV channel and streaming options for August 23 - The Athletic - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT1I0d05keklhMGdXdU5QbHA0SEI0WExDQzdTdFFXaUxtOGl5eWt6SW1seUZWTzRFLWhFSWFLMi0yQXNyM0xxTTFFSFZaOU1iMW9xbEV0TkhKWjdldDZHZEN1VTNrUkRtQzVfZEdWM2xMYXlYNGF5dzhXdkRIVzVqVTF2MlZPT3B1WmZUQm03S0N6LVp1c0pmUUhmcHZLUURTV051bjk5WmVmalZlVGRWYUdaMk1sSUhISnI3V29sRlNoalgwZVE?oc=5",
+        "source": "Google News Climate",
+        "published_at": "2026-08-23T17:50:30+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.306146,
+        "observed_corrected": 0.174503,
+        "age_after_peak_hours": 54.204,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
     "cycle_id": "50b4005b12500b758d",
     "topic": "general",
     "topic_label": "General",
@@ -211240,109 +211458,5 @@
       }
     ],
     "max_stickiness": 75
-  },
-  {
-    "cycle_id": "63189b3c955ac43a75",
-    "topic": "cybersecurity",
-    "topic_label": "Cybersecurity",
-    "started_at": "2026-08-18T18:52:27.605648+00:00",
-    "peaked_at": "2026-08-18T18:52:27.605648+00:00",
-    "ended_at": "2026-08-19T15:52:27.605648+00:00",
-    "archived_at": "2026-08-19T18:52:27.605648+00:00",
-    "article_count": 121,
-    "phase": "Cooling",
-    "verdict": "S2 weak",
-    "residual_dust": 0.11863640018350186,
-    "circadian_bias": 0.053133,
-    "peak_bin_index": 48,
-    "tail_bins": 8,
-    "fit": {
-      "tau_hours": 4,
-      "beta": 0.28,
-      "half_life_hours": 1.0803873613607715,
-      "log_r2": 0.3109625766588828,
-      "delta_aic_vs_exp": 5.755184630109724,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.11863640018350186,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.634914,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.248896,
-        "observed_corrected": 0.248896,
-        "observed_raw": 0.222222,
-        "circadian_factor": 0.567678,
-        "fit": 0.397481,
-        "residual": -0.148585
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.132118,
-        "observed_corrected": 0.132118,
-        "observed_raw": 0.111111,
-        "circadian_factor": 0.533613,
-        "fit": 0.326206,
-        "residual": -0.194088
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.24112,
-        "observed_corrected": 0.24112,
-        "observed_raw": 0.222222,
-        "circadian_factor": 0.58516,
-        "fit": 0.285103,
-        "residual": -0.043983
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.101651,
-        "observed_corrected": 0.101651,
-        "observed_raw": 0.111111,
-        "circadian_factor": 0.693545,
-        "fit": 0.256617,
-        "residual": -0.154965
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.284602,
-        "observed_corrected": 0.284602,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.74388,
-        "fit": 0.235071,
-        "residual": 0.049531
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.180656,
-        "observed_corrected": 0.180656,
-        "observed_raw": 0.222222,
-        "circadian_factor": 0.780486,
-        "fit": 0.217904,
-        "residual": -0.037248
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.372393,
-        "observed_corrected": 0.372393,
-        "observed_raw": 0.444444,
-        "circadian_factor": 0.757269,
-        "fit": 0.203741,
-        "residual": 0.168652
-      }
-    ],
-    "sticky_stories": [],
-    "max_stickiness": 0
   }
 ]
