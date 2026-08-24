@@ -1,5 +1,2047 @@
 [
   {
+    "cycle_id": "33c901a822288b1dcb",
+    "topic": "geopolitics",
+    "topic_label": "Geopolitics",
+    "started_at": "2026-08-21T08:53:02.279603+00:00",
+    "peaked_at": "2026-08-21T08:53:02.279603+00:00",
+    "ended_at": "2026-08-24T02:53:02.279603+00:00",
+    "archived_at": "2026-08-24T05:53:02.279603+00:00",
+    "article_count": 2178,
+    "phase": "Cooling",
+    "verdict": "S2 likely",
+    "residual_dust": 0.15354325580380707,
+    "circadian_bias": 0.059878,
+    "peak_bin_index": 33,
+    "tail_bins": 23,
+    "fit": {
+      "tau_hours": 90,
+      "beta": 0.25,
+      "half_life_hours": 20.77515887247751,
+      "log_r2": 0.25818268584700865,
+      "delta_aic_vs_exp": 14.834456182132712,
+      "coherence_left_hours": 24,
+      "residual_dust": 0.15354325580380707,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.717334,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.824144,
+        "observed_corrected": 0.824144,
+        "observed_raw": 0.885714,
+        "circadian_factor": 0.770114,
+        "fit": 0.652276,
+        "residual": 0.171868
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.685846,
+        "observed_corrected": 0.685846,
+        "observed_raw": 0.728571,
+        "circadian_factor": 0.761364,
+        "fit": 0.601618,
+        "residual": 0.084228
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.643772,
+        "observed_corrected": 0.643772,
+        "observed_raw": 0.6,
+        "circadian_factor": 0.668975,
+        "fit": 0.569873,
+        "residual": 0.073899
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.506971,
+        "observed_corrected": 0.506971,
+        "observed_raw": 0.414286,
+        "circadian_factor": 0.586167,
+        "fit": 0.54647,
+        "residual": -0.039499
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.678415,
+        "observed_corrected": 0.678415,
+        "observed_raw": 0.442857,
+        "circadian_factor": 0.468196,
+        "fit": 0.52785,
+        "residual": 0.150565
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.301799,
+        "observed_corrected": 0.301799,
+        "observed_raw": 0.2,
+        "circadian_factor": 0.475078,
+        "fit": 0.512354,
+        "residual": -0.210554
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.306031,
+        "observed_corrected": 0.306031,
+        "observed_raw": 0.228571,
+        "circadian_factor": 0.536446,
+        "fit": 0.499067,
+        "residual": -0.193035
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.59206,
+        "observed_corrected": 0.59206,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.605812,
+        "fit": 0.48743,
+        "residual": 0.10463
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.230612,
+        "observed_corrected": 0.230612,
+        "observed_raw": 0.214286,
+        "circadian_factor": 0.665842,
+        "fit": 0.477074,
+        "residual": -0.246463
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.313195,
+        "observed_corrected": 0.313195,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.65386,
+        "fit": 0.467743,
+        "residual": -0.154548
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.323485,
+        "observed_corrected": 0.323485,
+        "observed_raw": 0.257143,
+        "circadian_factor": 0.570377,
+        "fit": 0.459251,
+        "residual": -0.135766
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.324751,
+        "observed_corrected": 0.324751,
+        "observed_raw": 0.228571,
+        "circadian_factor": 0.505058,
+        "fit": 0.451459,
+        "residual": -0.126708
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.330532,
+        "observed_corrected": 0.330532,
+        "observed_raw": 0.214286,
+        "circadian_factor": 0.46457,
+        "fit": 0.44426,
+        "residual": -0.113728
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.437091,
+        "observed_corrected": 0.437091,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.468599,
+        "fit": 0.437571,
+        "residual": -0.00048
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.403734,
+        "observed_corrected": 0.403734,
+        "observed_raw": 0.3,
+        "circadian_factor": 0.533032,
+        "fit": 0.431324,
+        "residual": -0.02759
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.756528,
+        "observed_corrected": 0.756528,
+        "observed_raw": 0.642857,
+        "circadian_factor": 0.609843,
+        "fit": 0.425464,
+        "residual": 0.331063
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.726942,
+        "observed_corrected": 0.726942,
+        "observed_raw": 0.671429,
+        "circadian_factor": 0.661843,
+        "fit": 0.419948,
+        "residual": 0.306994
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.574946,
+        "observed_corrected": 0.574946,
+        "observed_raw": 0.528571,
+        "circadian_factor": 0.658853,
+        "fit": 0.414737,
+        "residual": 0.16021
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.461001,
+        "observed_corrected": 0.461001,
+        "observed_raw": 0.371429,
+        "circadian_factor": 0.578916,
+        "fit": 0.409799,
+        "residual": 0.051202
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.405287,
+        "observed_corrected": 0.405287,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.505443,
+        "fit": 0.405108,
+        "residual": 0.000179
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.359185,
+        "observed_corrected": 0.359185,
+        "observed_raw": 0.271429,
+        "circadian_factor": 0.541526,
+        "fit": 0.40064,
+        "residual": -0.041456
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.425838,
+        "observed_corrected": 0.425838,
+        "observed_raw": 0.328571,
+        "circadian_factor": 0.55319,
+        "fit": 0.396376,
+        "residual": 0.029462
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "ecf26b4b4f013bff43",
+        "title": "Ukraine War, Day 1,643: Zelensky Again Rejects Elections During Russia’s Invasion - EA WorldView",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZlk5azJJOUxrWGgxOVlhbHlJT2Nzd3dTYTR1UGh1U2ZNSG55VDFUVkZ5SlJKcEc1bTBYYzV2cWhQaWNoMnZlZGwwSURablZJNlhjLVg5SmEtMkpKUWtQYWd6UkVvZ0tyNGFTbTNMVFVxeWx5UWZob3Vfb1M3aDdOU3NvVQ?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T05:46:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.883,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "5c61b1fecc3d5f6d90",
+        "title": "Father of USS Lincoln sailor taken into ICE detention while son deployed in Middle East",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/uss-lincoln-sailor-deployed-iran-war-father-arrested-by-ice",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T05:42:44+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.828,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "254fab72b8bc336544",
+        "title": "Father of USS Lincoln sailor taken into ICE detention while son deployed in Middle East",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/uss-lincoln-sailor-deployed-iran-war-father-arrested-by-ice",
+        "source": "The Guardian US",
+        "published_at": "2026-08-24T05:42:44+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.828,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "696f4b46ed8fabe11a",
+        "title": "Burnham to hand long-range missile blueprints to Zelensky as he visits Kyiv",
+        "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-24T05:16:57+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.399,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "c9f575ee8d355154f2",
+        "title": "Nearly three million Teslas recalled in China over hidden door handles",
+        "url": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-24T05:01:17+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.137,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "58f860bbe665ce548d",
+        "title": "Let Iran Control the Strait of Hormuz",
+        "url": "https://www.nytimes.com/2026/08/24/opinion/iran-strait-of-hormuz-oil-trump.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-08-24T05:00:05+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.117,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "224de40e7e288e133e",
+        "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
+        "url": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html",
+        "source": "CNBC Top News",
+        "published_at": "2026-08-24T04:58:03+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 68.084,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "24663ceb030a732cf1",
+        "title": "Alibaba, YMTC Fundraising Hits China Tech Stocks on Supply Woes - Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ0RkVGZoWlBmZEZIdkw0TUZFRFhFcVM4MXNIQU9rWlpadmFaS1Z0ekxyTTZ4b2FXckR6LTRoOG9PYkw3QllsV0pKNGFEQmhGZEpsVE5NOTRzQlVzTGFVQUtjY1pUU2RUdlNFcE5zWFU2STZoZEtNc3hFMHNlZWVRUHZxNTlOak50b2tSYmNKSWRKQ0ZKa3FzblZ3S3VYUVVrM2pUMEhsN3YxSGN3WXhYOEFfV0VURGRuSlNVZ1B5aEdWNEV6LXgzeW1iTGJCdw?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-24T04:37:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.733,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "514a1df51743688f41",
+        "title": "Alibaba, YMTC Fundraising Hits China Tech Stocks on Supply Woes - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZFBVNUw4cnpQclpNanJBQXBFd1g3MjNpc2tYZmRDeGUxWnQ3bGp4SDl6QWp3ZVYtc3I1WlhKczlZWS04WmZaam1QTk93WC05VnB3dkl0am1hcmRIa2VZdGJTUUdrcGJ4UGdRcnR2YU5qRGhsN0xSUVRHYUVZZlRCWE1vbWhXM2hLajJzaHFqOUVrNXEzTUo0UVBXQmNJNFU3VGViOGg4bTA5WlNWbWdLZGpSb1BjaHN3bXRxem4xMDlmNUtRSDZyWExiRWtvSGs?oc=5",
+        "source": "Google News Markets",
+        "published_at": "2026-08-24T04:37:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.733,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "d07d2c8012840b3f65",
+        "title": "Trump to Announce Sweeping Iran Sanctions - www.israelhayom.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSXp5Q05Ja3lqMEh6TEEtcFBXNi1oWFA5WTNNbTFqTzhvdW0yODhQU0tLRzJVd01TRkhkdWpYLTdBUVdyQjdIS3BmbFFTbHM5Mi10bFZBMS03QU8wWFo2S0psbXhuQjBNT3lsSzJSRWwwUE43aHFGcmhXaF9qVUZyTzU4UzFOX3BjQlZqSA?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:31:52+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.647,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "833a4229860eec1e00",
+        "title": "AIPAC Wants to Back This Republican, but He Has Some Reservations",
+        "url": "https://www.nytimes.com/2026/08/24/us/politics/aipac-rogers-michigan-senate.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-08-24T04:16:10+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.385,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "606d49305a958915a6",
+        "title": "‘We know this movie’: Iran mocks latest US sanctions - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWm9Lc0lITVA2clJZLWJ2b291RFctNElleUQzYks0WHRnZ09ackJtdDc3czJPcGMtd3JyNDI2ZDJ0RjVLMUR2T1BxY3RrazRvN0pHdFZxSjBaYVZ1N0c1YWVLSUd1LVpvbEdqb3Z1YjFZM1lxdUlxcUNiRUtxUDVSc1hsbTgzQzBlRzlES0xHaHZ0REFJUFJmWUdZM0FaRXlfTGfSAacBQVVfeXFMTWtZR000OGFfY3BQUEV5Ym1Fc1lBTzVtM25ZckRMRjdDRFAtb2JBdWF3T1JBbzR6dkdjSnRMUWtlVVdXRndiRjBwdzdRTnJyZVJUQ2JyMUlUN2Z0VmpzdDdkS29hQ1ZONXlROGJRb1lwVE9DZDdlNk1kY01aLTI5ZnliUHRGblJGektvcURTNTFKUk9UaXVRLXBDYms1bUc4TUxuWDBoeTg?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:13:58+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.349,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "7bbd7363a1e4c48ce5",
+        "title": "World in Brief: America due to unveil sanctions on Iran’s trade partners; Zelensky says elections would “destroy” Ukraine - The Economist",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONWtNZzcxM2tmcTBsTUlneXdzR1JIbHcxLTFoSWtlMkFneE83cWp1QWxBT21xcE90WHl2ZDVJNXhYR1JuZ2NmUlh2RzdWamR3cFJZR1JjdUw3UFVZa2k5MlVVbGJDcF9HVEdZQl9XWWhiNmhXcHB5TTl5elByb1NsOUJ1U19MOGRSVkhER1BBeU9VQ3lzQ2F3?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:07:35+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.242,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "ecb30c7e5e8bbe68b7",
+        "title": "What Donald Duck Can Teach Trump About Going to War - Foreign Policy",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Pbmk1SmQ2bnJhMndJN1JxX3l4RXlua0I0VWZmY2FDNUFkN25XUjI3cC1IUGtjZDg5ZFRmck1VdDRxOUpRSUtVMFN5UkxsZXRDN2JWUURRaUZsRmpoMWFCaHpIS2RoRmNDb2JXaHpRYzcyaXpCMUsxdkpmV3QzekE?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:02:47+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.162,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "4eb1a5f9d4bed1cc54",
+        "title": "Saudi Arabia holds talks over state-backed war insurance as costs jump - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdXBpVU5yNFYzS2Ryd2h0MndnUHdkVXdNS0U0aWtfdjBXUjlWV1l2SURHb1RGelZSYVlIRldyTm5GRU15cktnNUNGbFZGUEpnNjA1Szd2NUxBVHNCYWFPem9IQjQxXy1CSVYtZV8tZW9IaEhNR25pMkt4djkxazRwb2VRYTk?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:00:14+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.12,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "11bf01fd1375d079d0",
+        "title": "US Headlines: Colorado River reservoir depletes, developments in Iran war - thepostathens.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXBoWW1kNmpGaUlaQ2J1eEZyMHRkeW52VXFPSFRiYW55aWJrWGppd0NPaFJnOERTVS03cVlXb2xuTjY0UHRnUnhkOXRjQ2xpcHl1bTh0dVNUT19UR3NZSndTblJlUHdvX2NZX0tubklRUjJMYXBPeEY2LU9QTWhtN1hXd0s3VTltal9ZbDRWRDQzcTVuZlpiWHZaVllDWjB6U0NVTXV0M0lLd01Qb1BDRVlmV1hnT09O?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T04:00:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.116,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "b006143c92d4a064bf",
+        "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions",
+        "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-24T03:56:59+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 67.066,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "4ae0f6ae7275145c22",
+        "title": "Nearly 3 million Teslas recalled in China over hidden door handles",
+        "url": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-24T03:27:11+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.569,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "4803a29657837e7464",
+        "title": "Ukraine war briefing: Nord Stream bombings were not us, Zelenskyy insists - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUjBzRWdlOVhCbTZKUjlJQjREWU0zOGd3NHdPSnJVU245cFNfekp1ZURReER4eUp1dnVPd0JqYmVBUGppZTNVWk5ra1hrM1FWLUFGNTBYd0E2dnFURlU1RFdXd2R0NURRNlJOdDV5c01Ub3pKN2xmUkkyc2FvR2tKSzlXN2J6SEVFNGQwdnNNekRUU1ZtVzNScUFJaFFHZXpVX0pjQlkwc0s2cDl0eWZUVzZUeVJsVzdC?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T03:19:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.433,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "c04b3fba866a36d71a",
+        "title": "China ‘Actively Committed’ to Iran Talks With Tensions Rising - Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa3lCZ2FJNXI3ZmxaWWVnamxXbXc4bzQyZFpybEhObmYwWWM5Uk9qZnh6Q0UteUU1bDFHN0hjQWdpV2VpUFJ2U3FwbWplalk3Q0dRTFdmd0p6Z29Rdno3RmtDS3R5X05BMGtPUFVQVE14OXpEV1lLdk5IcGxJS0dvSVNRMGlrYkIxWXhPRkV4REFqVlJ6SWpZYVl1TUVMVmlydHo2SGo2Mm9sS3N1Tkg0?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T03:03:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.166,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "2b1c130029481f3abb",
+        "title": "China ‘Actively Committed’ to Iran Talks With Tensions Rising - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa3lCZ2FJNXI3ZmxaWWVnamxXbXc4bzQyZFpybEhObmYwWWM5Uk9qZnh6Q0UteUU1bDFHN0hjQWdpV2VpUFJ2U3FwbWplalk3Q0dRTFdmd0p6Z29Rdno3RmtDS3R5X05BMGtPUFVQVE14OXpEV1lLdk5IcGxJS0dvSVNRMGlrYkIxWXhPRkV4REFqVlJ6SWpZYVl1TUVMVmlydHo2SGo2Mm9sS3N1Tkg0?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T03:03:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.166,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "2c54854bfcc6606847",
+        "title": "Oil falls as Trump pledges economic war on Iran - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTl83WG9Eb1hzUWxaRV93OTl0eHRONEU0anFCZEVmWndwamhWR0k0UTAtTzBWMUFpelpEVjlBUmpsZ0pxWkNEbzdBZVoyMUsxWDNHWEc0OTgyU2ZwcWdLSUVRN0lGVHY4Y2poTVF3RGs2SmI0RjBhWmF1M3AwemhqY1p4RFNiMGVVTld1SC1pdXRadTg?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T03:00:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.116,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "4f24ac813386d07cdd",
+        "title": "Fort Macon musket demos bring Civil War history to life for summer visitors - WCTI",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM2JDazBmeFk1SjJ5VS15LTQ1Y0I0RUF2OXEzbUR1YUVLaUp1dHEzTFF6enE3ZVpPVVo3Zl9xTDFsMVFtaTd5U0k2QW1ZRFphWmhkV0E1aGlhcjBwNjlDSXRtSmxCU3hjYVMtMlpTdGw4T2NXRk9RbWZkMGd2aUkwMGhVNUFPMVB0SzJTc1UtN3RUNGF5SEZwaVRYSU9GWUQwV2NJU2Z4aGg?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T02:53:05+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 66.001,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      },
+      {
+        "id": "b587f3ae172705d8a9",
+        "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMk9SMktfYXdieWhWd1IwYWNxZEE4YzBVczRlNlpXdXFoWHJ2VF80dFdHSnFzZmNNMVhHQzQ3b25YeXRGelp0bkhIb051bGplTTNBOUVFMjlOWlZIbmRuY29YNnFyUDVWZTU3SmpVRjZ5alB2Q1cxUk52NlBYNnVhMjRDak10RzFKM3g4X2ZlVVBsVTjSAZgBQVVfeXFMUFA4dUtPZEVwT2ZoMXR2UHNWZHl3TFpicW9LdS1CLWpkbVVZNUdWVHpxZmJCY0pJQlVaQ1V2R213bFFnemtwNmNyNVVzRFFGX3Vna1ViZnFTMkFNd2duVUNNQXVWbHU5cUlDTnpHcllPbl9fZ1dLd0VMMktqRDRIOEZDMGlncEl4SDEtSmxUY2RlMWU5dUkyc04?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-24T02:25:00+00:00",
+        "stickiness_score": 6,
+        "residual_contribution": 0.029462,
+        "expected_s2": 0.396376,
+        "observed_corrected": 0.425838,
+        "age_after_peak_hours": 65.533,
+        "post_lambda_q": false,
+        "role": "positive S2 residual"
+      }
+    ],
+    "max_stickiness": 6
+  },
+  {
+    "cycle_id": "db13af21fdb4e1105a",
+    "topic": "public_health",
+    "topic_label": "Public Health",
+    "started_at": "2026-08-18T17:53:02.279603+00:00",
+    "peaked_at": "2026-08-18T17:53:02.279603+00:00",
+    "ended_at": "2026-08-24T02:53:02.279603+00:00",
+    "archived_at": "2026-08-24T05:53:02.279603+00:00",
+    "article_count": 1284,
+    "phase": "Residual dust tail",
+    "verdict": "S2 weak",
+    "residual_dust": 0.19147828640736264,
+    "circadian_bias": 0.054717,
+    "peak_bin_index": 12,
+    "tail_bins": 44,
+    "fit": {
+      "tau_hours": 72,
+      "beta": 0.55,
+      "half_life_hours": 36.976367438022024,
+      "log_r2": 0.3274688524046194,
+      "delta_aic_vs_exp": 3.9588749145518136,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.19147828640736264,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 0.892857,
+        "circadian_factor": 0.673048,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.88545,
+        "observed_corrected": 0.88545,
+        "observed_raw": 0.696429,
+        "circadian_factor": 0.592151,
+        "fit": 0.840184,
+        "residual": 0.045266
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.495033,
+        "observed_corrected": 0.495033,
+        "observed_raw": 0.357143,
+        "circadian_factor": 0.542724,
+        "fit": 0.774957,
+        "residual": -0.279924
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.440447,
+        "observed_corrected": 0.440447,
+        "observed_raw": 0.321429,
+        "circadian_factor": 0.549245,
+        "fit": 0.727137,
+        "residual": -0.28669
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.320591,
+        "observed_corrected": 0.320591,
+        "observed_raw": 0.267857,
+        "circadian_factor": 0.629442,
+        "fit": 0.688483,
+        "residual": -0.367892
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.606504,
+        "observed_corrected": 0.606504,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.7097,
+        "fit": 0.655731,
+        "residual": -0.049226
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.64042,
+        "observed_corrected": 0.64042,
+        "observed_raw": 0.660714,
+        "circadian_factor": 0.775995,
+        "fit": 0.627183,
+        "residual": 0.013237
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.990421,
+        "observed_corrected": 0.990421,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.759684,
+        "fit": 0.601822,
+        "residual": 0.3886
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.950144,
+        "observed_corrected": 0.950144,
+        "observed_raw": 0.857143,
+        "circadian_factor": 0.679685,
+        "fit": 0.578978,
+        "residual": 0.371166
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.649445,
+        "observed_corrected": 0.649445,
+        "observed_raw": 0.5,
+        "circadian_factor": 0.579634,
+        "fit": 0.558185,
+        "residual": 0.09126
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.251069,
+        "observed_corrected": 0.251069,
+        "observed_raw": 0.178571,
+        "circadian_factor": 0.534971,
+        "fit": 0.539102,
+        "residual": -0.288033
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.343503,
+        "observed_corrected": 0.343503,
+        "observed_raw": 0.25,
+        "circadian_factor": 0.547588,
+        "fit": 0.52147,
+        "residual": -0.177967
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.323675,
+        "observed_corrected": 0.323675,
+        "observed_raw": 0.267857,
+        "circadian_factor": 0.623901,
+        "fit": 0.505089,
+        "residual": -0.181414
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.458442,
+        "observed_corrected": 0.458442,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.70402,
+        "fit": 0.489799,
+        "residual": -0.031357
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.398863,
+        "observed_corrected": 0.398863,
+        "observed_raw": 0.410714,
+        "circadian_factor": 0.774572,
+        "fit": 0.475469,
+        "residual": -0.076606
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.635001,
+        "observed_corrected": 0.635001,
+        "observed_raw": 0.642857,
+        "circadian_factor": 0.761787,
+        "fit": 0.461992,
+        "residual": 0.173009
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.707281,
+        "observed_corrected": 0.707281,
+        "observed_raw": 0.625,
+        "circadian_factor": 0.665899,
+        "fit": 0.449279,
+        "residual": 0.258002
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.838262,
+        "observed_corrected": 0.838262,
+        "observed_raw": 0.660714,
+        "circadian_factor": 0.593463,
+        "fit": 0.437255,
+        "residual": 0.401007
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.324136,
+        "observed_corrected": 0.324136,
+        "observed_raw": 0.232143,
+        "circadian_factor": 0.538711,
+        "fit": 0.425854,
+        "residual": -0.101719
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.341478,
+        "observed_corrected": 0.341478,
+        "observed_raw": 0.25,
+        "circadian_factor": 0.550868,
+        "fit": 0.415022,
+        "residual": -0.073544
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.238197,
+        "observed_corrected": 0.238197,
+        "observed_raw": 0.196429,
+        "circadian_factor": 0.620964,
+        "fit": 0.404709,
+        "residual": -0.166512
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.499892,
+        "observed_corrected": 0.499892,
+        "observed_raw": 0.464286,
+        "circadian_factor": 0.69962,
+        "fit": 0.394874,
+        "residual": 0.105019
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.557257,
+        "observed_corrected": 0.557257,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.771384,
+        "fit": 0.385478,
+        "residual": 0.171779
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.604097,
+        "observed_corrected": 0.604097,
+        "observed_raw": 0.607143,
+        "circadian_factor": 0.756276,
+        "fit": 0.37649,
+        "residual": 0.227607
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.941394,
+        "observed_corrected": 0.941394,
+        "observed_raw": 0.839286,
+        "circadian_factor": 0.671739,
+        "fit": 0.367879,
+        "residual": 0.573514
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.475923,
+        "observed_corrected": 0.475923,
+        "observed_raw": 0.375,
+        "circadian_factor": 0.593354,
+        "fit": 0.35962,
+        "residual": 0.116303
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.262723,
+        "observed_corrected": 0.262723,
+        "observed_raw": 0.160714,
+        "circadian_factor": 0.460098,
+        "fit": 0.351689,
+        "residual": -0.088966
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.140462,
+        "observed_corrected": 0.140462,
+        "observed_raw": 0.089286,
+        "circadian_factor": 0.47833,
+        "fit": 0.344065,
+        "residual": -0.203603
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.125452,
+        "observed_corrected": 0.125452,
+        "observed_raw": 0.089286,
+        "circadian_factor": 0.535817,
+        "fit": 0.336728,
+        "residual": -0.211275
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.286267,
+        "observed_corrected": 0.286267,
+        "observed_raw": 0.232143,
+        "circadian_factor": 0.610502,
+        "fit": 0.32966,
+        "residual": -0.043393
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.28448,
+        "observed_corrected": 0.28448,
+        "observed_raw": 0.25,
+        "circadian_factor": 0.661071,
+        "fit": 0.322847,
+        "residual": -0.038367
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.22352,
+        "observed_corrected": 0.22352,
+        "observed_raw": 0.196429,
+        "circadian_factor": 0.661017,
+        "fit": 0.316272,
+        "residual": -0.092752
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.117206,
+        "observed_corrected": 0.117206,
+        "observed_raw": 0.089286,
+        "circadian_factor": 0.574836,
+        "fit": 0.309923,
+        "residual": -0.192718
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.05289,
+        "observed_corrected": 0.05289,
+        "observed_raw": 0.035714,
+        "circadian_factor": 0.508536,
+        "fit": 0.303788,
+        "residual": -0.250899
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.143883,
+        "observed_corrected": 0.143883,
+        "observed_raw": 0.089286,
+        "circadian_factor": 0.466719,
+        "fit": 0.297855,
+        "residual": -0.153972
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.196022,
+        "observed_corrected": 0.196022,
+        "observed_raw": 0.125,
+        "circadian_factor": 0.479699,
+        "fit": 0.292114,
+        "residual": -0.096092
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.128522,
+        "observed_corrected": 0.128522,
+        "observed_raw": 0.089286,
+        "circadian_factor": 0.523258,
+        "fit": 0.286554,
+        "residual": -0.158033
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.286848,
+        "observed_corrected": 0.286848,
+        "observed_raw": 0.232143,
+        "circadian_factor": 0.609547,
+        "fit": 0.281168,
+        "residual": 0.00568
+      },
+      {
+        "x_hours": 114.0,
+        "observed": 0.182344,
+        "observed_corrected": 0.182344,
+        "observed_raw": 0.160714,
+        "circadian_factor": 0.662913,
+        "fit": 0.275945,
+        "residual": -0.093601
+      },
+      {
+        "x_hours": 117.0,
+        "observed": 0.468337,
+        "observed_corrected": 0.468337,
+        "observed_raw": 0.410714,
+        "circadian_factor": 0.659726,
+        "fit": 0.27088,
+        "residual": 0.197457
+      },
+      {
+        "x_hours": 120.0,
+        "observed": 0.16194,
+        "observed_corrected": 0.16194,
+        "observed_raw": 0.125,
+        "circadian_factor": 0.581749,
+        "fit": 0.265964,
+        "residual": -0.104024
+      },
+      {
+        "x_hours": 123.0,
+        "observed": 0.317891,
+        "observed_corrected": 0.317891,
+        "observed_raw": 0.214286,
+        "circadian_factor": 0.507476,
+        "fit": 0.261191,
+        "residual": 0.056699
+      },
+      {
+        "x_hours": 126.0,
+        "observed": 0.075253,
+        "observed_corrected": 0.075253,
+        "observed_raw": 0.053571,
+        "circadian_factor": 0.535418,
+        "fit": 0.256555,
+        "residual": -0.181301
+      },
+      {
+        "x_hours": 129.0,
+        "observed": 0.096516,
+        "observed_corrected": 0.096516,
+        "observed_raw": 0.071429,
+        "circadian_factor": 0.556729,
+        "fit": 0.252048,
+        "residual": -0.155532
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "e8aace083f3cd7d080",
+        "title": "New daily diabetes pill that helps with weight loss launches in UK pharmacies",
+        "url": "https://www.theguardian.com/society/2026/aug/24/daily-diabetes-pill-foundayo-weight-loss-uk-pharmacies",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T05:01:52+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.252048,
+        "observed_corrected": 0.096516,
+        "age_after_peak_hours": 131.147,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "065efaec8b6c1a0d56",
+        "title": "New daily diabetes pill that helps with weight loss launches in UK pharmacies",
+        "url": "https://www.theguardian.com/society/2026/aug/24/daily-diabetes-pill-foundayo-weight-loss-uk-pharmacies",
+        "source": "The Guardian Science",
+        "published_at": "2026-08-24T05:01:52+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.252048,
+        "observed_corrected": 0.096516,
+        "age_after_peak_hours": 131.147,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "3b1ae48e9285f0fddd",
+        "title": "Trump administration has deleted or altered nearly 400 federal datasets on public health, education and safety standards - Genetic Literacy Project",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNN0lTTGNOc0ptdjl4cll4TXBub0dmWTZrdFB3THRGZHdVMmNJTHhjWHdwUDZGZ3BBT1o3NkhiYWM1M0lOUllYbzhZNk5zbDV2UFBHYU9ncFRFTXhsSXpFVURDcm9CYzlZMUxwUWcxaWktQi1xR2QzRlJJZE5rbnMyUHQwcVN4eF9wN2ZrUGo5Z2pYMFhQX3oza05VZ3BOMTh2OVhBT19VbDkxRUViUDZPSmR1SVFZVlRUMHpNUTE5bU5QZ2JJTnlXSUVkWERoOGNUakJRa3haWHN1dVB5aUhVNUc0NWdVZmc0bkJZeGdTZ1o1ejgzaWduMURR?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-24T04:09:55+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.252048,
+        "observed_corrected": 0.096516,
+        "age_after_peak_hours": 130.281,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "8cff9750fc4b57a914",
+        "title": "How Wolbachia Emerged as an Ally in the Fight Against Disease Vectors - the-scientist.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObmd6SS1OX0p6Z0xYeFV5ZVYtSGlTbGRrQktkUElGdmVrZ29UTlZuTGJwc3cyN2k0MEc5TlotMjg4MldwaVd1SWppMWZBd3ZHdjhKQW1hRS0yS1MtUWVfdDBGZ2FrbjVzZEVqSF9RYUJTU3lOUEo5Vld5YUhzVVdfeHZWVWhRT01kUVkyR1d0UGl5WF9KbTJFQzNJVDFQQW9meU1zb0Y3aGw?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-24T04:07:30+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.252048,
+        "observed_corrected": 0.096516,
+        "age_after_peak_hours": 130.241,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "ccb8025c8652d738f9",
+        "title": "Kiowa County Board of Health - Public Hearing - Onsite Wastewater Regulation 43 - Kiowa County Press",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWHJocnpjVnQwOWxmMFE2YVh5VWdqVHFrUms3Mko2clE1ZnF2RjZfeFRLbDYtd0F4OGtVaG52dTNyM3lXakp0WFhVWHNEQkZZWkFuUzJycGdNelpMUmxiWmtERmhtTEZHd0xiNVFyRnZoNkZHRWk1OFNsbjhpY2tIRFA2cmpFT1A4MXZuTnB0czUyc0dmSXg3RUdpM3BhRW9pS0hIeXBBZ1NybEcxQ1hpLQ?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-08-24T01:51:23+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.252048,
+        "observed_corrected": 0.096516,
+        "age_after_peak_hours": 127.972,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
+    "cycle_id": "c6b816233d16cc298f",
+    "topic": "politics",
+    "topic_label": "Politics / Elections",
+    "started_at": "2026-08-18T17:53:02.279603+00:00",
+    "peaked_at": "2026-08-18T17:53:02.279603+00:00",
+    "ended_at": "2026-08-24T02:53:02.279603+00:00",
+    "archived_at": "2026-08-24T05:53:02.279603+00:00",
+    "article_count": 821,
+    "phase": "Residual dust tail",
+    "verdict": "S2 likely",
+    "residual_dust": 0.1113813353235386,
+    "circadian_bias": 0.059488,
+    "peak_bin_index": 12,
+    "tail_bins": 44,
+    "fit": {
+      "tau_hours": 36,
+      "beta": 0.4,
+      "half_life_hours": 14.400121398559635,
+      "log_r2": 0.32340541369991216,
+      "delta_aic_vs_exp": 27.25605892059562,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.1113813353235386,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.670938,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.94442,
+        "observed_corrected": 0.94442,
+        "observed_raw": 0.829787,
+        "circadian_factor": 0.589231,
+        "fit": 0.69066,
+        "residual": 0.25376
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.237911,
+        "observed_corrected": 0.237911,
+        "observed_raw": 0.191489,
+        "circadian_factor": 0.539139,
+        "fit": 0.613632,
+        "residual": -0.375721
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.569341,
+        "observed_corrected": 0.569341,
+        "observed_raw": 0.468085,
+        "circadian_factor": 0.551123,
+        "fit": 0.563071,
+        "residual": 0.00627
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.297358,
+        "observed_corrected": 0.297358,
+        "observed_raw": 0.276596,
+        "circadian_factor": 0.623405,
+        "fit": 0.524981,
+        "residual": -0.227623
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.484513,
+        "observed_corrected": 0.484513,
+        "observed_raw": 0.510638,
+        "circadian_factor": 0.706755,
+        "fit": 0.494328,
+        "residual": -0.009815
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.644533,
+        "observed_corrected": 0.644533,
+        "observed_raw": 0.744681,
+        "circadian_factor": 0.773904,
+        "fit": 0.468669,
+        "residual": 0.175864
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.450631,
+        "observed_corrected": 0.450631,
+        "observed_raw": 0.510638,
+        "circadian_factor": 0.759354,
+        "fit": 0.446615,
+        "residual": 0.004016
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.488672,
+        "observed_corrected": 0.488672,
+        "observed_raw": 0.489362,
+        "circadian_factor": 0.672064,
+        "fit": 0.427294,
+        "residual": 0.061378
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.623391,
+        "observed_corrected": 0.623391,
+        "observed_raw": 0.553191,
+        "circadian_factor": 0.594938,
+        "fit": 0.410122,
+        "residual": 0.213269
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.264999,
+        "observed_corrected": 0.264999,
+        "observed_raw": 0.212766,
+        "circadian_factor": 0.537781,
+        "fit": 0.394685,
+        "residual": -0.129686
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.102616,
+        "observed_corrected": 0.102616,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.555467,
+        "fit": 0.380681,
+        "residual": -0.278065
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.254121,
+        "observed_corrected": 0.254121,
+        "observed_raw": 0.234043,
+        "circadian_factor": 0.617426,
+        "fit": 0.367879,
+        "residual": -0.113758
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.239319,
+        "observed_corrected": 0.239319,
+        "observed_raw": 0.255319,
+        "circadian_factor": 0.715212,
+        "fit": 0.356103,
+        "residual": -0.116784
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.405625,
+        "observed_corrected": 0.405625,
+        "observed_raw": 0.468085,
+        "circadian_factor": 0.77292,
+        "fit": 0.34521,
+        "residual": 0.060415
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.393579,
+        "observed_corrected": 0.393579,
+        "observed_raw": 0.446809,
+        "circadian_factor": 0.760683,
+        "fit": 0.335088,
+        "residual": 0.058491
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.528402,
+        "observed_corrected": 0.528402,
+        "observed_raw": 0.531915,
+        "circadian_factor": 0.675375,
+        "fit": 0.325642,
+        "residual": 0.20276
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.435556,
+        "observed_corrected": 0.435556,
+        "observed_raw": 0.382979,
+        "circadian_factor": 0.589508,
+        "fit": 0.316797,
+        "residual": 0.118759
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.368862,
+        "observed_corrected": 0.368862,
+        "observed_raw": 0.297872,
+        "circadian_factor": 0.540929,
+        "fit": 0.308486,
+        "residual": 0.060376
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.281408,
+        "observed_corrected": 0.281408,
+        "observed_raw": 0.234043,
+        "circadian_factor": 0.557503,
+        "fit": 0.300655,
+        "residual": -0.019247
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.093033,
+        "observed_corrected": 0.093033,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.613832,
+        "fit": 0.293258,
+        "residual": -0.200225
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.26978,
+        "observed_corrected": 0.26978,
+        "observed_raw": 0.276596,
+        "circadian_factor": 0.687367,
+        "fit": 0.286253,
+        "residual": -0.016473
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.203662,
+        "observed_corrected": 0.203662,
+        "observed_raw": 0.234043,
+        "circadian_factor": 0.769762,
+        "fit": 0.279606,
+        "residual": -0.075944
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.316932,
+        "observed_corrected": 0.316932,
+        "observed_raw": 0.361702,
+        "circadian_factor": 0.76448,
+        "fit": 0.273286,
+        "residual": 0.043645
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.537746,
+        "observed_corrected": 0.537746,
+        "observed_raw": 0.531915,
+        "circadian_factor": 0.663698,
+        "fit": 0.267267,
+        "residual": 0.270479
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.36415,
+        "observed_corrected": 0.36415,
+        "observed_raw": 0.319149,
+        "circadian_factor": 0.587477,
+        "fit": 0.261524,
+        "residual": 0.102626
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.307143,
+        "observed_corrected": 0.307143,
+        "observed_raw": 0.212766,
+        "circadian_factor": 0.464013,
+        "fit": 0.256036,
+        "residual": 0.051107
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.329732,
+        "observed_corrected": 0.329732,
+        "observed_raw": 0.234043,
+        "circadian_factor": 0.475472,
+        "fit": 0.250784,
+        "residual": 0.078948
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.108567,
+        "observed_corrected": 0.108567,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.525461,
+        "fit": 0.245753,
+        "residual": -0.137186
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.094631,
+        "observed_corrected": 0.094631,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.603292,
+        "fit": 0.240925,
+        "residual": -0.146295
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.173019,
+        "observed_corrected": 0.173019,
+        "observed_raw": 0.170213,
+        "circadian_factor": 0.658975,
+        "fit": 0.236289,
+        "residual": -0.06327
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.220118,
+        "observed_corrected": 0.220118,
+        "observed_raw": 0.212766,
+        "circadian_factor": 0.647768,
+        "fit": 0.231831,
+        "residual": -0.011713
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.377794,
+        "observed_corrected": 0.377794,
+        "observed_raw": 0.319149,
+        "circadian_factor": 0.566585,
+        "fit": 0.22754,
+        "residual": 0.150254
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.143904,
+        "observed_corrected": 0.143904,
+        "observed_raw": 0.106383,
+        "circadian_factor": 0.495902,
+        "fit": 0.223406,
+        "residual": -0.079503
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.030997,
+        "observed_corrected": 0.030997,
+        "observed_raw": 0.021277,
+        "circadian_factor": 0.459714,
+        "fit": 0.21942,
+        "residual": -0.188423
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.211943,
+        "observed_corrected": 0.211943,
+        "observed_raw": 0.148936,
+        "circadian_factor": 0.470947,
+        "fit": 0.215573,
+        "residual": -0.00363
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.190593,
+        "observed_corrected": 0.190593,
+        "observed_raw": 0.148936,
+        "circadian_factor": 0.523698,
+        "fit": 0.211857,
+        "residual": -0.021264
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.163762,
+        "observed_corrected": 0.163762,
+        "observed_raw": 0.148936,
+        "circadian_factor": 0.609515,
+        "fit": 0.208264,
+        "residual": -0.044503
+      },
+      {
+        "x_hours": 114.0,
+        "observed": 0.086219,
+        "observed_corrected": 0.086219,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.6612,
+        "fit": 0.204789,
+        "residual": -0.11857
+      },
+      {
+        "x_hours": 117.0,
+        "observed": 0.390864,
+        "observed_corrected": 0.390864,
+        "observed_raw": 0.382979,
+        "circadian_factor": 0.656585,
+        "fit": 0.201426,
+        "residual": 0.189438
+      },
+      {
+        "x_hours": 120.0,
+        "observed": 0.166706,
+        "observed_corrected": 0.166706,
+        "observed_raw": 0.148936,
+        "circadian_factor": 0.599467,
+        "fit": 0.198167,
+        "residual": -0.031461
+      },
+      {
+        "x_hours": 123.0,
+        "observed": 0.250694,
+        "observed_corrected": 0.250694,
+        "observed_raw": 0.191489,
+        "circadian_factor": 0.512065,
+        "fit": 0.195009,
+        "residual": 0.055686
+      },
+      {
+        "x_hours": 126.0,
+        "observed": 0.106026,
+        "observed_corrected": 0.106026,
+        "observed_raw": 0.085106,
+        "circadian_factor": 0.537672,
+        "fit": 0.191945,
+        "residual": -0.085919
+      },
+      {
+        "x_hours": 129.0,
+        "observed": 0.179351,
+        "observed_corrected": 0.179351,
+        "observed_raw": 0.148936,
+        "circadian_factor": 0.556729,
+        "fit": 0.188973,
+        "residual": -0.009622
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "ed007773ce3a83bb80",
+        "title": "Australia news live: Albanese promises ‘no change’ to WA’s share of GST; five arrested as police raid CFMEU headquarters",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T05:43:20+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 131.838,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "661664ac63c30a1fba",
+        "title": "Australia news live: Albanese promises ‘no change’ to WA’s share of GST; five arrested as police raid CFMEU headquarters",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian Environment",
+        "published_at": "2026-08-24T05:43:20+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 131.838,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "2924dff66fcf979be1",
+        "title": "New Zealand to consider banning children under 16 from social media",
+        "url": "https://www.theguardian.com/media/2026/aug/24/nz-social-media-ban-children-under-16-fines-meta-tiktok",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T05:22:19+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 131.488,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "983fb691cfacf30a42",
+        "title": "Ex-cricket captains urge 'proper medical care' for Imran Khan",
+        "url": "https://www.bbc.co.uk/news/articles/cx2z889l0dxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-24T03:55:35+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 130.042,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "aa9a659e7ddec7749a",
+        "title": "Australia news live: AFL chief says ‘actions of a few’ don’t define the game; five arrested as police raid CFMEU headquarters",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T03:44:13+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 129.853,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "5938adb57719c80339",
+        "title": "Australia news live: AFL chief says ‘actions of a few’ don’t define the game; five arrested as police raid CFMEU headquarters",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian Environment",
+        "published_at": "2026-08-24T03:44:13+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 129.853,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "f7c7859ea322c201d0",
+        "title": "Australia news live: AFL chief says ‘actions of a few’ don’t define the game; police raid CFMEU headquarters in alleged secret commissions investigation",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian Environment",
+        "published_at": "2026-08-24T03:06:52+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 129.23,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "803bb1b4ec679d1837",
+        "title": "Australia news live: KMPG axes hundreds of staff in wake of audit leaks scandal; jobseeker now barely two-thirds of pension",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian World",
+        "published_at": "2026-08-24T02:49:02+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 128.933,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "6c3e40055d0a92f7ca",
+        "title": "Australia news live: KMPG axes hundreds of staff in wake of audit leaks scandal; jobseeker now barely two-thirds of pension",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/24/australia-news-live-shark-attack-leah-stewart-housing-rents-first-home-cost-of-living-antisemitism-royal-commission-icac-politics-economy-sydney-melbourne-ntwnfb",
+        "source": "The Guardian Environment",
+        "published_at": "2026-08-24T01:54:40+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 128.027,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      },
+      {
+        "id": "cbbbf3b0b1df9375c8",
+        "title": "India crushes cockroach dissent as ‘Fix Schools’ campaign riles Modi",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/india-crushes-cockroach-dissent-as-fix-schools-campaign-riles-modi?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-24T01:51:40+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.179351,
+        "age_after_peak_hours": 127.977,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
+    "cycle_id": "6ec86fac27088d4225",
+    "topic": "culture_media",
+    "topic_label": "Culture / Media",
+    "started_at": "2026-08-19T08:53:02.279603+00:00",
+    "peaked_at": "2026-08-19T08:53:02.279603+00:00",
+    "ended_at": "2026-08-24T02:53:02.279603+00:00",
+    "archived_at": "2026-08-24T05:53:02.279603+00:00",
+    "article_count": 136,
+    "phase": "Cooling",
+    "verdict": "S2 likely",
+    "residual_dust": 0.23375420951706943,
+    "circadian_bias": 0.057514,
+    "peak_bin_index": 17,
+    "tail_bins": 39,
+    "fit": {
+      "tau_hours": 90,
+      "beta": 0.15,
+      "half_life_hours": 7.81769848443544,
+      "log_r2": 0.10213661837467303,
+      "delta_aic_vs_exp": 18.986665204892105,
+      "coherence_left_hours": 0.0,
+      "residual_dust": 0.23375420951706943,
+      "beta_grid_min": null,
+      "beta_at_grid_floor": null,
+      "beta_grid_version": null
+    },
+    "series": [
+      {
+        "x_hours": 0.0,
+        "observed": 1.0,
+        "observed_corrected": 1.0,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.704112,
+        "fit": 1.0,
+        "residual": 0.0
+      },
+      {
+        "x_hours": 3.0,
+        "observed": 0.517849,
+        "observed_corrected": 0.517849,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.775595,
+        "fit": 0.548599,
+        "residual": -0.03075
+      },
+      {
+        "x_hours": 6.0,
+        "observed": 0.653453,
+        "observed_corrected": 0.653453,
+        "observed_raw": 0.714286,
+        "circadian_factor": 0.768464,
+        "fit": 0.513671,
+        "residual": 0.139781
+      },
+      {
+        "x_hours": 9.0,
+        "observed": 0.462445,
+        "observed_corrected": 0.462445,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.65185,
+        "fit": 0.492655,
+        "residual": -0.03021
+      },
+      {
+        "x_hours": 12.0,
+        "observed": 0.170001,
+        "observed_corrected": 0.170001,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.590635,
+        "fit": 0.477513,
+        "residual": -0.307512
+      },
+      {
+        "x_hours": 15.0,
+        "observed": 0.188737,
+        "observed_corrected": 0.188737,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.532003,
+        "fit": 0.465649,
+        "residual": -0.276912
+      },
+      {
+        "x_hours": 18.0,
+        "observed": 0.545091,
+        "observed_corrected": 0.545091,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.552737,
+        "fit": 0.455885,
+        "residual": 0.089206
+      },
+      {
+        "x_hours": 21.0,
+        "observed": 0.303263,
+        "observed_corrected": 0.303263,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.66219,
+        "fit": 0.447585,
+        "residual": -0.144322
+      },
+      {
+        "x_hours": 24.0,
+        "observed": 0.429358,
+        "observed_corrected": 0.429358,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.703117,
+        "fit": 0.440364,
+        "residual": -0.011006
+      },
+      {
+        "x_hours": 27.0,
+        "observed": 0.514885,
+        "observed_corrected": 0.514885,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.780049,
+        "fit": 0.433973,
+        "residual": 0.080911
+      },
+      {
+        "x_hours": 30.0,
+        "observed": 0.928771,
+        "observed_corrected": 0.928771,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.757094,
+        "fit": 0.428241,
+        "residual": 0.500531
+      },
+      {
+        "x_hours": 33.0,
+        "observed": 0.595803,
+        "observed_corrected": 0.595803,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.674651,
+        "fit": 0.423043,
+        "residual": 0.17276
+      },
+      {
+        "x_hours": 36.0,
+        "observed": 0.518623,
+        "observed_corrected": 0.518623,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.581577,
+        "fit": 0.418289,
+        "residual": 0.100334
+      },
+      {
+        "x_hours": 39.0,
+        "observed": 0.188227,
+        "observed_corrected": 0.188227,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.533445,
+        "fit": 0.413908,
+        "residual": -0.225681
+      },
+      {
+        "x_hours": 42.0,
+        "observed": 0.723262,
+        "observed_corrected": 0.723262,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.55558,
+        "fit": 0.409847,
+        "residual": 0.313416
+      },
+      {
+        "x_hours": 45.0,
+        "observed": 0.477465,
+        "observed_corrected": 0.477465,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.631079,
+        "fit": 0.406062,
+        "residual": 0.071404
+      },
+      {
+        "x_hours": 48.0,
+        "observed": 0.287971,
+        "observed_corrected": 0.287971,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.698684,
+        "fit": 0.402517,
+        "residual": -0.114546
+      },
+      {
+        "x_hours": 51.0,
+        "observed": 0.920853,
+        "observed_corrected": 0.920853,
+        "observed_raw": 1.0,
+        "circadian_factor": 0.76338,
+        "fit": 0.399185,
+        "residual": 0.521668
+      },
+      {
+        "x_hours": 54.0,
+        "observed": 0.263145,
+        "observed_corrected": 0.263145,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.763144,
+        "fit": 0.396041,
+        "residual": -0.132895
+      },
+      {
+        "x_hours": 57.0,
+        "observed": 0.145224,
+        "observed_corrected": 0.145224,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.691406,
+        "fit": 0.393065,
+        "residual": -0.247841
+      },
+      {
+        "x_hours": 60.0,
+        "observed": 0.357883,
+        "observed_corrected": 0.357883,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.561126,
+        "fit": 0.39024,
+        "residual": -0.032357
+      },
+      {
+        "x_hours": 63.0,
+        "observed": 0.215685,
+        "observed_corrected": 0.215685,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.465534,
+        "fit": 0.387552,
+        "residual": -0.171867
+      },
+      {
+        "x_hours": 66.0,
+        "observed": 0.413201,
+        "observed_corrected": 0.413201,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.486071,
+        "fit": 0.384988,
+        "residual": 0.028213
+      },
+      {
+        "x_hours": 69.0,
+        "observed": 0.353705,
+        "observed_corrected": 0.353705,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.567755,
+        "fit": 0.382538,
+        "residual": -0.028833
+      },
+      {
+        "x_hours": 72.0,
+        "observed": 0.342608,
+        "observed_corrected": 0.342608,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.586421,
+        "fit": 0.380191,
+        "residual": -0.037582
+      },
+      {
+        "x_hours": 75.0,
+        "observed": 0.154966,
+        "observed_corrected": 0.154966,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.64794,
+        "fit": 0.377939,
+        "residual": -0.222973
+      },
+      {
+        "x_hours": 78.0,
+        "observed": 0.470487,
+        "observed_corrected": 0.470487,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.640575,
+        "fit": 0.375775,
+        "residual": 0.094711
+      },
+      {
+        "x_hours": 81.0,
+        "observed": 0.371137,
+        "observed_corrected": 0.371137,
+        "observed_raw": 0.285714,
+        "circadian_factor": 0.541088,
+        "fit": 0.373693,
+        "residual": -0.002557
+      },
+      {
+        "x_hours": 84.0,
+        "observed": 0.202983,
+        "observed_corrected": 0.202983,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.494666,
+        "fit": 0.371687,
+        "residual": -0.168704
+      },
+      {
+        "x_hours": 87.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.461711,
+        "fit": 0.36975,
+        "residual": -0.36975
+      },
+      {
+        "x_hours": 90.0,
+        "observed": 0.217909,
+        "observed_corrected": 0.217909,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.460782,
+        "fit": 0.367879,
+        "residual": -0.14997
+      },
+      {
+        "x_hours": 93.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.533513,
+        "fit": 0.36607,
+        "residual": -0.36607
+      },
+      {
+        "x_hours": 96.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.611986,
+        "fit": 0.364318,
+        "residual": -0.364318
+      },
+      {
+        "x_hours": 99.0,
+        "observed": 0.609861,
+        "observed_corrected": 0.609861,
+        "observed_raw": 0.571429,
+        "circadian_factor": 0.658577,
+        "fit": 0.36262,
+        "residual": 0.247241
+      },
+      {
+        "x_hours": 102.0,
+        "observed": 0.461208,
+        "observed_corrected": 0.461208,
+        "observed_raw": 0.428571,
+        "circadian_factor": 0.653778,
+        "fit": 0.360973,
+        "residual": 0.100235
+      },
+      {
+        "x_hours": 105.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.578964,
+        "fit": 0.359374,
+        "residual": -0.359374
+      },
+      {
+        "x_hours": 108.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.500416,
+        "fit": 0.35782,
+        "residual": -0.35782
+      },
+      {
+        "x_hours": 111.0,
+        "observed": 0.0,
+        "observed_corrected": 0.0,
+        "observed_raw": 0.0,
+        "circadian_factor": 0.536873,
+        "fit": 0.356309,
+        "residual": -0.356309
+      },
+      {
+        "x_hours": 114.0,
+        "observed": 0.183494,
+        "observed_corrected": 0.183494,
+        "observed_raw": 0.142857,
+        "circadian_factor": 0.547206,
+        "fit": 0.354838,
+        "residual": -0.171344
+      }
+    ],
+    "sticky_stories": [
+      {
+        "id": "331b449aab45382998",
+        "title": "‘We know this movie’: Iran mocks latest US sanctions",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/we-know-this-movie-iran-mocks-latest-us-sanctions?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-24T04:02:14+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.354838,
+        "observed_corrected": 0.183494,
+        "age_after_peak_hours": 115.153,
+        "post_lambda_q": true,
+        "role": "decays with baseline"
+      }
+    ],
+    "max_stickiness": 0
+  },
+  {
     "cycle_id": "59ded4889f39e23067",
     "topic": "general",
     "topic_label": "General",
@@ -213710,1568 +215752,6 @@
         "expected_s2": 0.551733,
         "observed_corrected": 0.466146,
         "age_after_peak_hours": 36.914,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      }
-    ],
-    "max_stickiness": 0
-  },
-  {
-    "cycle_id": "bbdfeccc24903d8228",
-    "topic": "ai",
-    "topic_label": "AI / Tech",
-    "started_at": "2026-08-18T08:35:31.643107+00:00",
-    "peaked_at": "2026-08-18T08:35:31.643107+00:00",
-    "ended_at": "2026-08-19T20:35:31.643107+00:00",
-    "archived_at": "2026-08-19T23:35:31.643107+00:00",
-    "article_count": 1690,
-    "phase": "Cooling",
-    "verdict": "S2 likely",
-    "residual_dust": 0.11429438121235132,
-    "circadian_bias": 0.060218,
-    "peak_bin_index": 43,
-    "tail_bins": 13,
-    "fit": {
-      "tau_hours": 48,
-      "beta": 0.25,
-      "half_life_hours": 11.080084731988006,
-      "log_r2": 0.4921931537630312,
-      "delta_aic_vs_exp": 11.897341675185913,
-      "coherence_left_hours": 12,
-      "residual_dust": 0.11429438121235132,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.701995,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.703776,
-        "observed_corrected": 0.703776,
-        "observed_raw": 0.77381,
-        "circadian_factor": 0.770646,
-        "fit": 0.606531,
-        "residual": 0.097245
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.586111,
-        "observed_corrected": 0.586111,
-        "observed_raw": 0.642857,
-        "circadian_factor": 0.768793,
-        "fit": 0.551781,
-        "residual": 0.03433
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.474875,
-        "observed_corrected": 0.474875,
-        "observed_raw": 0.464286,
-        "circadian_factor": 0.686237,
-        "fit": 0.517867,
-        "residual": -0.042992
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.459763,
-        "observed_corrected": 0.459763,
-        "observed_raw": 0.380952,
-        "circadian_factor": 0.581335,
-        "fit": 0.493069,
-        "residual": -0.033305
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.274924,
-        "observed_corrected": 0.274924,
-        "observed_raw": 0.214286,
-        "circadian_factor": 0.546317,
-        "fit": 0.473466,
-        "residual": -0.198542
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.361251,
-        "observed_corrected": 0.361251,
-        "observed_raw": 0.285714,
-        "circadian_factor": 0.554618,
-        "fit": 0.457242,
-        "residual": -0.095991
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.384124,
-        "observed_corrected": 0.384124,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.608868,
-        "fit": 0.443398,
-        "residual": -0.059274
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.548276,
-        "observed_corrected": 0.548276,
-        "observed_raw": 0.547619,
-        "circadian_factor": 0.70101,
-        "fit": 0.431324,
-        "residual": 0.116953
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.465817,
-        "observed_corrected": 0.465817,
-        "observed_raw": 0.511905,
-        "circadian_factor": 0.770275,
-        "fit": 0.42062,
-        "residual": 0.045197
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.6211,
-        "observed_corrected": 0.6211,
-        "observed_raw": 0.678571,
-        "circadian_factor": 0.765856,
-        "fit": 0.411009,
-        "residual": 0.21009
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.446932,
-        "observed_corrected": 0.446932,
-        "observed_raw": 0.440476,
-        "circadian_factor": 0.691882,
-        "fit": 0.402291,
-        "residual": 0.044641
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.264456,
-        "observed_corrected": 0.264456,
-        "observed_raw": 0.22619,
-        "circadian_factor": 0.600045,
-        "fit": 0.394315,
-        "residual": -0.129859
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "1527c850f5db7a6e6d",
-        "title": "Turkcell Advances 6G Technologies and Artificial Intelligence R&D - The Fast Mode",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQnNYWmdxdUlFREF0Q1VWRWl5cVIyVVBydzZDQUJNaUhkZldYaFFHZmg4SFZUZFc4V3dZVkx4bndZczVyZ01mbzJ4U2ZNcEU3M2xjeVFBOU1qUm5IQlhDaEdFM05RdXd5M0lZVnh2eTRXeC1qa0NjUktobDltcXV1SC13Wl94SnM0RDFEY0hDRXJMVkJVRXU3ZjZoVU9SUkxlVFZoWElyRFJta1FNVFJkZzhzSVRkZHFPYjlYeA?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T23:10:19+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 38.58,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "50ff834219829e8ccc",
-        "title": "Hyundai Cuts Crash Test Review Time by 90% With AI - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOazVfSUFSV3NBVi12TFc1YXk0QWg0dk9MNldSUGQzTmRKNlRPUFZmazctcjFqZ0dXdzJuaFdKb1l3WHdjNW5iSHFYcGZDQk0zRFd6TW9XRVpPaHh3Mkh6Y09XcGNuaXRlbU1hX2xUR0c5cjFUTFlOeEJjX1dFZUxvTWhVa3NHMzBzX2E1dHBBMVVCLWZhSUFYZVRiZXFJd3BrelVKdW8wWlZmQQ?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T23:07:52+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 38.539,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "1a28dbd67088928468",
-        "title": "Foundation AI in July: New Models, Benchmarks, and Security Research - Cisco Blogs",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbkRGQlhTMF9SeE9yanJsSEw3eGRLUU1hR1N2ZVF3V2h2cFVmdG1UZjNxQ3J2eDBJdFo5VVEtXzMwaWJENzVVQWZ0RUtlRmNRdUpfZXVYSWxfczJxX3lvN2lTTHFQREpoRXVNSmVqVFFtWjNMb0xieUJNQ1phTUQtQkYyU0R6RmZYUXo2cm9LNTFDeFNmeE1V?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T22:58:59+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 38.391,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "f2cd3ed16c814ac684",
-        "title": "Legal resident loses thousands seeking citizenship to AI immigration attorney | 7 On Your Side Investiates - ABC7 New York",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTldreW5uY1VfZW9EcUNmT2UyRkJLOEhXSlU1RzVHaHNZSmE0NmI2U1dkcjRVMlFBaFZxYmc4eGYyUndIMEJUeHdhbF9LLWFDM2Q2aEExbGo3SU84T29nOHg4OWg2cUxkWkVBWVN5ZUNlenI0NjBBckV3QVNDQ3hBY1FEUGFvb3pqbHR5VF9ORWZJYzF1NTZvNkpWZnVva3VXSFZQS0I1ZGdaM1lOcS1DajdWdnQyQ0ZkUllhZ25odklvLVBldEHSAcsBQVVfeXFMUE5YWFo2SjdQU2tEQS1zelhvUkZlS2tGSU1XSDRLc1JkZEZjX2RKQlgtVDJRVlpsdF81cWtfTkJfVlA2S2dUVDhHdERmVUt5LVFoV3dKbVkzcXJzaWtDWHB1UGs4WU1iMmZac1BiUEJycXBBbEF1QTd6Qm1mTk1PUU5RMmhheTl0b1VKYW9FR2xSVG5QV1VXeC1UaWNCYU1VVkQ1dVlBSTZHT2FmeFo2M2NTa1BQNkI5VXFBRDVST0Y3TDJJTG1ZdGJ1WUk?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T22:29:53+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 37.906,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "32f46e87ab757aaff7",
-        "title": "Where Is the AI Jobs Apocalypse? - The Free Press",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoQlhEWUhuT0tIOW14Um5leTlUVEZaN1hPTm1oX2RMU3hRaDVHM095enNYbmlMeFduNDNwWF83TTFocE9taHN6SUVSX005NHp1bVFBcHhYZ2pqbzRxWTkzemVn?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T22:22:32+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 37.783,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "fb5897a445997a886f",
-        "title": "The AI Bubble And The U.S. Economy - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaHhaZjBMakV1dWxPZ3UxNGZETzhlNDFGTzNKcWJzV3lzUnFiSUNkaUFkdFA0MnVVQjZJVy1ocTBrbkpsN0hIVmRoWmNTYTVwSjgtV2c2ZkNaVGJvSTBvUG93cThtcHY5SDJWamhBMzhDbzlVOVhSWUFTd1NPWWQ0aVpxb081QlFFUUNWOGpB?oc=5",
-        "source": "Google News Markets",
-        "published_at": "2026-08-19T22:20:46+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 37.754,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "f6ffd1f3b3e50784bc",
-        "title": "July 2026 at Foundation AI: A Roundup - Cisco Blogs",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ETk42dVFZYXEwQm9NOVRMR3E0UmFqb2RDSDlKdTI2RXVPVjZ1U0piVm5PQ3BTemFTTXJqNFR3REFLU1EtSm84Yl91cmVBTjhCTUdtWGI5YkR2V01fcjYzQUVETlNYMG5jVU9lNTBJMHc?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T22:03:34+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 37.467,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "2f7ea83f36bedb8394",
-        "title": "Trump Says AI Could Be 'Bigger Than the Internet' as He Pushes Light-Touch Regulation - Decrypt",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjdfM3Nra3ppam9sR0hoRTNZNmNpVnRMd3Z6eHBYTWExRkdnS0lSTWt5TkRWYXd3SElRNEhqalZERmxFVFdOQ2lMTk5tRHpMTFc5NWJvTTY5ZEtYQVl4UDNGSVJ2WHQxOUdCcjJDdHRkRDQ3WlRwZGdDbllaVDFWX2VhcEPSAYwBQVVfeXFMTkJkQkQ3SHA0RUgtRkt0RHJpTXZTa3FhSHJfa2ptSFVPb3RzX3BndmwxZVdZeGdWUmEzRmdpWEtNTU5iQ2RnYkNaR1FyOFFlb3lEWm1IYlV0THNBNUQ3RTlabWh5QUdsOVB5T0NaUnp6aDRueWJWOVcyTDl4clhYdENFM3NxVXdCX295aHk?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:36:50+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 37.022,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "7d07576a62a852a359",
-        "title": "Inside Big Tech’s Frantic Race to Quell the Growing Backlash to AI - wsj.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd0ZMN28xd2NTdzNCbllaLVFGVkVDaGJlMkZOOU1xMlplVjR6ZnpoRVcxT0ZYMFdDcDJCN3p1SHdYT00waFVkT0loNGxMcXN0NFpyVzZJbzE5R3hsaHhTM2xZWUREOTdyN0R3RmJ3ajNzd2lFRGlUOVlZckVzQTRUYVJzeWFVZEwwSzY1QW84NGJfM3B4OWNMWkpFZHBiS3NI?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:29:29+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 36.899,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "709e216ab26ec7e031",
-        "title": "Elon Musk's AI company argues in court for end to state's fake nudity ban - MPR News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR2xPQUhGQk5pMnhKRWl6SjctbGFydUdRX1hHREhEX2psNU5vQ2FsV2FaR2VqQnhJRDVCd29tMDY3R3FPTm1IX242bERZenZzWGZub2pUTFpNWGkyQXhyT0pIM2NKazJZUG1PaDZzWVl5QXNjRmRsVXhXN1NNaTdSTC1fUzhDc0E3UjRzeXloTjI5N2FYRzlLMWRTUXlJVllzQm9vRzBld0JJQmpJb3NuX1p3?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:25:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 36.825,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "58ed1edd7ff9fbddb6",
-        "title": "NEWSLETTER: AI firms can't yet contain what they've built, study finds - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT0VxNEg5YTBJS3ExWnBST21CakVKTlF4WU1qbmFlZEJYS19MblFGZjZwM3F2b1FjYUg3Ym1WbXBmSFc5Mms2Qy02WTh2QXVCWE5GYzVHRUZHRXFyQlRvODJlTGdWaW1BbzZNTmV5eFRNemM1eExfekNqXzJWakM0eS15SnVzVktvZzJQZnBvSFBfU1dPSzdsUDBjRnFPMWd1Y3RsUFEwajFCSmhycHF1TkJzZ3dVVHhSc0FsY3FIdElmMlA1?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:25:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 36.825,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "0b07ca4031d3f952dc",
-        "title": "US NIST urges companies to fight AI risks with AI - mlex.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT213aGtWdlN4NzV1OFAtS3ZicGpLMmNRa0tXZmI4ZXB2T2YyQ0JPcEJJbEFZR2JfRTZkZGQ0MWR3Tk14RWI3RkpxY0d2bjFpcU55VFFiYmdJMXNJS3RIa0V5djVac3dWNWMtN28xbDhlLWNYQi02QXl2YnJvSTJLUGxHbEE4eGpmLVRqV1hQbU8ySm1OVDFHVDNWTTRreEVHcktQY2taQkNHZUc4MS10dnU4akJESEXSAVpBVV95cUxNYl9xVFBUbTVTQ0hWRGEzTWhxUU9ZVkxXWjlFYnYteHZTR3NjSzF1TzZnb21PN29OYnhIU25pMV9VbVpDZlRsTWh0dlFPWU1PRHMzbGJXbDZsdkE?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:21:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 36.758,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      },
-      {
-        "id": "55060a279cdc50e879",
-        "title": "US NIST urges companies to fight AI risks with AI - MLex",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT213aGtWdlN4NzV1OFAtS3ZicGpLMmNRa0tXZmI4ZXB2T2YyQ0JPcEJJbEFZR2JfRTZkZGQ0MWR3Tk14RWI3RkpxY0d2bjFpcU55VFFiYmdJMXNJS3RIa0V5djVac3dWNWMtN28xbDhlLWNYQi02QXl2YnJvSTJLUGxHbEE4eGpmLVRqV1hQbU8ySm1OVDFHVDNWTTRreEVHcktQY2taQkNHZUc4MS10dnU4akJESEXSAVpBVV95cUxNYl9xVFBUbTVTQ0hWRGEzTWhxUU9ZVkxXWjlFYnYteHZTR3NjSzF1TzZnb21PN29OYnhIU25pMV9VbVpDZlRsTWh0dlFPWU1PRHMzbGJXbDZsdkE?oc=5",
-        "source": "Google News AI",
-        "published_at": "2026-08-19T21:21:00+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.394315,
-        "observed_corrected": 0.264456,
-        "age_after_peak_hours": 36.758,
-        "post_lambda_q": false,
-        "role": "decays with baseline"
-      }
-    ],
-    "max_stickiness": 0
-  },
-  {
-    "cycle_id": "a4785dd540753658af",
-    "topic": "politics",
-    "topic_label": "Politics / Elections",
-    "started_at": "2026-08-18T17:35:31.643107+00:00",
-    "peaked_at": "2026-08-18T17:35:31.643107+00:00",
-    "ended_at": "2026-08-19T20:35:31.643107+00:00",
-    "archived_at": "2026-08-19T23:35:31.643107+00:00",
-    "article_count": 775,
-    "phase": "Active plateau",
-    "verdict": "S2 weak",
-    "residual_dust": 0.11507907907000299,
-    "circadian_bias": 0.059815,
-    "peak_bin_index": 46,
-    "tail_bins": 10,
-    "fit": {
-      "tau_hours": 72,
-      "beta": 0.25,
-      "half_life_hours": 16.620127097982007,
-      "log_r2": 0.20148555107118427,
-      "delta_aic_vs_exp": 2.893701421774285,
-      "coherence_left_hours": 45,
-      "residual_dust": 0.11507907907000299,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.681104,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.982412,
-        "observed_corrected": 0.982412,
-        "observed_raw": 0.857143,
-        "circadian_factor": 0.593987,
-        "fit": 0.636481,
-        "residual": 0.345931
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.230466,
-        "observed_corrected": 0.230466,
-        "observed_raw": 0.183673,
-        "circadian_factor": 0.541853,
-        "fit": 0.584333,
-        "residual": -0.353867
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.532268,
-        "observed_corrected": 0.532268,
-        "observed_raw": 0.428571,
-        "circadian_factor": 0.547703,
-        "fit": 0.551781,
-        "residual": -0.019513
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.35908,
-        "observed_corrected": 0.35908,
-        "observed_raw": 0.326531,
-        "circadian_factor": 0.61889,
-        "fit": 0.52785,
-        "residual": -0.16877
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.434593,
-        "observed_corrected": 0.434593,
-        "observed_raw": 0.44898,
-        "circadian_factor": 0.702978,
-        "fit": 0.508851,
-        "residual": -0.074258
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.629334,
-        "observed_corrected": 0.629334,
-        "observed_raw": 0.714286,
-        "circadian_factor": 0.771621,
-        "fit": 0.493069,
-        "residual": 0.136265
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.416458,
-        "observed_corrected": 0.416458,
-        "observed_raw": 0.469388,
-        "circadian_factor": 0.766458,
-        "fit": 0.479559,
-        "residual": -0.063101
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.504381,
-        "observed_corrected": 0.504381,
-        "observed_raw": 0.510204,
-        "circadian_factor": 0.688964,
-        "fit": 0.467743,
-        "residual": 0.036638
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.6491,
-        "observed_corrected": 0.6491,
-        "observed_raw": 0.571429,
-        "circadian_factor": 0.598948,
-        "fit": 0.457242,
-        "residual": 0.191858
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "553efe4b59931c42f5",
-        "title": "Republicans reportedly fear datacenter backlash could cost them Ohio Senate seat – US politics live",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/19/mary-peltola-dan-sullivan-alaska-primary-election-us-senate-florida-california-wyoming--donald-trump-us-politics-latest",
-        "source": "The Guardian World",
-        "published_at": "2026-08-19T23:29:41+00:00",
-        "stickiness_score": 29,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 29.903,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "e1a2a2623916b183e4",
-        "title": "Republicans reportedly fear datacenter backlash could cost them Ohio Senate seat – US politics live",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/19/mary-peltola-dan-sullivan-alaska-primary-election-us-senate-florida-california-wyoming--donald-trump-us-politics-latest",
-        "source": "The Guardian US",
-        "published_at": "2026-08-19T23:01:19+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 29.43,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "f38d23e98463c1a760",
-        "title": "US Sanctions ICC President Tomoko Akane - Human Rights Watch",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMUtBaVBKZllHZ084bjRVWVh5MFRHZERoLU1ER2MxeW1Pck5PdGJzR3FGRXNwX250VUV5VWZFX293Mi1CYTlpazVwcThsSHEyZk5ja3JqdjI1azNYaVVwSUpSd1l5MUM0ZExhUmc4T1lxOXlCSlY3RGlSdnJuc0haTA?oc=5",
-        "source": "Google News Geopolitics",
-        "published_at": "2026-08-19T23:00:00+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 29.408,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "1c054c8f10b5a3ab19",
-        "title": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
-        "url": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html",
-        "source": "CNBC Top News",
-        "published_at": "2026-08-19T22:39:40+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 29.069,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "8485660041b5b11441",
-        "title": "Does giving a camera wings dodge the FCC’s drone ban?",
-        "url": "https://www.theverge.com/tech/981834/hoverair-versa-drone-camera-fcc-loophole-indiegogo",
-        "source": "The Verge",
-        "published_at": "2026-08-19T22:36:50+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 29.022,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "44af749a4574e52246",
-        "title": "U.S. government debt passes $40 trillion, more than doubling in a decade",
-        "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
-        "source": "CNBC Top News",
-        "published_at": "2026-08-19T22:34:33+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.984,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "c6b3ecfe203bbe92d1",
-        "title": "‘Not another Trump sycophant’: Democrats blast Trump’s nomination of Heidi Overton for FDA chief – live",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/19/mary-peltola-dan-sullivan-alaska-primary-election-us-senate-florida-california-wyoming--donald-trump-us-politics-latest",
-        "source": "The Guardian US",
-        "published_at": "2026-08-19T22:33:05+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.959,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "cf7cbc69e3a9765065",
-        "title": "‘Not another Trump sycophant’: Democrats blast Trump’s nomination of Heidi Overton for FDA chief – live",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/19/mary-peltola-dan-sullivan-alaska-primary-election-us-senate-florida-california-wyoming--donald-trump-us-politics-latest",
-        "source": "The Guardian World",
-        "published_at": "2026-08-19T21:56:43+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.353,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "b390ce4f88c5db6abe",
-        "title": "Ossoff annoys Trump, White House, to Democratic delight and dismay",
-        "url": "https://thehill.com/homenews/campaign/6039986-ossoff-trump-natalie-harp-attack/",
-        "source": "The Hill",
-        "published_at": "2026-08-19T21:56:03+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.342,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "68478dcb30817727a8",
-        "title": "Alabama Democrats Look for a Black Backlash Over Voting Rights",
-        "url": "https://www.nytimes.com/2026/08/19/us/politics/alabama-voting-rights-act-black-voters.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-19T21:39:49+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.071,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "68d14ced4cb5fee0f3",
-        "title": "Trump to Appear on Radio With Michael Cohen, His Onetime Nemesis",
-        "url": "https://www.nytimes.com/2026/08/19/us/politics/trump-podcast-michael-cohen.html",
-        "source": "NYTimes Home",
-        "published_at": "2026-08-19T21:37:59+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.041,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "ec3129ffc89de6e1a2",
-        "title": "Mike Lindell offers to fund recount in Minnesota Republican primary for governor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/mike-lindell-recount-minnesota-primary",
-        "source": "The Guardian World",
-        "published_at": "2026-08-19T21:37:02+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.025,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "926e711d8b8399fff2",
-        "title": "Mike Lindell offers to fund recount in Minnesota Republican primary for governor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/mike-lindell-recount-minnesota-primary",
-        "source": "The Guardian US",
-        "published_at": "2026-08-19T21:37:02+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.025,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "05563b57775ebb7324",
-        "title": "“I get along with him very well.”",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/i-get-along-with-him-very-well?traffic_source=rss",
-        "source": "Al Jazeera",
-        "published_at": "2026-08-19T21:35:34+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 28.001,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "15229616efd12f7892",
-        "title": "ICC says US sanctions 'flagrant attack' on court independence - The New Arab",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0NlX1dnRW9SeU9wQWNmZ0VhaGRrTmZscHdzWVhla1pGUE9NVG5QTC1UbG9BdTFpSEJIWWhvcVJSVWUtdXJDQjhvWWJGY20ybVN6ZER2ejhOaUtYT0VxQ2o2MUloSTRpZ25JZjhENk9hV09WZ1dVc0ZEaFo4bUNQdFdYdzRvSVR2eGZXN1NB0gGTAUFVX3lxTE9paEpxNVMwRDBiOXBZdUphWWlsTXZzTFFpRV9oaG9ORV9OV2JvWEdqelVndTNzclNsaGFVWkZtNFktUlpZY2R5UUJtXy1pRmxVSHA1QTNxcGJxdTIzTVVRR0h6aWNEazNza0dGMzA1NU1rX2xCMGFUbGJpOEFDRnVXSVA1ajJRalItZGdHZE53QlFoWQ?oc=5",
-        "source": "Google News Geopolitics",
-        "published_at": "2026-08-19T21:33:46+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.971,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "a6f27e130a03b8b4f3",
-        "title": "Taxpayers to fund clear-up of illegal dumps in West Yorkshire, Surrey and Kent",
-        "url": "https://www.theguardian.com/environment/2026/aug/19/taxpayers-to-fund-clear-up-of-dumps-in-west-yorkshire-surrey-and-kent",
-        "source": "The Guardian World",
-        "published_at": "2026-08-19T21:30:33+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.917,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "11f76d43331d66a70d",
-        "title": "Taxpayers to fund clear-up of illegal dumps in West Yorkshire, Surrey and Kent",
-        "url": "https://www.theguardian.com/environment/2026/aug/19/taxpayers-to-fund-clear-up-of-dumps-in-west-yorkshire-surrey-and-kent",
-        "source": "The Guardian Environment",
-        "published_at": "2026-08-19T21:30:33+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.917,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "4593f3d457432e1bde",
-        "title": "Experts raise alarms over Census Bureau report Trump is touting on noncitizen voting",
-        "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting",
-        "source": "NPR News",
-        "published_at": "2026-08-19T21:27:51+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.872,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "c114336ad854733dde",
-        "title": "ICC slams US sanctions on court as 'flagrant attack' - DW.com",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaWtyZnp3dXBYLUJhY29FNGhkSjFMdThReVgyV3A2eFNGTmVjZUo4RVM1bVR4ZUJ5REFZbnRTVk9hdGotMWZrWVdEUzVUUzZ2U2lDNTNBNGh2VDRLUjhKVUxGQ21EX0JJRms2MW95QU1kNFhlbjZBNGhMWGdQRS1lVkVjVWxGZDdwNlpJ0gGLAUFVX3lxTE8wVW9zalNIczRxcC0wVTB0WHpkbG9IRjhxXzQ0d19BLUFxaXZCTE5ua3Jub0FybnFoM25xbHNCWkx0Mk5vU2dtcllXaUtYUkd4OGQ0WFdmVjVDTWw2UDJwNmFZYldoU2VsRl9pQ05jdHV6bkZmUlJFVmpVLXljZC0ybVFhQlNIT1czb2s?oc=5",
-        "source": "Google News Geopolitics",
-        "published_at": "2026-08-19T21:26:32+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.85,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "b2b2c65e61bc52f4f3",
-        "title": "ICC slams US sanctions on court as 'flagrant attack' - dw.com",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaWtyZnp3dXBYLUJhY29FNGhkSjFMdThReVgyV3A2eFNGTmVjZUo4RVM1bVR4ZUJ5REFZbnRTVk9hdGotMWZrWVdEUzVUUzZ2U2lDNTNBNGh2VDRLUjhKVUxGQ21EX0JJRms2MW95QU1kNFhlbjZBNGhMWGdQRS1lVkVjVWxGZDdwNlpJ0gGLAUFVX3lxTE8wVW9zalNIczRxcC0wVTB0WHpkbG9IRjhxXzQ0d19BLUFxaXZCTE5ua3Jub0FybnFoM25xbHNCWkx0Mk5vU2dtcllXaUtYUkd4OGQ0WFdmVjVDTWw2UDJwNmFZYldoU2VsRl9pQ05jdHV6bkZmUlJFVmpVLXljZC0ybVFhQlNIT1czb2s?oc=5",
-        "source": "Google News Geopolitics",
-        "published_at": "2026-08-19T21:26:32+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.85,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "1758c37471c66ca25d",
-        "title": "US gross national debt tops $40tn for first time",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/us-debt-40-trillion",
-        "source": "The Guardian World",
-        "published_at": "2026-08-19T21:24:01+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.808,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      },
-      {
-        "id": "5acd412947507b3857",
-        "title": "US gross national debt tops $40tn for first time",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/us-debt-40-trillion",
-        "source": "The Guardian US",
-        "published_at": "2026-08-19T21:24:01+00:00",
-        "stickiness_score": 28,
-        "residual_contribution": 0.191858,
-        "expected_s2": 0.457242,
-        "observed_corrected": 0.6491,
-        "age_after_peak_hours": 27.808,
-        "post_lambda_q": false,
-        "role": "positive S2 residual"
-      }
-    ],
-    "max_stickiness": 29
-  },
-  {
-    "cycle_id": "9dd0d20ab7d30c8049",
-    "topic": "energy",
-    "topic_label": "Energy",
-    "started_at": "2026-08-13T11:35:31.643107+00:00",
-    "peaked_at": "2026-08-13T11:35:31.643107+00:00",
-    "ended_at": "2026-08-19T20:35:31.643107+00:00",
-    "archived_at": "2026-08-19T23:35:31.643107+00:00",
-    "article_count": 197,
-    "phase": "Residual dust tail",
-    "verdict": "S2 likely",
-    "residual_dust": 0.20391864416100244,
-    "circadian_bias": 0.065016,
-    "peak_bin_index": 4,
-    "tail_bins": 52,
-    "fit": {
-      "tau_hours": 24,
-      "beta": 0.25,
-      "half_life_hours": 5.540042365994003,
-      "log_r2": 0.1195655540483398,
-      "delta_aic_vs_exp": 24.715951438917713,
-      "coherence_left_hours": 0.0,
-      "residual_dust": 0.20391864416100244,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.771815,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.675227,
-        "observed_corrected": 0.675227,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.762181,
-        "fit": 0.551781,
-        "residual": 0.123446
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.296212,
-        "observed_corrected": 0.296212,
-        "observed_raw": 0.266667,
-        "circadian_factor": 0.696908,
-        "fit": 0.493069,
-        "residual": -0.196857
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.353465,
-        "observed_corrected": 0.353465,
-        "observed_raw": 0.266667,
-        "circadian_factor": 0.58245,
-        "fit": 0.457242,
-        "residual": -0.103777
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.573716,
-        "observed_corrected": 0.573716,
-        "observed_raw": 0.4,
-        "circadian_factor": 0.53808,
-        "fit": 0.431324,
-        "residual": 0.142392
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.827427,
-        "observed_corrected": 0.827427,
-        "observed_raw": 0.6,
-        "circadian_factor": 0.559641,
-        "fit": 0.411009,
-        "residual": 0.416418
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.612552,
-        "fit": 0.394315,
-        "residual": -0.394315
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.077119,
-        "observed_corrected": 0.077119,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.667043,
-        "fit": 0.380158,
-        "residual": -0.303039
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.529206,
-        "observed_corrected": 0.529206,
-        "observed_raw": 0.533333,
-        "circadian_factor": 0.777657,
-        "fit": 0.367879,
-        "residual": 0.161326
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.409074,
-        "observed_corrected": 0.409074,
-        "observed_raw": 0.4,
-        "circadian_factor": 0.7548,
-        "fit": 0.357049,
-        "residual": 0.052025
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.220371,
-        "observed_corrected": 0.220371,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.700599,
-        "fit": 0.347368,
-        "residual": -0.126996
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.089875,
-        "observed_corrected": 0.089875,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.572368,
-        "fit": 0.338623,
-        "residual": -0.248748
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.463707,
-        "fit": 0.330654,
-        "residual": -0.330654
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.324724,
-        "observed_corrected": 0.324724,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.475354,
-        "fit": 0.32334,
-        "residual": 0.001383
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.101565,
-        "observed_corrected": 0.101565,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.50649,
-        "fit": 0.316585,
-        "residual": -0.21502
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.327675,
-        "observed_corrected": 0.327675,
-        "observed_raw": 0.266667,
-        "circadian_factor": 0.627963,
-        "fit": 0.310313,
-        "residual": 0.017362
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.077345,
-        "observed_corrected": 0.077345,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.665093,
-        "fit": 0.304463,
-        "residual": -0.227117
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.469767,
-        "observed_corrected": 0.469767,
-        "observed_raw": 0.4,
-        "circadian_factor": 0.65724,
-        "fit": 0.298983,
-        "residual": 0.170784
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.167467,
-        "observed_corrected": 0.167467,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.614352,
-        "fit": 0.293833,
-        "residual": -0.126366
-      },
-      {
-        "x_hours": 57.0,
-        "observed": 0.104883,
-        "observed_corrected": 0.104883,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.490467,
-        "fit": 0.288976,
-        "residual": -0.184093
-      },
-      {
-        "x_hours": 60.0,
-        "observed": 0.111844,
-        "observed_corrected": 0.111844,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.45994,
-        "fit": 0.284383,
-        "residual": -0.172539
-      },
-      {
-        "x_hours": 63.0,
-        "observed": 0.220264,
-        "observed_corrected": 0.220264,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.467092,
-        "fit": 0.280028,
-        "residual": -0.059765
-      },
-      {
-        "x_hours": 66.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.526795,
-        "fit": 0.27589,
-        "residual": -0.27589
-      },
-      {
-        "x_hours": 69.0,
-        "observed": 0.77662,
-        "observed_corrected": 0.77662,
-        "observed_raw": 0.6,
-        "circadian_factor": 0.597132,
-        "fit": 0.271948,
-        "residual": 0.504672
-      },
-      {
-        "x_hours": 72.0,
-        "observed": 0.238958,
-        "observed_corrected": 0.238958,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.645835,
-        "fit": 0.268186,
-        "residual": -0.029228
-      },
-      {
-        "x_hours": 75.0,
-        "observed": 0.233275,
-        "observed_corrected": 0.233275,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.661602,
-        "fit": 0.26459,
-        "residual": -0.031315
-      },
-      {
-        "x_hours": 78.0,
-        "observed": 0.089795,
-        "observed_corrected": 0.089795,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.572881,
-        "fit": 0.261146,
-        "residual": -0.171351
-      },
-      {
-        "x_hours": 81.0,
-        "observed": 0.306514,
-        "observed_corrected": 0.306514,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.50494,
-        "fit": 0.257843,
-        "residual": 0.048671
-      },
-      {
-        "x_hours": 84.0,
-        "observed": 0.288411,
-        "observed_corrected": 0.288411,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.535096,
-        "fit": 0.254671,
-        "residual": 0.03374
-      },
-      {
-        "x_hours": 87.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.548,
-        "fit": 0.25162,
-        "residual": -0.25162
-      },
-      {
-        "x_hours": 90.0,
-        "observed": 0.508051,
-        "observed_corrected": 0.508051,
-        "observed_raw": 0.4,
-        "circadian_factor": 0.607766,
-        "fit": 0.248682,
-        "residual": 0.259369
-      },
-      {
-        "x_hours": 93.0,
-        "observed": 0.958657,
-        "observed_corrected": 0.958657,
-        "observed_raw": 0.866667,
-        "circadian_factor": 0.69887,
-        "fit": 0.24585,
-        "residual": 0.712807
-      },
-      {
-        "x_hours": 96.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.77194,
-        "fit": 0.243117,
-        "residual": -0.243117
-      },
-      {
-        "x_hours": 99.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.76839,
-        "fit": 0.240476,
-        "residual": -0.240476
-      },
-      {
-        "x_hours": 102.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.684203,
-        "fit": 0.237922,
-        "residual": -0.237922
-      },
-      {
-        "x_hours": 105.0,
-        "observed": 0.177712,
-        "observed_corrected": 0.177712,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.579264,
-        "fit": 0.235451,
-        "residual": -0.057738
-      },
-      {
-        "x_hours": 108.0,
-        "observed": 0.190447,
-        "observed_corrected": 0.190447,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.540243,
-        "fit": 0.233056,
-        "residual": -0.042609
-      },
-      {
-        "x_hours": 111.0,
-        "observed": 0.274363,
-        "observed_corrected": 0.274363,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.562717,
-        "fit": 0.230735,
-        "residual": 0.043628
-      },
-      {
-        "x_hours": 114.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.612552,
-        "fit": 0.228482,
-        "residual": -0.228482
-      },
-      {
-        "x_hours": 117.0,
-        "observed": 0.140577,
-        "observed_corrected": 0.140577,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.731866,
-        "fit": 0.226295,
-        "residual": -0.085718
-      },
-      {
-        "x_hours": 120.0,
-        "observed": 0.333245,
-        "observed_corrected": 0.333245,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.771909,
-        "fit": 0.22417,
-        "residual": 0.109074
-      },
-      {
-        "x_hours": 123.0,
-        "observed": 0.132692,
-        "observed_corrected": 0.132692,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.775385,
-        "fit": 0.222104,
-        "residual": -0.089412
-      },
-      {
-        "x_hours": 126.0,
-        "observed": 0.159216,
-        "observed_corrected": 0.159216,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.646187,
-        "fit": 0.220094,
-        "residual": -0.060878
-      },
-      {
-        "x_hours": 129.0,
-        "observed": 0.172038,
-        "observed_corrected": 0.172038,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.598144,
-        "fit": 0.218137,
-        "residual": -0.0461
-      },
-      {
-        "x_hours": 132.0,
-        "observed": 0.282175,
-        "observed_corrected": 0.282175,
-        "observed_raw": 0.2,
-        "circadian_factor": 0.546948,
-        "fit": 0.216231,
-        "residual": 0.065944
-      },
-      {
-        "x_hours": 135.0,
-        "observed": 0.190519,
-        "observed_corrected": 0.190519,
-        "observed_raw": 0.133333,
-        "circadian_factor": 0.540017,
-        "fit": 0.214374,
-        "residual": -0.023855
-      },
-      {
-        "x_hours": 138.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.612552,
-        "fit": 0.212562,
-        "residual": -0.212562
-      },
-      {
-        "x_hours": 141.0,
-        "observed": 0.374577,
-        "observed_corrected": 0.374577,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.68782,
-        "fit": 0.210795,
-        "residual": 0.163782
-      },
-      {
-        "x_hours": 144.0,
-        "observed": 0.333215,
-        "observed_corrected": 0.333215,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.771995,
-        "fit": 0.20907,
-        "residual": 0.124144
-      },
-      {
-        "x_hours": 147.0,
-        "observed": 0.068805,
-        "observed_corrected": 0.068805,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.747649,
-        "fit": 0.207386,
-        "residual": -0.138582
-      },
-      {
-        "x_hours": 150.0,
-        "observed": 0.073464,
-        "observed_corrected": 0.073464,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.700228,
-        "fit": 0.205741,
-        "residual": -0.132276
-      },
-      {
-        "x_hours": 153.0,
-        "observed": 0.082894,
-        "observed_corrected": 0.082894,
-        "observed_raw": 0.066667,
-        "circadian_factor": 0.620572,
-        "fit": 0.204133,
-        "residual": -0.121239
-      }
-    ],
-    "sticky_stories": [],
-    "max_stickiness": 0
-  },
-  {
-    "cycle_id": "86ae5ee8f13515ac51",
-    "topic": "culture_media",
-    "topic_label": "Culture / Media",
-    "started_at": "2026-08-16T11:35:31.643107+00:00",
-    "peaked_at": "2026-08-16T11:35:31.643107+00:00",
-    "ended_at": "2026-08-19T20:35:31.643107+00:00",
-    "archived_at": "2026-08-19T23:35:31.643107+00:00",
-    "article_count": 120,
-    "phase": "Cooling",
-    "verdict": "S2 likely",
-    "residual_dust": 0.25426643479106154,
-    "circadian_bias": 0.050776,
-    "peak_bin_index": 28,
-    "tail_bins": 28,
-    "fit": {
-      "tau_hours": 156,
-      "beta": 0.12,
-      "half_life_hours": 7.356480820990485,
-      "log_r2": 0.052373923148258505,
-      "delta_aic_vs_exp": 20.522990658893512,
-      "coherence_left_hours": 75,
-      "residual_dust": 0.25426643479106154,
-      "beta_grid_min": null,
-      "beta_at_grid_floor": null,
-      "beta_grid_version": null
-    },
-    "series": [
-      {
-        "x_hours": 0.0,
-        "observed": 1.0,
-        "observed_corrected": 1.0,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.6693,
-        "fit": 1.0,
-        "residual": 0.0
-      },
-      {
-        "x_hours": 3.0,
-        "observed": 0.335748,
-        "observed_corrected": 0.335748,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.664535,
-        "fit": 0.536647,
-        "residual": -0.200899
-      },
-      {
-        "x_hours": 6.0,
-        "observed": 0.364736,
-        "observed_corrected": 0.364736,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.61206,
-        "fit": 0.508444,
-        "residual": -0.143708
-      },
-      {
-        "x_hours": 9.0,
-        "observed": 0.426981,
-        "observed_corrected": 0.426981,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.522597,
-        "fit": 0.491583,
-        "residual": -0.064602
-      },
-      {
-        "x_hours": 12.0,
-        "observed": 0.0,
-        "observed_corrected": 0.0,
-        "observed_raw": 0.0,
-        "circadian_factor": 0.539195,
-        "fit": 0.479473,
-        "residual": -0.479473
-      },
-      {
-        "x_hours": 15.0,
-        "observed": 0.395337,
-        "observed_corrected": 0.395337,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.564326,
-        "fit": 0.470003,
-        "residual": -0.074666
-      },
-      {
-        "x_hours": 18.0,
-        "observed": 0.363821,
-        "observed_corrected": 0.363821,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.61546,
-        "fit": 0.462219,
-        "residual": -0.098398
-      },
-      {
-        "x_hours": 21.0,
-        "observed": 0.473522,
-        "observed_corrected": 0.473522,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.707833,
-        "fit": 0.455607,
-        "residual": 0.017915
-      },
-      {
-        "x_hours": 24.0,
-        "observed": 0.578051,
-        "observed_corrected": 0.578051,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.771955,
-        "fit": 0.449858,
-        "residual": 0.128192
-      },
-      {
-        "x_hours": 27.0,
-        "observed": 0.579607,
-        "observed_corrected": 0.579607,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.770118,
-        "fit": 0.444772,
-        "residual": 0.134835
-      },
-      {
-        "x_hours": 30.0,
-        "observed": 0.493958,
-        "observed_corrected": 0.493958,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.678877,
-        "fit": 0.440211,
-        "residual": 0.053748
-      },
-      {
-        "x_hours": 33.0,
-        "observed": 0.359505,
-        "observed_corrected": 0.359505,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.620572,
-        "fit": 0.436075,
-        "residual": -0.07657
-      },
-      {
-        "x_hours": 36.0,
-        "observed": 0.624441,
-        "observed_corrected": 0.624441,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.535933,
-        "fit": 0.432293,
-        "residual": 0.192148
-      },
-      {
-        "x_hours": 39.0,
-        "observed": 0.20757,
-        "observed_corrected": 0.20757,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.537407,
-        "fit": 0.428808,
-        "residual": -0.221238
-      },
-      {
-        "x_hours": 42.0,
-        "observed": 0.181467,
-        "observed_corrected": 0.181467,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.61471,
-        "fit": 0.425577,
-        "residual": -0.24411
-      },
-      {
-        "x_hours": 45.0,
-        "observed": 0.662121,
-        "observed_corrected": 0.662121,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.674085,
-        "fit": 0.422565,
-        "residual": 0.239556
-      },
-      {
-        "x_hours": 48.0,
-        "observed": 0.576926,
-        "observed_corrected": 0.576926,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.773433,
-        "fit": 0.419745,
-        "residual": 0.157182
-      },
-      {
-        "x_hours": 51.0,
-        "observed": 0.287506,
-        "observed_corrected": 0.287506,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.776001,
-        "fit": 0.417093,
-        "residual": -0.129587
-      },
-      {
-        "x_hours": 54.0,
-        "observed": 0.678263,
-        "observed_corrected": 0.678263,
-        "observed_raw": 0.666667,
-        "circadian_factor": 0.6595,
-        "fit": 0.41459,
-        "residual": 0.263673
-      },
-      {
-        "x_hours": 57.0,
-        "observed": 0.54457,
-        "observed_corrected": 0.54457,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.614899,
-        "fit": 0.412221,
-        "residual": 0.13235
-      },
-      {
-        "x_hours": 60.0,
-        "observed": 0.209636,
-        "observed_corrected": 0.209636,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.53211,
-        "fit": 0.409971,
-        "residual": -0.200335
-      },
-      {
-        "x_hours": 63.0,
-        "observed": 0.607514,
-        "observed_corrected": 0.607514,
-        "observed_raw": 0.5,
-        "circadian_factor": 0.550998,
-        "fit": 0.40783,
-        "residual": 0.199684
-      },
-      {
-        "x_hours": 66.0,
-        "observed": 0.175219,
-        "observed_corrected": 0.175219,
-        "observed_raw": 0.166667,
-        "circadian_factor": 0.636631,
-        "fit": 0.405788,
-        "residual": -0.230569
-      },
-      {
-        "x_hours": 69.0,
-        "observed": 0.962182,
-        "observed_corrected": 0.962182,
-        "observed_raw": 1.0,
-        "circadian_factor": 0.696497,
-        "fit": 0.403835,
-        "residual": 0.558347
-      },
-      {
-        "x_hours": 72.0,
-        "observed": 0.724077,
-        "observed_corrected": 0.724077,
-        "observed_raw": 0.833333,
-        "circadian_factor": 0.770437,
-        "fit": 0.401965,
-        "residual": 0.322113
-      },
-      {
-        "x_hours": 75.0,
-        "observed": 0.725955,
-        "observed_corrected": 0.725955,
-        "observed_raw": 0.833333,
-        "circadian_factor": 0.768464,
-        "fit": 0.40017,
-        "residual": 0.325786
-      },
-      {
-        "x_hours": 78.0,
-        "observed": 0.336306,
-        "observed_corrected": 0.336306,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.66346,
-        "fit": 0.398444,
-        "residual": -0.062138
-      },
-      {
-        "x_hours": 81.0,
-        "observed": 0.366312,
-        "observed_corrected": 0.366312,
-        "observed_raw": 0.333333,
-        "circadian_factor": 0.609633,
-        "fit": 0.396784,
-        "residual": -0.030471
-      }
-    ],
-    "sticky_stories": [
-      {
-        "id": "1b9ee2112f2846e6e2",
-        "title": "What the social media addiction lawsuit could cost Meta",
-        "url": "https://www.aljazeera.com/economy/2026/8/19/what-the-social-media-addiction-lawsuit-could-cost-meta?traffic_source=rss",
-        "source": "Al Jazeera",
-        "published_at": "2026-08-19T22:01:26+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.396784,
-        "observed_corrected": 0.366312,
-        "age_after_peak_hours": 82.432,
         "post_lambda_q": false,
         "role": "decays with baseline"
       }
